@@ -1,0 +1,29 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+ <NameField>Chert</NameField> <!-- The name of this character -->
+
+ <DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>NoD_CHERT_BHF_1</Name> <!-- The name of this node, used to go to this node from another node -->
+  <EntryCondition>DEFAULT</EntryCondition> <!-- The condition that must be met for this node to be reached; A file should always have a node with "DEFAULT" -->
+	 <Dialogue>
+		 <Page>There you are! You just missed something strange happen!</Page>
+		 <Page>This statue just opened its eyes and suddenly...my entire life flashed before my very eyes!</Page>
+		 <Page>Now...what was the reason you told me to come here for again?</Page>
+	 </Dialogue>
+
+	 <DialogueOptionsList>
+		 <DialogueOption>
+			 <Text>I'm on it, Slate!</Text>
+			 <DialogueTarget>1</DialogueTarget>
+		 </DialogueOption>
+		 <DialogueOption>
+			 <Text>Absolutely not! I've been done with exploring ever since I got my neck snapped by an owl creature!</Text>
+			 <DialogueTarget>2</DialogueTarget>
+		 </DialogueOption>
+		 <DialogueOption>
+			 <Text>By the waterfall? How hasn't anyone found it yet?</Text>
+			 <DialogueTarget>3</DialogueTarget>
+		 </DialogueOption>
+	 </DialogueOptionsList>
+ </DialogueNode>
+</DialogueTree>

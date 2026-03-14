@@ -1,0 +1,40 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Divine Devourer",
+	"starSystem": "SputnikSoyuz.SalvagedStardust",
+	"Base": {
+		"surfaceSize": 4000,
+		"surfaceGravity": 80,
+		"gravityFallOff": "inverseSquared",
+		"hasFluidDetector": false
+	},
+	"Orbit": {
+		"primaryBody": "Devourer Daylight Barycenter",
+		"semiMajorAxis": 5000,
+		"trueAnomaly": 0,
+		"isMoon": true,
+		"showOrbitLine": false
+	},
+	"MapMarker": {
+		"enabled": true
+	},
+	"Props": {
+		"singularities": [
+			{
+				"horizonRadius": 1600,
+				"distortRadius": 3200,
+				"renderQueueOverride": 3001,
+				"type": "blackHole"
+			}
+		]
+	},
+	"Rings": [
+		{
+			"innerRadius": 50,
+			"outerRadius": 11000,
+			"inclination": 40,
+			"rotationSpeed": 2,
+			"texture": "assets/Texture/ringoffire.png"
+		}
+	]
+}
