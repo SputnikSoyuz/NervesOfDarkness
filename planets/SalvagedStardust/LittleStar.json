@@ -32,11 +32,15 @@
 	"CometTail": {
 		"dustTint": {
 			"r": 255,
-			"g": 210
+			"g": 218,
+			"b": 131,
+			"a": 255
 		},
 		"gasTint": {
 			"r": 255,
-			"g": 210
+			"g": 218,
+			"b": 131,
+			"a": 255
 		},
 		"rotationOverride": {
 			"x": 359.9161
@@ -46,32 +50,11 @@
 		"size": 1000,
 		"tint": {
 			"r": 255,
-			"g": 210,
-			"b": 0,
+			"g": 218,
+			"b": 131,
 			"a": 255
 		},
-		"endTint": {
-			"r": 255,
-			"g": 99,
-			"b": 0,
-			"a": 255
-		},
-		"solarLuminosity": 0.8,
 		"stellarDeathType": "none",
-		"curve": [
-			{
-				"time": 0,
-				"value": 1
-			},
-			{
-				"time": 23,
-				"value": 1.5
-			},
-			{
-				"time": 31,
-				"value": 2.5
-			}
-		],
-		"lightRadius": 20000
+		"lightRadius": 200000
 	}
 }

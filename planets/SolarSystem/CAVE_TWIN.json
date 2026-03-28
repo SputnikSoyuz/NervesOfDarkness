@@ -16,7 +16,7 @@
                     "isRelativeToParent": true,
                     "radius": 4
                 },
-                "xmlFile": "planets/dialogue/SolarSystem/Chert/Chert_Remote.xml",
+                "xmlFile": "dialogue/SolarSystem/Chert/Chert_Remote.xml",
                 "blockAfterPersistentCondition": "NoD_ChertIntro"
             }
         ],

@@ -1,0 +1,54 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "Hollow's Lantern",
+    "Props": {
+        "translatorText": [
+            {
+                "rename": "VM_ANOMALY_TEXT",
+                "type": "recorder",
+                "xmlFile": "dialogue/SolarSystem/NomaiAnomaly/NOM_AnomalyVM.xml",
+                "position": {
+                    "x": -20.14178,
+                    "y": 101.0467,
+                    "z": 10.03077
+                },
+                "rotation": {
+                    "x": 2.270885,
+                    "y": 42.5803,
+                    "z": 356.8427
+                }
+            }
+        ],
+        "signals": [
+            {
+                "audio": "assets/Audio/blackhole.ogg",
+                "frequency": "Singularity Fluctuations",
+                "parentPath": "Sector_VM/VM_ANOMALY_TEXT",
+                "name": "Charred Nomai Computer",
+                "rename": "ANOMALYSIGNAL_VM",
+                "detectionRadius": 10,
+                "isRelativeToParent": true,
+                "onlyAudibleToScope": true
+            }
+        ]
+    },
+    "Spawn": {
+        "playerSpawnPoints": [
+            {
+                "id": "VM_Spawn",
+                "rename": "VM_Spawn",
+                "position": {
+                    "x": 21.21404,
+                    "y": 91.66027,
+                    "z": 42.8051
+                },
+                "rotation": {
+                    "x": 359.3179,
+                    "y": 117.9249,
+                    "z": 10.34267
+                },
+                "startWithSuit": true
+            }
+        ]
+    }
+}

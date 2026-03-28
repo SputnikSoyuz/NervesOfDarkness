@@ -1,0 +1,46 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+    <DialogueNode>
+        <Name>Scientist5</Name>
+        <DialogueOptionsList>
+            <DialogueOption>
+				<RequiredCondition>NoD_SlateTalkedTo</RequiredCondition>
+                <Text>What did you want from me again?</Text>
+                <DialogueTarget>1</DialogueTarget>
+            </DialogueOption>
+			<DialogueOption>
+				<RequiredPersistentCondition>NoD_ChertIntro</RequiredPersistentCondition>
+				<Text>I met with Chert, they showed me an new system with an incredibly massive black hole.</Text>
+				<DialogueTarget>2</DialogueTarget>
+		</DialogueOption>
+			<DialogueOption>
+				<Text>I made it to a new star system!</Text>
+				<DialogueTarget>3</DialogueTarget>
+			</DialogueOption>
+        </DialogueOptionsList>
+    </DialogueNode>
+	
+    <DialogueNode>
+        <Name>1</Name>
+        <Dialogue>
+            <Page>Chert wanted to talk to you about something important. They said it had something to do with a massive star going supernova.</Page>
+            <Page>Whatever it was, they seemed very excited about their find! You wouldn't want to leave them hanging, would you?</Page>
+        </Dialogue>
+    </DialogueNode>
+
+	<DialogueNode>
+		<Name>2</Name>
+		<Dialogue>
+			<Page>Yeah, Chert had their eye on that star because they were eager to see it go supernova.</Page>
+			<Page>A black hole more massive than previously thought possible...I'm sure Chert's studying it like crazy!</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>3</Name>
+		<Dialogue>
+			<Page>Stars above, you have? How on Hearth did you manage to do it?</Page>
+			<Page>Best of luck on your travels!</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

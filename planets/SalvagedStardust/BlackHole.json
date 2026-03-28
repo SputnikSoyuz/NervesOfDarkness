@@ -3,7 +3,7 @@
 	"name": "Divine Devourer",
 	"starSystem": "SputnikSoyuz.SalvagedStardust",
 	"Base": {
-		"surfaceSize": 4000,
+		"surfaceSize": 1600,
 		"surfaceGravity": 80,
 		"gravityFallOff": "inverseSquared",
 		"hasFluidDetector": false
@@ -34,7 +34,8 @@
 			"outerRadius": 11000,
 			"inclination": 40,
 			"rotationSpeed": 2,
-			"texture": "assets/Texture/ringoffire.png"
+			"texture": "assets/Texture/ringoffire.png",
+			"fluidType": "plasma"
 		}
 	]
 }

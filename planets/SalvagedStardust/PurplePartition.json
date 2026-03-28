@@ -61,7 +61,7 @@
 		"eccentricity": 0.15,
 		"inclination": 45,
 		"primaryBody": "Divine Devourer",
-		"trueAnomaly": 45,
+		"trueAnomaly": -45,
 		"axialTilt": 17,
 		"tint": {
 			"r": 105,

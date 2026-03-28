@@ -20,25 +20,12 @@
 			"tint": {
 				"b": 255
 			}
-		},
-		{
-			"outerRadius": 2000,
-			"innerRadius": 50,
-			"isShell": true,
-			"intensity": 0.5,
-			"position": {
-				"y": -1900
-			},
-			"tint": {
-				"b": 255
-			}
 		}
 	],
 	"Atmosphere": {
 		"size": 1200,
 		"fogSize": 1200,
 		"clouds": {
-			"unlit": true,
 			"capPath": "assets/Texture/behemoth_cap.png",
 			"texturePath": "assets/Texture/behemoth_clouds.png",
 			"cloudsPrefab": "giantsDeep",
@@ -68,8 +55,7 @@
 		"semiMajorAxis": 33000,
 		"inclination": 45,
 		"primaryBody": "Divine Devourer",
-		"trueAnomaly": 70,
-		"axialTilt": 5,
+		"trueAnomaly": -100,
 		"tint": {
 			"b": 191
 		}

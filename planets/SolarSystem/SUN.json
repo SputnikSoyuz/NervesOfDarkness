@@ -1,0 +1,17 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "Sun",
+    "Props": {
+        "singularities": [
+            {
+                "targetStarSystem": "SputnikSoyuz.SalvagedStardust",
+                "type": "blackHole",
+                "horizonRadius": 1,
+                "rename": "NoDWarpSingularity"
+            }
+        ]
+    },
+    "removeChildren": [
+        "Sector_SUN/NoDWarpSingularity/BlackHoleRenderer"
+    ]
+}

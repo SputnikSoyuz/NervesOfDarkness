@@ -19,7 +19,8 @@
 		"primaryBody": "Doomed Daylight",
 		"semiMajorAxis": 8000,
 		"eccentricity": 0.8,
-		"trueAnomaly":  180
+		"trueAnomaly": 180,
+		"inclination": -45
 	},
 	"Atmosphere": {
 		"size": 200,
@@ -68,16 +69,5 @@
 		"tileBlendMap": "assets/Texture/dbm_r.png",
 		"minHeight": 110,
 		"maxHeight": 120
-	},
-	"Volumes": {
-		"audioVolumes": [
-			{
-				"audio": "assets/Audio/Mars.ogg",
-				"volume": 0.4,
-				"priority": 0,
-				"track": "music",
-				"radius": 200
-			}
-		]
 	}
 }

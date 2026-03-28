@@ -1,0 +1,15 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+ <NameField>Chert</NameField> <!-- The name of this character -->
+
+ <DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>NoD_CHERT_REMOTE_1</Name> <!-- The name of this node, used to go to this node from another node -->
+  <EntryCondition>DEFAULT</EntryCondition> <!-- The condition that must be met for this node to be reached; A file should always have a node with "DEFAULT" -->
+	 <Dialogue>
+		 <Page>Thank goodness you're here! I thought since you were taking your first flight today, I could show you this strange anomaly I've found!</Page>
+		 <Page>This massive star system near the core of our galaxy has gone supernova, and collapsed into the most powerful black hole us Hearthians have ever seen.</Page>
+		 <Page>*ahem* Sorry, I'll stop yapping about. Go on, take a look! You might even catch a signal on your Signalscope!</Page>
+	 </Dialogue>
+	 <SetPersistentCondition>NoD_ChertIntro</SetPersistentCondition>
+ </DialogueNode>
+</DialogueTree>

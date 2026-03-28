@@ -1,0 +1,31 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "TIMBER_HEARTH",
+    "Props": {
+        "dialogue": [
+            {
+                "pathToExistingDialogue": "Sector_TH/Sector_Village/Sector_StartingCamp/Characters_StartingCamp/Villager_HEA_Slate/ConversationZone_RSci",
+                "pathToAnimController": "Sector_TH/Sector_Village/Sector_StartingCamp/Characters_StartingCamp/Villager_HEA_Slate/Villager_HEA_Slate_ANIM_LogSit",
+                "lookAtRadius": 0,
+                "xmlFile": "dialogue/SolarSystem/Slate/SlateNEW.xml"
+            },
+            {
+                "xmlFile": "dialogue/SolarSystem/Slate/SlateRemote.xml",
+                "rename": "NoD_SlateRemote",
+                "parentPath": "Sector_TH/Sector_Village/Sector_StartingCamp/Characters_StartingCamp/Villager_HEA_Slate",
+                "blockAfterPersistentCondition": "NoD_SlateTalkedTo",
+                "isRelativeToParent": true,
+                "pathToAnimController": "Sector_TH/Sector_Village/Sector_StartingCamp/Characters_StartingCamp/Villager_HEA_Slate/Villager_HEA_Slate_ANIM_LogSit",
+                "lookAtRadius": 0,
+                "remoteTrigger": {
+                    "isRelativeToParent": false,
+                    "position": {
+                        "x": 8.283506,
+                        "y": -42.27942,
+                        "z": 186.5923
+                    }
+                }
+            }
+        ]
+    }
+}

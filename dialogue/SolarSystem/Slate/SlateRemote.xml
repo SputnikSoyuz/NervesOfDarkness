@@ -1,0 +1,46 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+ <NameField>Slate</NameField> <!-- The name of this character -->
+
+ <DialogueNode> <!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+  <Name>NoD_SLATE_1</Name> <!-- The name of this node, used to go to this node from another node -->
+  <EntryCondition>DEFAULT</EntryCondition> <!-- The condition that must be met for this node to be reached; A file should always have a node with "DEFAULT" -->
+  <Dialogue> <!-- The actual dialogue we want to show the player -->
+      <Page>Hatchling! Chert wants to talk to you about something they found.</Page>
+	  <Page>They sound very excited about their findings, you should go see them!</Page>
+  </Dialogue>
+
+  <DialogueOptionsList> <!-- Show options the player can choose from when the character is done talking -->
+   <DialogueOption> <!-- A single option the player can pick -->
+    <Text>I'm on it, Slate!</Text> <!-- The text to display for the option -->
+    <DialogueTarget>1</DialogueTarget> <!-- The name of the node to jump to -->
+   </DialogueOption>
+   <!-- A few more options... -->
+   <DialogueOption>
+    <Text>I'm sick of you, Slate!</Text>
+    <DialogueTarget>2</DialogueTarget>
+   </DialogueOption>
+  </DialogueOptionsList>
+ </DialogueNode>
+
+ <DialogueNode>
+  <Name>1</Name>
+  <Dialogue>
+   <Page>Alright, I'd like to hear more about it!</Page>
+  </Dialogue>
+	 <SetPersistentCondition>NoD_SlateTalkedTo</SetPersistentCondition>
+ </DialogueNode>
+
+ <DialogueNode> <!-- Another node why not -->
+  <Name>2</Name>
+  <Dialogue>
+   <Page>Hey! What did I do to you?</Page>
+  </Dialogue>
+  <DialogueOptionsList> <!-- Show options the player can choose from when the character is done talking -->
+   <DialogueOption> <!-- A single option the player can pick -->
+    <Text>Nevermind.</Text> <!-- The text to display for the option -->
+    <DialogueTarget>1</DialogueTarget> <!-- The name of the node to jump to -->
+   </DialogueOption>
+   </DialogueOptionsList>
+ </DialogueNode>
+</DialogueTree>

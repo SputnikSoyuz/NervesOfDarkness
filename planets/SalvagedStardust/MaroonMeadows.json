@@ -42,14 +42,407 @@
 		"blueTile": {
 			"textureTile": "assets/Texture/cliffs.png",
 			"normalTile": "assets/Texture/cliffs_n.png",
-			"size": 5
+			"size": 25
 		},
 		"resolution": 1024,
-		"heightMap": "assets/Texture/homemoon_h.png",
-		"tileBlendMap": "assets/Texture/homemoon_r.png",
-		"textureMap": "assets/Texture/homemoon_lod.png",
+		"heightMap": "assets/Texture/maroon_h.png",
+		"tileBlendMap": "assets/Texture/maroon_r.png",
+		"textureMap": "assets/Texture/maroon_lod.png",
 		"minHeight": 170,
 		"maxHeight": 210
+	},
+	"Props": {
+		"details": [
+			{
+				"rename": "Trees"
+			},
+			{
+				"path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Interactibles_RadioTower/Hornfels'GrovePivot/Prefab_HEA_Campfire",
+				"position": {
+					"x": -56.084,
+					"y": -43.79741,
+					"z": 184.5172
+				},
+				"rotation": {
+					"x": 342.2719,
+					"y": 69.01066,
+					"z": 103.4908
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/maroon_meadows",
+				"path": "Assets/NervesOfDarkness/HearthianStuff/Traveller_HEA_Gabbro.prefab",
+				"position": {
+					"x": -53.36602,
+					"y": -46.8981,
+					"z": 184.5619
+				},
+				"rotation": {
+					"x": 36.24927,
+					"y": 243.4143,
+					"z": 252.6803
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/maroon_meadows",
+				"path": "Assets/NervesOfDarkness/HearthianStuff/Props_HEA_CampsiteLogAssets.prefab",
+				"position": {
+					"x": -53.23602,
+					"y": -40.66353,
+					"z": 186.0716
+				},
+				"rotation": {
+					"x": 48.69777,
+					"y": 87.70429,
+					"z": 108.0223
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/maroon_meadows",
+				"path": "Assets/NervesOfDarkness/HearthianStuff/Props_HEA_CampsiteLogAssets.prefab",
+				"position": {
+					"x": -60.05846,
+					"y": -40.46504,
+					"z": 184.0273
+				},
+				"rotation": {
+					"x": 319.0118,
+					"y": 61.31496,
+					"z": 105.681
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/maroon_meadows",
+				"path": "Assets/NervesOfDarkness/HearthianStuff/Props_HEA_CampsiteLogAssets.prefab",
+				"position": {
+					"x": -59.77798,
+					"y": -47.37192,
+					"z": 182.4633
+				},
+				"rotation": {
+					"x": 310.4301,
+					"y": 268.8561,
+					"z": 248.3071
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/maroon_meadows",
+				"rename": "StartTree1",
+				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_L.prefab",
+				"position": {
+					"x": -39.76668,
+					"y": -25.2536,
+					"z": 192.071
+				},
+				"rotation": {
+					"x": 61.39788,
+					"y": 244.4965,
+					"z": 254.5235
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/maroon_meadows",
+				"rename": "StartTree2",
+				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_S.prefab",
+				"position": {
+					"x": -37.35307,
+					"y": -28.84198,
+					"z": 192.0506
+				},
+				"rotation": {
+					"x": 358.3936,
+					"y": 259.0585,
+					"z": 261.6587
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/maroon_meadows",
+				"rename": "StartTree3",
+				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_L.prefab",
+				"position": {
+					"x": -32.80227,
+					"y": -48.72031,
+					"z": 188.7361
+				},
+				"rotation": {
+					"x": 299.0432,
+					"y": 314.12,
+					"z": 220.5465
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/maroon_meadows",
+				"rename": "StartTree4",
+				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_L.prefab",
+				"position": {
+					"x": -46.52971,
+					"y": -64.43575,
+					"z": 181.0896
+				},
+				"rotation": {
+					"x": 314.2698,
+					"y": 55.14639,
+					"z": 117.6819
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/maroon_meadows",
+				"rename": "StartTree6",
+				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_M.prefab",
+				"position": {
+					"x": -67.98891,
+					"y": -62.39689,
+					"z": 174.9125
+				},
+				"rotation": {
+					"x": 15.97648,
+					"y": 74.13203,
+					"z": 109.0736
+				}
+			},
+			{
+				"rename": "StartTree7",
+				"assetBundle": "assets/AssetBundle/maroon_meadows",
+				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_M.prefab",
+				"position": {
+					"x": -71.91595,
+					"y": -46.49911,
+					"z": 178.2601
+				},
+				"rotation": {
+					"x": 342.4524,
+					"y": 63.43142,
+					"z": 104.4538
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/maroon_meadows",
+				"rename": "StartTree8",
+				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_S.prefab",
+				"position": {
+					"x": -64.6679,
+					"y": -22.27571,
+					"z": 185.5592
+				},
+				"rotation": {
+					"x": 64.38373,
+					"y": 84.41795,
+					"z": 104.9231
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/maroon_meadows",
+				"rename": "StartTree9",
+				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_L.prefab",
+				"position": {
+					"x": -57.24339,
+					"y": -17.79982,
+					"z": 188.4588
+				},
+				"rotation": {
+					"x": 75.10645,
+					"y": 92.60796,
+					"z": 110.0497
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/maroon_meadows",
+				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_S.prefab",
+				"rename": "StartTree11",
+				"position": {
+					"x": -45.27578,
+					"y": -50.61023,
+					"z": 185.7392
+				},
+				"rotation": {
+					"x": 342.4259,
+					"y": 261.211,
+					"z": 254.284
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/maroon_meadows",
+				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_M.prefab",
+				"rename": "StartTree12",
+				"position": {
+					"x": -48.69958,
+					"y": -37.3949,
+					"z": 187.9903
+				},
+				"rotation": {
+					"x": 78.10787,
+					"y": 139.8362,
+					"z": 154.8268
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/maroon_meadows",
+				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_S.prefab",
+				"rename": "StartTree13",
+				"position": {
+					"x": -57.10808,
+					"y": -36.12547,
+					"z": 185.8599
+				},
+				"rotation": {
+					"x": 30.58082,
+					"y": 79.17329,
+					"z": 102.1147
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/maroon_meadows",
+				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_L.prefab",
+				"rename": "StartTree14",
+				"position": {
+					"x": -55.9806,
+					"y": -63.17786,
+					"z": 178.8448
+				},
+				"rotation": {
+					"x": 288.4959,
+					"y": 344.6507,
+					"z": 178.2554
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/maroon_meadows",
+				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_S.prefab",
+				"rename": "StartTree15",
+				"position": {
+					"x": -73.39529,
+					"y": -53.60895,
+					"z": 175.6401
+				},
+				"rotation": {
+					"x": 332.0799,
+					"y": 58.73424,
+					"z": 107.9598
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/maroon_meadows",
+				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_S.prefab",
+				"rename": "StartTree16",
+				"position": {
+					"x": -47.15722,
+					"y": -18.09421,
+					"z": 191.2046
+				},
+				"rotation": {
+					"x": 60.02089,
+					"y": 246.704,
+					"z": 259.1771
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/maroon_meadows",
+				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_L.prefab",
+				"rename": "StartTree17",
+				"position": {
+					"x": -42.63791,
+					"y": -41.78395,
+					"z": 188.5373
+				},
+				"rotation": {
+					"x": 18.80293,
+					"y": 253.0254,
+					"z": 257.1826
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/maroon_meadows",
+				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_S.prefab",
+				"rename": "StartTree18",
+				"position": {
+					"x": -51.72267,
+					"y": -29.04326,
+					"z": 188.6576
+				},
+				"rotation": {
+					"x": 70.14352,
+					"y": 230.4642,
+					"z": 244.6106
+				}
+			}
+		],
+		"scatter": [
+			{
+				"assetBundle": "assets/AssetBundle/maroon_meadows",
+				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_S.prefab",
+				"parentPath": "Sector/Trees",
+				"count": 300,
+				"keepLoaded": true,
+				"minHeight": 181,
+				"maxHeight": 185,
+				"seed": 1
+			},
+			{
+				"assetBundle": "assets/AssetBundle/maroon_meadows",
+				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_M.prefab",
+				"parentPath": "Sector/Trees",
+				"count": 200,
+				"keepLoaded": true,
+				"minHeight": 181,
+				"maxHeight": 185,
+				"seed": 1
+			},
+			{
+				"assetBundle": "assets/AssetBundle/maroon_meadows",
+				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_L.prefab",
+				"parentPath": "Sector/Trees",
+				"count": 100,
+				"keepLoaded": true,
+				"minHeight": 181,
+				"maxHeight": 185,
+				"seed": 1
+			},
+			{
+				"assetBundle": "assets/AssetBundle/maroon_meadows",
+				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_S.prefab",
+				"parentPath": "Sector/Trees",
+				"count": 300,
+				"keepLoaded": true,
+				"minHeight": 200,
+				"maxHeight": 206,
+				"seed": 1
+			},
+			{
+				"assetBundle": "assets/AssetBundle/maroon_meadows",
+				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_M.prefab",
+				"parentPath": "Sector/Trees",
+				"count": 200,
+				"keepLoaded": true,
+				"minHeight": 200,
+				"maxHeight": 206,
+				"seed": 1
+			},
+			{
+				"assetBundle": "assets/AssetBundle/maroon_meadows",
+				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_L.prefab",
+				"parentPath": "Sector/Trees",
+				"count": 100,
+				"keepLoaded": true,
+				"minHeight": 200,
+				"maxHeight": 206,
+				"seed": 1
+			}
+		],
+		"signals": [
+			{
+				"parentPath": "Sector/Traveller_HEA_Gabbro/Gabbro_FocalPoint",
+				"isRelativeToParent": true,
+				"audio": "OW_TravelerTheme_flute",
+				"frequency": "Traveler",
+				"volume": 0.45,
+				"maxDistance": 100,
+				"minDistance": 40,
+				"name": "Gabbro",
+				"onlyAudibleToScope": false,
+				"sourceRadius": 0.25,
+				"identificationRadius": 10
+			}
+		]
 	},
 	"MapMarker": {
 		"enabled": true
@@ -79,12 +472,15 @@
 		"playerSpawnPoints": [
 			{
 				"alignRadial": true,
-				"startWithSuit": true,
+				"startWithSuit": false,
 				"rename": "SpawnPlayer_Maroon",
 				"position": {
-					"x": 198.9236,
-					"y": 27.044,
-					"z": -142.1909
+					"x": -59.20015,
+					"y": -40.61369,
+					"z": 184.2718
+				},
+				"rotation": {
+					"y": -60
 				}
 			}
 		],
@@ -93,9 +489,9 @@
 				"alignRadial": true,
 				"rename": "SpawnShip_Maroon",
 				"position": {
-					"x": 140.4604,
-					"y": 56.3027,
-					"z": -149.5118
+					"x": -72.08585,
+					"y": -36.6609,
+					"z": 182.4719
 				}
 			}
 		] 

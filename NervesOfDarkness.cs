@@ -1,7 +1,8 @@
 ﻿using HarmonyLib;
+using NewHorizons.Utility;
 using OWML.Common;
 using OWML.ModHelper;
-using System;
+using System.Collections;
 using System.Reflection;
 using UnityEngine;
 
@@ -11,7 +12,9 @@ namespace NervesOfDarkness
     {
         public static NervesOfDarkness Instance;
         public INewHorizons NewHorizons;
-
+        public bool hasDebugWarpedOnce = false;
+        private Transform parent;
+        GameObject[] trees = new GameObject[1200];
         public void Awake()
         {
             Instance = this;
@@ -29,12 +32,18 @@ namespace NervesOfDarkness
             NewHorizons = ModHelper.Interaction.TryGetModApi<INewHorizons>("xen.NewHorizons");
             NewHorizons.LoadConfigs(this);
             NewHorizons.GetBodyLoadedEvent().AddListener(OnBodyLoaded);
+            NewHorizons.GetStarSystemLoadedEvent().AddListener(OnStarSystemLoaded);
 
             new Harmony("SputnikSoyuz.NervesOfDarkness").PatchAll(Assembly.GetExecutingAssembly());
 
             // Example of accessing game code.
             OnCompleteSceneLoad(OWScene.TitleScreen, OWScene.TitleScreen); // We start on title screen
             LoadManager.OnCompleteSceneLoad += OnCompleteSceneLoad;
+        }
+
+        public static void WriteLine(string text, MessageType messageType = MessageType.Message)
+        {
+            Instance.ModHelper.Console.WriteLine(text, messageType);
         }
 
         private void OnBodyLoaded(string body)
@@ -52,10 +61,55 @@ namespace NervesOfDarkness
             }
         }
 
+        private void OnStarSystemLoaded(string system)
+        {
+            if (system == "SputnikSoyuz.SalvagedStardust")
+            {
+                int[] badTreeIndexes = { 0, 46, 92, 95, 101, 102, 108, 119, 154, 178, 184, 185, 264, 289, 312, 321, 346, 352, 372, 376, 397, 410, 472, 507, 552, 562, 589, 596, 612, 624, 658, 668, 718, 722, 727, 728, 766, 767, 784, 786, 831, 843, 881, 873, 875, 895, 905, 919, 932, 965, 978, 981, 982, 996, 1016, 1037, 1039, 1073, 1074, 1084, 1090, 1109, 1147, 1181 };
+                parent = SearchUtilities.Find("MaroonMeadows_Body/Sector/Trees").transform;
+                for (int i = 0; i < trees.Length; i++)
+                {
+                    trees[i] = parent.GetChild(i).gameObject;
+                    WriteLine("Index: " + trees[i].transform.GetSiblingIndex(), MessageType.Success);
+                    trees[i].name = ("Tree" + i).ToString();
+                }
+                for (int i = 0; i < badTreeIndexes.Length; i++)
+                {
+                    Destroy(trees[badTreeIndexes[i]]);
+                }
+            }
+        }
+
         public void OnCompleteSceneLoad(OWScene previousScene, OWScene newScene)
         {
             if (newScene != OWScene.SolarSystem) return;
             ModHelper.Console.WriteLine("Loaded into solar system!", MessageType.Success);
+        }
+
+        public IEnumerator WarpPlayer(float blinkTime, SpawnPoint spawn)
+        {
+            if (blinkTime <= 0)
+            {
+                blinkTime = 0.5f; // constant for blink time
+                
+            }
+            float animTime = blinkTime / 2f; // constant for blink animation time
+
+            PlayerCameraEffectController cameraEffectController = FindObjectOfType<PlayerCameraEffectController>(); // gets camera controller
+            PlayerSpawner _spawner; // for spawning the player
+            
+            //Close Eyes
+            cameraEffectController.CloseEyes(animTime); //Close Eyes
+            yield return new WaitForSeconds(animTime);  // waits until animation stops to proceed to next line
+            GlobalMessenger.FireEvent("PlayerBlink"); // fires an event for the player blinking
+
+            //Warp Player
+            _spawner = GameObject.FindGameObjectWithTag("Player").GetRequiredComponent<PlayerSpawner>(); // gets player spawner
+            _spawner.DebugWarp(spawn); // warps you to vessel
+
+            //Open Eyes
+            cameraEffectController.OpenEyes(animTime, false); //Open Eyes
+            yield return new WaitForSeconds(animTime); //  waits until animation stops to proceed to next line
         }
     }
 

@@ -15,7 +15,6 @@
 			"texturePath": "assets/Texture/frigid_clouds.png",
 			"capPath": "assets/Texture/frigid_cap.png",
 			"cloudsPrefab": "quantumMoon",
-			"unlit": true,
 			"rampPath": "assets/Texture/frigid_ramp.png",
 			"outerCloudRadius": 300,
 			"innerCloudRadius": 250,
@@ -121,7 +120,7 @@
 			"type": "snowflakesHeavy",
 			"densityByHeightCurve": [
 				{
-					"height": 300,
+					"height": 150,
 					"density": 1000
 				}
 			]
@@ -130,7 +129,7 @@
 			"type": "snowflakesHeavy",
 			"densityByHeightCurve": [
 				{
-					"height": 300,
+					"height": 150,
 					"density": 1000
 				}
 			]
@@ -139,7 +138,7 @@
 			"type": "snowflakesHeavy",
 			"densityByHeightCurve": [
 				{
-					"height": 300,
+					"height": 150,
 					"density": 1000
 				}
 			]
@@ -148,7 +147,7 @@
 			"type": "snowflakesHeavy",
 			"densityByHeightCurve": [
 				{
-					"height": 300,
+					"height": 150,
 					"density": 1000
 				}
 			]
@@ -157,7 +156,7 @@
 			"type": "snowflakesHeavy",
 			"densityByHeightCurve": [
 				{
-					"height": 300,
+					"height": 150,
 					"density": 1000
 				}
 			]
@@ -166,7 +165,7 @@
 			"type": "snowflakesHeavy",
 			"densityByHeightCurve": [
 				{
-					"height": 300,
+					"height": 150,
 					"density": 1000
 				}
 			]
@@ -175,7 +174,7 @@
 			"type": "snowflakesHeavy",
 			"densityByHeightCurve": [
 				{
-					"height": 300,
+					"height": 150,
 					"density": 1000
 				}
 			]
