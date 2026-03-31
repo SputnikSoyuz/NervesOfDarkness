@@ -364,6 +364,20 @@
 					"y": 230.4642,
 					"z": 244.6106
 				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/structure",
+				"path": "Assets/NervesOfDarkness/Structures/AnomalyLabTest.prefab",
+				"position": {
+					"x": 166.1273,
+					"y": -103.2901,
+					"z": 75.25617
+				},
+				"rotation": {
+					"x": 12.88295,
+					"y": 319.8043,
+					"z": 240.39
+				}
 			}
 		],
 		"scatter": [
