@@ -3,7 +3,6 @@
 namespace NervesOfDarkness;
 public class MediaDiscSocket : OWItemSocket
 {
-    private MediaDiscItem _mediaDisc;
     public override void Awake()
     {
         base.Awake();
@@ -12,34 +11,32 @@ public class MediaDiscSocket : OWItemSocket
 
     public override void Start()
     {
+        base.Start();
+        OnSocketableDonePlacing += OnScrollPlaced;
+
         if (_socketedItem != null)
         {
-            base.Start();
-            if (_socketedItem.GetType() == typeof(MediaDiscItem))
-            {
-                if (_socketedItem != null)
-                {
-                    MediaDiscItem scrollItem = _socketedItem as MediaDiscItem;
-                }
-                OnSocketableDonePlacing = (SocketEvent)Delegate.Combine(OnSocketableDonePlacing, new SocketEvent(OnScrollPlaced));
-                _mediaDisc = _socketedItem.GetComponent<MediaDiscItem>();
-            }
+            OnScrollPlaced(_socketedItem);
         }
     }
 
-    private void OnDestroy()
+    public void OnDestroy()
     {
-        OnSocketableDonePlacing = (SocketEvent)Delegate.Remove(OnSocketableDonePlacing, new SocketEvent(OnScrollPlaced));
+        OnSocketableDonePlacing -= OnScrollPlaced;
     }
 
     public override OWItem RemoveFromSocket()
     {
-        _mediaDisc.StopAudio();
+        NervesOfDarkness.WriteLine("Removed from socket.", OWML.Common.MessageType.Success);
+        ((MediaDiscItem)_socketedItem)?.StopAudio();
         return base.RemoveFromSocket();
     }
 
     private void OnScrollPlaced(OWItem socketable)
     {
-        _mediaDisc.PlayAudio();
+        NervesOfDarkness.WriteLine("Socketed Item: " + _socketedItem.ToString() +
+                                    "\n Socketable: " + socketable.ToString() +
+                                    "\n Equal? : " + _socketedItem.Equals(socketable), OWML.Common.MessageType.Success);
+        ((MediaDiscItem)socketable)?.PlayAudio();
     }
 }

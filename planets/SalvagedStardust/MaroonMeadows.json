@@ -369,14 +369,14 @@
 				"assetBundle": "assets/AssetBundle/structure",
 				"path": "Assets/NervesOfDarkness/Structures/AnomalyLabTest.prefab",
 				"position": {
-					"x": 166.1273,
+					"x": 166.6273,
 					"y": -103.2901,
-					"z": 75.25617
+					"z": 75.7562
 				},
 				"rotation": {
-					"x": 12.88295,
-					"y": 319.8043,
-					"z": 240.39
+					"x": 12.3456,
+					"y": 328.0891,
+					"z": 237.4417
 				}
 			}
 		],
@@ -495,6 +495,19 @@
 				},
 				"rotation": {
 					"y": -60
+				}
+			},
+			{
+				"rename": "_MaroonMeadows_AnomalyLab",
+				"position": {
+					"x": 163.6739,
+					"y": -112.8063,
+					"z": 66.2388
+				},
+				"rotation": {
+					"x": 27.4542,
+					"y": 177.4279,
+					"z": 127.3694
 				}
 			}
 		],

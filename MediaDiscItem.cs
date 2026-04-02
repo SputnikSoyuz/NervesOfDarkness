@@ -11,7 +11,8 @@ public class MediaDiscItem : OWItem
     [SerializeField]
     private OWAudioSource _audio;
 
-    private AudioClip _audioClip;
+    [SerializeField]
+    private string _fileName;
 
     private const float _animDuration = 0.9f;
 
@@ -27,7 +28,7 @@ public class MediaDiscItem : OWItem
 
     public void Start()
     {
-        AudioUtilities.SetAudioClip(_audio, "assets/Audio/Recordings/test2.wav", NervesOfDarkness.Instance); // sets audio clip
+        AudioUtilities.SetAudioClip(_audio, "assets/Audio/Recordings/"+_fileName, NervesOfDarkness.Instance); // sets audio clip
     }
 
     public override void PlaySocketAnimation()
