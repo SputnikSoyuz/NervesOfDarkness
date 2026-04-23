@@ -1,0 +1,98 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+ <NameField>Hornfels</NameField> <!-- The name of this character -->
+	<DialogueNode>
+		<!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+		<Name>NoD_Hornfels_REMOTE_1</Name>
+		<!-- The name of this node, used to go to this node from another node -->
+		<EntryCondition>DEFAULT</EntryCondition>
+		<!-- The condition that must be met for this node to be reached; A file should always have a node with "DEFAULT" -->
+		<Dialogue>
+			<Page>Thank goodness you're here! I thought since you were taking your first flight today, I could show you this strange anomaly I've found!</Page>
+			<Page>This massive star system near the core of our galaxy has gone supernova, and collapsed into the most powerful black hole us Hearthians have ever seen.</Page>
+			<Page>*ahem* Sorry, I'll stop yapping about. Go on, take a look! You might even catch a signal on your Signalscope!</Page>
+		</Dialogue>
+		<SetPersistentCondition>NoD_HornfelsIntro</SetPersistentCondition>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>NoD_Hornfels_TELESCOPE</Name>
+		<Dialogue>
+			<Page>That black hole's quite a specticale, isn't it? If only I could study it up close.</Page>
+			<Page>The telescope also picked up a signal of it. You should be able to pick it up with your Signalscope.</Page>
+			<Page>Don't spend too long there, though! I want to keep studying this fascinating system.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>NoD_Hornfels_VM_TEXT</Name>
+		<Dialogue>
+			<Page>Hollow's Lantern? I didn't even think there was anything on that molten rock!</Page>
+			<Page>Nah, it doesn't matter all that much. We'll take any new information we can find, right?</Page>
+			<Page>What did the text say?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>It told me that Black Hole Warp Cores break out and expand when exposed to heat, causing the weilder to warp.</Text>
+				<DialogueTarget>NoD_Hornfels_VM_TEXT_2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>NoD_Hornfels_VM_TEXT_2</Name>
+		<Dialogue>
+			<Page>Extreme heat causes the Black Hole Warp Core to expand and warps all in its path...</Page>
+			<Page>Hmmm... Okay... This is news!</Page>
+			<Page>If you think what you discovered is worthwhile, go ahead and try it out! Don't say I didn't warn you, though.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>NoD_Hornfels_WARP</Name>
+		<Dialogue>
+			<Page>You have? Impossible! You're joking...right?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Nope. I used a heat-exposed Nomai Warp Core to get there.</Text>
+				<DialogueTarget>NoD_Hornfels_WARP_2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>NoD_Hornfels_WARP_2</Name>
+		<Dialogue>
+			<Page>Of course! Extreme heat causes the Black Hole Warp Core to expand and warps all in its path. It all makes sense!</Page>
+			<Page>You are one lucky Hearthian! I wish I could go with you.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Hmmm.... Probably not the best idea.</Text>
+				<DialogueTarget>NoD_Hornfels_WARP_3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>NoD_Hornfels_WARP_3</Name>
+		<Dialogue>
+			<Page>How so? Is the black hole too dangerous?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Because the universe is d- Nevermind.</Text>
+				<DialogueTarget>NoD_Hornfels_WARP_4</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>NoD_Hornfels_WARP_4</Name>
+		<Dialogue>
+			<Page>The universe is dangerous? Indeed it is. Maybe it's better I admire it from afar.</Page>
+			<Page>I'd like to know more about what you find! Safe travels!</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

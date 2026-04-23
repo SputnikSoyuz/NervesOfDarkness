@@ -1,0 +1,82 @@
+ManifestFileVersion: 0
+CRC: 3319579183
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 26c52324e49980b9459961e2e102d8bb
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7efd5644a2b2e6582084339542bc3fc1
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fb07d96024d5868f3a3cf78245cf1938, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 90ff71c1515f4875c251734b10f07a74, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d4f7acb28de892d6c474b09ae2fa223e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6c6ee9e4d5184455a9b6e8cef8a94cb6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8aa7b556a5fd542f0d4d803660cdf028, type: 3}
+- Class: 114
+  Script: {fileID: -1410974891, guid: a42d73c7ab0e4a545b300b76d69ed5c9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ef4a7208df34bcc45029964389471a68, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c1e03d384261f6f301ef6513a478c3a8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8a3f0f389341c132f21af676b0f2d74c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4b9c6268c11d3fc73458b0f7090ae995, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f913c288c393f80a7e923fc1c775f4fb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0053d129d589d30957bcc3b1958fc878, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6b881cca0a4f51aa22e82eb3e1338126, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 57a6275b8769aeeed3140d0a9d2a9a90, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3cb5a34c0b2b4edb1b44fafe70d79e7b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4d37ab8d4d1e425918e8172c84cb8288, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5daa9fbee665a6e3f2bff00f9707e148, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 124
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/NervesOfDarkness/HearthianStuff/TelescopeView.prefab
+- Assets/NervesOfDarkness/Effects/NewSystem.prefab
+- Assets/NervesOfDarkness/HearthianStuff/Crate.prefab
+- Assets/NervesOfDarkness/Effects/Nebula.prefab
+Dependencies: []

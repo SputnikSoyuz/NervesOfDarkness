@@ -1,0 +1,43 @@
+ManifestFileVersion: 0
+CRC: 4052406044
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 465305fb8788a903241379482bedc7c5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 02e78fd6b00297fb8582ea54660aa983
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8a3f0f389341c132f21af676b0f2d74c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f913c288c393f80a7e923fc1c775f4fb, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/NervesOfDarkness/Effects/Waterfall.prefab
+Dependencies: []

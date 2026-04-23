@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 2086342834
+CRC: 603095202
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -7,4 +7,13 @@ AssetBundleManifest:
       Dependencies: {}
     Info_1:
       Name: structure
+      Dependencies: {}
+    Info_2:
+      Name: nebula
+      Dependencies: {}
+    Info_3:
+      Name: water
+      Dependencies: {}
+    Info_4:
+      Name: blowing_behemoth
       Dependencies: {}

@@ -3,18 +3,21 @@
     "titleScreens": [
         {
             "disableNHPlanets": true,
-            "Skybox": {
-                "frontPath": "assets/Texture/Skybox/front.png",
-                "backPath": "assets/Texture/Skybox/back.png",
-                "leftPath": "assets/Texture/Skybox/left.png",
-                "rightPath": "assets/Texture/Skybox/right.png",
-                "bottomPath": "assets/Texture/Skybox/bottom.png",
-                "topPath": "assets/Texture/Skybox/top.png"
-            },
             "menuTextTint": {
                 "r": 105,
                 "g": 107,
                 "b": 255
+            },
+            "MenuPlanet": {
+                "details": [
+                    {
+                        "assetBundle": "assets/AssetBundle/nebula",
+                        "path": "Assets/NervesOfDarkness/Effects/NewSystem.prefab",
+                        "scale": 0.7
+                    }
+                ],
+                "destroyMenuPlanet": true,
+                "rotationSpeed": 0
             }
         }
     ]

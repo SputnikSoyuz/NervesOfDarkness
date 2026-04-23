@@ -4,7 +4,7 @@
 	"starSystem": "SputnikSoyuz.SalvagedStardust",
 	"Base": {
 		"surfaceSize": 1600,
-		"surfaceGravity": 80,
+		"surfaceGravity": 40,
 		"gravityFallOff": "inverseSquared",
 		"hasFluidDetector": false
 	},
@@ -26,13 +26,20 @@
 				"renderQueueOverride": 3001,
 				"type": "blackHole"
 			}
+		],
+		"details": [
+			{
+				"assetBundle": "assets/AssetBundle/nebula",
+				"path": "Assets/NervesOfDarkness/Effects/Nebula.prefab",
+				"keepLoaded": true
+			}
 		]
 	},
 	"Rings": [
 		{
 			"innerRadius": 50,
 			"outerRadius": 11000,
-			"inclination": 40,
+			"inclination": 45,
 			"rotationSpeed": 2,
 			"texture": "assets/Texture/ringoffire.png",
 			"fluidType": "plasma"

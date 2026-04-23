@@ -74,6 +74,14 @@
 			{
 				"path": "Sector/Clouds/BottomClouds",
 				"scale": 335
+			},
+			{
+				"assetBundle": "assets/AssetBundle/blowing_behemoth",
+				"path": "Assets/NervesOfDarkness/BlowingBehemoth/BB_FreezingCloud.prefab",
+				"position": {
+					"y": 950
+				},
+				"alignRadial": true
 			}
 		]
 	},

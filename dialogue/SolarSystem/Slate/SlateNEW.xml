@@ -9,8 +9,8 @@
                 <DialogueTarget>1</DialogueTarget>
             </DialogueOption>
 			<DialogueOption>
-				<RequiredPersistentCondition>NoD_ChertIntro</RequiredPersistentCondition>
-				<Text>I met with Chert, they showed me an new system with an incredibly massive black hole.</Text>
+				<RequiredCondition>NoD_HornfelsIntro</RequiredCondition>
+				<Text>I met with Hornfels, they showed me an new system with an incredibly massive black hole.</Text>
 				<DialogueTarget>2</DialogueTarget>
 		</DialogueOption>
 			<DialogueOption>
@@ -23,7 +23,7 @@
     <DialogueNode>
         <Name>1</Name>
         <Dialogue>
-            <Page>Chert wanted to talk to you about something important. They said it had something to do with a massive star going supernova.</Page>
+            <Page>Hornfels wanted to talk to you about something important. They said it had something to do with a massive star going supernova.</Page>
             <Page>Whatever it was, they seemed very excited about their find! You wouldn't want to leave them hanging, would you?</Page>
         </Dialogue>
     </DialogueNode>
@@ -31,8 +31,8 @@
 	<DialogueNode>
 		<Name>2</Name>
 		<Dialogue>
-			<Page>Yeah, Chert had their eye on that star because they were eager to see it go supernova.</Page>
-			<Page>A black hole more massive than previously thought possible...I'm sure Chert's studying it like crazy!</Page>
+			<Page>Yeah, Hornfels had their eye on that star because they were eager to see it go supernova.</Page>
+			<Page>A black hole more massive than previously thought possible...I'm sure Hornfels is blown away.</Page>
 		</Dialogue>
 	</DialogueNode>
 

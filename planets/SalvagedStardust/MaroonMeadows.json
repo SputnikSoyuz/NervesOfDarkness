@@ -6,7 +6,12 @@
 		{
 			"intensity": 1.4,
 			"innerRadius": 180,
-			"outerRadius": 450
+			"outerRadius": 450,
+			"tint": {
+				"r": 153,
+				"g": 255,
+				"b": 224
+			}
 		}
 	],
 	"Atmosphere": {
@@ -366,6 +371,20 @@
 				}
 			},
 			{
+				"assetBundle": "assets/AssetBundle/water",
+				"path": "Assets/NervesOfDarkness/Effects/Waterfall.prefab",
+				"position": {
+					"x": 38.888,
+					"y": 168.1152,
+					"z": 58.8145
+				},
+				"rotation": {
+					"x": 355.064,
+					"y": 285.5925,
+					"z": 358.2795
+				}
+			},
+			{
 				"assetBundle": "assets/AssetBundle/structure",
 				"path": "Assets/NervesOfDarkness/Structures/AnomalyLabTest.prefab",
 				"position": {
@@ -467,7 +486,21 @@
 			"r": 19,
 			"g": 143,
 			"b": 128
-		}
+		},
+		"curve": [
+			{
+				"time": 0,
+				"value": 0.95
+			},
+			{
+				"time": 5,
+				"value": 1
+			},
+			{
+				"time": 22,
+				"value": 1.1111111111111
+			}
+		]
 	},
 	"Orbit": {
 		"semiMajorAxis": 22000,

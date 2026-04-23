@@ -19,7 +19,6 @@ namespace NervesOfDarkness
         private Coroutine exposeCoroutine = null;
         public Sector itemSector;
         public OWItem heldItem;
-        //private float lerpDuration = 1.5f;
 
         public void Start()
         {
@@ -48,7 +47,12 @@ namespace NervesOfDarkness
         }
 
         private bool AreValidConditions()
-        { // Name this however you want
+        {
+            if (playerSectorDetector.IsWithinSector(Sector.Name.Ship))
+            {
+                return false;
+            }
+
             if (IsHeldByPlayer())
             {
                 return (playerSectorDetector.IsWithinSector(Sector.Name.SunStation) || playerSectorDetector.IsWithinSector(Sector.Name.VolcanicMoon));
@@ -56,11 +60,10 @@ namespace NervesOfDarkness
 
             if (warpCore != null)
             {
-                NervesOfDarkness.WriteLine("The Sector: " + warpCoreItem.GetSector().ToString(), OWML.Common.MessageType.Success);
                 return (warpCoreItem.GetSector().GetName().Equals(Sector.Name.SunStation) || warpCoreItem.GetSector().GetName().Equals(Sector.Name.VolcanicMoon));
             }
 
-            return false; // I don't know what happens by default, guessing false
+            return false;
         }
 
         public bool IsHeldByPlayer()
@@ -69,28 +72,24 @@ namespace NervesOfDarkness
 
             if (heldItem != null && heldItem.Equals(warpCoreItem))
             {
-                //NervesOfDarkness.WriteLine("The two are equal.", OWML.Common.MessageType.Success);
                 return true;
             }
             else
             {
-                //NervesOfDarkness.WriteLine("The two are NOT equal.", OWML.Common.MessageType.Success);
                 return false;
             }
         }
 
         public IEnumerator ExposeToHeat()
         {
-            NervesOfDarkness.WriteLine("Warp Core Exposed to Heat", OWML.Common.MessageType.Success);
             yield return new WaitForSeconds(10);
-            NervesOfDarkness.WriteLine("Wait is done!", OWML.Common.MessageType.Success);
-            singularityFX = Instantiate(SearchUtilities.Find("CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthSurface/Sector_TimeLoopExperiment/Interactables_TimeLoopExperiment/WarpCoreExperiment/SingularityEffects/Singularity_BlackHole/SingularityController_BlackHole"), warpCore.transform).GetComponent<SingularityController>(); //This might not be working.
+            singularityFX = Instantiate(SearchUtilities.Find("CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthSurface/Sector_TimeLoopExperiment/Interactables_TimeLoopExperiment/WarpCoreExperiment/SingularityEffects/Singularity_BlackHole/SingularityController_BlackHole"), warpCore.transform).GetComponent<SingularityController>();
             singularityFX.enabled = true;
             singularityFX._startActive = true;
             singularityFX._targetRadius = 1;
             singularityFX.CollapseImmediate();
             singularityFX.Create();
-            warpSingularity = Instantiate(SearchUtilities.Find("Sun_Body/Sector_SUN/NoDWarpSingularity"), warpCore.transform); //This might not be working.
+            warpSingularity = Instantiate(SearchUtilities.Find("Sun_Body/Sector_SUN/NoDWarpSingularity"), warpCore.transform);
             warpSingularityScript = GetComponentInChildren<BlackHoleWarpVolume>();
             warpSingularityScript.TargetSolarSystem = "SputnikSoyuz.SalvagedStardust";
             if (IsHeldByPlayer())
@@ -103,7 +102,6 @@ namespace NervesOfDarkness
         {
             if (exposeCoroutine != null)
             {
-                NervesOfDarkness.WriteLine("Coroutine is not null! Cancelling!", OWML.Common.MessageType.Success);
                 StopCoroutine(exposeCoroutine);
                 exposeCoroutine = null;
             }

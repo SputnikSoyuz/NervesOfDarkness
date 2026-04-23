@@ -13,4 +13,9 @@
 		<ParentID>2</ParentID>
 		<Text>AGAPANTHUS: I will put text here later I guess.</Text>
 	</TextBlock>
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>NoD_SOL_NOM_ANOMALY</FactID>
+		</RevealFact>
+	</ShipLogConditions>
 </NomaiObject>

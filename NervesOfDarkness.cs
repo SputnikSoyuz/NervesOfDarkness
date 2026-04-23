@@ -65,18 +65,20 @@ namespace NervesOfDarkness
         {
             if (system == "SputnikSoyuz.SalvagedStardust")
             {
-                int[] badTreeIndexes = { 0, 46, 92, 95, 101, 102, 108, 119, 154, 178, 184, 185, 264, 289, 312, 321, 346, 352, 372, 376, 397, 410, 472, 507, 552, 562, 589, 596, 612, 624, 658, 668, 718, 722, 727, 728, 766, 767, 784, 786, 831, 843, 881, 873, 875, 895, 905, 919, 932, 965, 978, 981, 982, 996, 1001, 1016, 1037, 1039, 1059, 1073, 1074, 1084, 1090, 1109, 1119, 1147, 1181 };
+                int[] badTreeIndexes = { 0, 46, 91, 92, 95, 101, 102, 108, 119, 154, 178, 184, 185, 264, 289, 312, 321, 346, 352, 353, 372, 376, 397, 410, 472, 507, 552, 562, 567, 589, 596, 612, 624, 658, 668, 718, 722, 727, 728, 766, 767, 784, 786, 831, 843, 881, 873, 875, 895, 905, 919, 932, 965, 978, 981, 982, 996, 1001, 1016, 1037, 1039, 1059, 1073, 1074, 1084, 1090, 1109, 1119, 1147, 1181 };
                 parent = SearchUtilities.Find("MaroonMeadows_Body/Sector/Trees").transform;
                 for (int i = 0; i < trees.Length; i++)
                 {
                     trees[i] = parent.GetChild(i).gameObject;
-                    WriteLine("Index: " + trees[i].transform.GetSiblingIndex(), MessageType.Success);
                     trees[i].name = ("Tree" + i).ToString();
                 }
                 for (int i = 0; i < badTreeIndexes.Length; i++)
                 {
                     Destroy(trees[badTreeIndexes[i]]);
                 }
+            } else if (system == "SolarSystem")
+            {
+                SearchUtilities.Find("TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/Characters_StartingCamp/Villager_HEA_Slate").AddComponent<SlateDialogueHandler>();
             }
         }
 
