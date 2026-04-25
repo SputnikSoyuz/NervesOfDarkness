@@ -14,7 +14,7 @@
 		},
 		{
 			"outerRadius": 990,
-			"innerRadius": 50,
+			"innerRadius": 498,
 			"isShell": true,
 			"intensity": 2,
 			"tint": {
@@ -61,19 +61,10 @@
 		}
 	},
 	"Props": {
-		"singularities": [
-			{
-				"rename": "RepelWH",
-				"type": "whiteHole",
-				"hasWarpEffects": false,
-				"horizonRadius": 350,
-				"uniqueID": "RepelWH"
-			}
-		],
 		"details": [
 			{
-				"path": "Sector/Clouds/BottomClouds",
-				"scale": 335
+				"assetBundle": "assets/AssetBundle/blowing_behemoth",
+				"path": "Assets/NervesOfDarkness/BlowingBehemoth/BB_LowerLayer.prefab"
 			},
 			{
 				"assetBundle": "assets/AssetBundle/blowing_behemoth",
@@ -95,14 +86,22 @@
 				"track": "music",
 				"radius": 1000
 			}
+		],
+		"destructionVolumes": [
+			{
+				"radius": 200,
+				"deathType": "energy",
+				"rename": "NoD_MetalHydrogen_DeathVolume"
+			}
 		]
+	},
+	"Water": {
+		"buoyancy": 0.2,
+		"density": 80,
+		"size": 200
 	},
 	"MapMarker": {
 		"enabled": true
 	},
-	"removeChildren": [
-		"Sector/RepelWH/WhiteHoleRenderer",
-		"Sector/RepelWH/WhiteHoleAmbience"
-	],
 	"canShowOnTitle": false
 }

@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2686517445
+CRC: 332375548
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: d788dd28cad4edf5b3360aa3caafce16
+    Hash: 21fdcee3404d554840552784d9e1d1c6
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 849187f1a94a77b00d1a257c63b0e3d4
+    Hash: 0155dbf3d478fbb79c25620669815ba0
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -42,6 +42,14 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: b16c2c028878adfb8ab327ff50dec23b, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: b6ab5ac69c5f1f06f4c82029800f1d2f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 228a84d6d8ef45fc53f14e8bfe431430, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6cd941772c39872be9d9611da76f777c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 37aeb9a742f98df8b486a716a5b568a6, type: 3}
+- Class: 114
   Script: {fileID: -996270953, guid: a42d73c7ab0e4a545b300b76d69ed5c9, type: 3}
 - Class: 114
   Script: {fileID: -925648573, guid: a42d73c7ab0e4a545b300b76d69ed5c9, type: 3}
@@ -54,9 +62,15 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 2145ed3a866d4bd5a94d98ee05d0fa4f, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 0257b8fb5e4f8121bfccf8461102f947, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 3cb5a34c0b2b4edb1b44fafe70d79e7b, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 4b51a09e4110b49d3654000985deafc3, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 5b69738f164a5a2451d76a672bae5943, type: 3}
+- Class: 114
+  Script: {fileID: 453818400, guid: a42d73c7ab0e4a545b300b76d69ed5c9, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 135
@@ -65,5 +79,6 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
+- Assets/NervesOfDarkness/BlowingBehemoth/BB_LowerLayer.prefab
 - Assets/NervesOfDarkness/BlowingBehemoth/BB_FreezingCloud.prefab
 Dependencies: []

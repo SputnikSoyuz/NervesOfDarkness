@@ -21,8 +21,8 @@
 	"Props": {
 		"singularities": [
 			{
-				"horizonRadius": 1600,
-				"distortRadius": 3200,
+				"horizonRadius": 2500,
+				"distortRadius": 5000,
 				"renderQueueOverride": 3001,
 				"type": "blackHole"
 			}

@@ -113,6 +113,24 @@ namespace NervesOfDarkness
             cameraEffectController.OpenEyes(animTime, false); //Open Eyes
             yield return new WaitForSeconds(animTime); //  waits until animation stops to proceed to next line
         }
+
+        public bool IsAccelerationWithinRange(float min, float max, OWRigidbody _activeBody, OWRigidbody _currentReferenceFrame)
+        {
+            Vector3 relativeVelocity = -_activeBody.GetRelativeVelocity(_currentReferenceFrame);
+
+            Vector3 direction = (_currentReferenceFrame.GetPosition() - _activeBody.GetPosition()).normalized;
+
+            float target = Vector3.Dot(relativeVelocity, direction);
+
+            if (target > min && target < max)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 
 }
