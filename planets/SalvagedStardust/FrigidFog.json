@@ -101,6 +101,18 @@
 		"details": [
 			{
 				"path": "Sector/AAAAA"
+			},
+			{
+				"assetBundle": "assets/AssetBundle/common_assets",
+				"path": "Assets/NervesOfDarkness/Effects/FF_Fog.prefab"
+			},
+			{
+				"assetBundle": "assets/AssetBundle/common_assets",
+				"path": "Assets/NervesOfDarkness/HearthianStuff/Prefab_NoD_Campfire.prefab",
+				"alignRadial": true,
+				"position": {
+					"z": 175
+				}
 			}
 		]
 	},

@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1493465671
+CRC: 1720722530
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: fd06bd051d93a64bc83b6aaa324c327c
+    Hash: b9877807347b6a5637232a309774c299
   TypeTreeHash:
     serializedVersion: 2
     Hash: 03858affdefcd92c8a82fdb47679fe1c
@@ -52,4 +52,5 @@ Assets:
 - Assets/NervesOfDarkness/HearthianStuff/Traveller_HEA_Gabbro.prefab
 - Assets/NervesOfDarkness/MM_Tree/MM_Tree_M.prefab
 - Assets/NervesOfDarkness/MM_Tree/MM_Tree_S.prefab
-Dependencies: []
+Dependencies:
+- C:/Users/jn7jn/source/repos/NervesOfDarkness/NervesOfDarkness/assets/AssetBundle/common_assets

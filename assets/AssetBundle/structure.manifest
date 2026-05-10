@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2006868441
+CRC: 2452746090
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ede490884256ae6ff30fb40a7ce7ac8e
+    Hash: 9559b30ae8ced69d3807f85403f27b3d
   TypeTreeHash:
     serializedVersion: 2
-    Hash: a5c7cf0fe7dfcab21bd3d82d953b664f
+    Hash: 28b3dcee47142514df6fb93315d437ba
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -26,6 +26,8 @@ ClassTypes:
 - Class: 48
   Script: {instanceID: 0}
 - Class: 64
+  Script: {instanceID: 0}
+- Class: 65
   Script: {instanceID: 0}
 - Class: 74
   Script: {instanceID: 0}
@@ -66,4 +68,5 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/NervesOfDarkness/Structures/AnomalyLabTest.prefab
-Dependencies: []
+Dependencies:
+- C:/Users/jn7jn/source/repos/NervesOfDarkness/NervesOfDarkness/assets/AssetBundle/common_assets

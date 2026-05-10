@@ -26,9 +26,29 @@
                 "parentPath": "Sector_VM/VM_ANOMALY_TEXT",
                 "name": "Charred Nomai Computer",
                 "rename": "ANOMALYSIGNAL_VM",
+                "reveals": "",
                 "detectionRadius": 10,
                 "isRelativeToParent": true,
                 "onlyAudibleToScope": true
+            }
+        ],
+        "entryLocation": [
+            {
+                "id": "NoD_VOLCANO_ANOMALY",
+                "parentPath": "Sector_VM/VM_ANOMALY_TEXT",
+                "isRelativeToParent": true
+            }
+        ]
+    },
+    "Volumes": {
+        "revealVolumes": [
+            {
+                "radius": 3,
+                "reveals": [
+                    "NoD_VOLCANO_ANOMALY_E1"
+                ],
+                "parentPath": "Sector_VM/VM_ANOMALY_TEXT",
+                "isRelativeToParent": true
             }
         ]
     },
@@ -50,5 +70,9 @@
                 "startWithSuit": true
             }
         ]
+    },
+    "ShipLog": {
+        "xmlFile": "shiplogs/VOLCANIC_MOON.xml",
+        "spriteFolder": "assets/Texture/Shiplogs"
     }
 }

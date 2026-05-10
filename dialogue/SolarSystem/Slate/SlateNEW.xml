@@ -5,16 +5,16 @@
         <DialogueOptionsList>
             <DialogueOption>
 				<RequiredCondition>NoD_SlateTalkedTo</RequiredCondition>
-                <Text>What did you want from me again?</Text>
+                <Text>$NoD_Slate_Intro_List1_Choice1</Text>
                 <DialogueTarget>1</DialogueTarget>
             </DialogueOption>
 			<DialogueOption>
 				<RequiredCondition>NoD_HornfelsIntro</RequiredCondition>
-				<Text>I met with Hornfels, they showed me an new system with an incredibly massive black hole.</Text>
+				<Text>$NoD_Slate_Intro_List1_Choice2</Text>
 				<DialogueTarget>2</DialogueTarget>
 		</DialogueOption>
 			<DialogueOption>
-				<Text>I made it to a new star system!</Text>
+				<Text>$NoD_Slate_Intro_List1_Choice3</Text>
 				<DialogueTarget>3</DialogueTarget>
 			</DialogueOption>
         </DialogueOptionsList>
@@ -23,24 +23,24 @@
     <DialogueNode>
         <Name>1</Name>
         <Dialogue>
-            <Page>Hornfels wanted to talk to you about something important. They said it had something to do with a massive star going supernova.</Page>
-            <Page>Whatever it was, they seemed very excited about their find! You wouldn't want to leave them hanging, would you?</Page>
+            <Page>$NoD_Slate_Intro_List1_Choice1_1</Page>
+            <Page>$NoD_Slate_Intro_List1_Choice1_2</Page>
         </Dialogue>
     </DialogueNode>
 
 	<DialogueNode>
 		<Name>2</Name>
 		<Dialogue>
-			<Page>Yeah, Hornfels had their eye on that star because they were eager to see it go supernova.</Page>
-			<Page>A black hole more massive than previously thought possible...I'm sure Hornfels is blown away.</Page>
+			<Page>$NoD_Slate_Intro_List1_Choice2_1</Page>
+			<Page>$NoD_Slate_Intro_List1_Choice2_2</Page>
 		</Dialogue>
 	</DialogueNode>
 
 	<DialogueNode>
 		<Name>3</Name>
 		<Dialogue>
-			<Page>Stars above, you have? How on Hearth did you manage to do it?</Page>
-			<Page>Best of luck on your travels!</Page>
+			<Page>$NoD_Slate_Intro_List1_Choice3_1</Page>
+			<Page>$NoD_Slate_Intro_List1_Choice3_2</Page>
 		</Dialogue>
 	</DialogueNode>
 </DialogueTree>

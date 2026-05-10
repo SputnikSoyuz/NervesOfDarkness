@@ -94,7 +94,6 @@
                 "position": {
                     "y": 2
                 },
-                "lookAtRadius": 0,
                 "xmlFile": "dialogue/SolarSystem/Hornfels/Hornfels_NEW.xml"
             }
         ],
@@ -103,6 +102,7 @@
                 "audio": "assets/Audio/blackhole.ogg",
                 "frequency": "Singularity Fluctuations",
                 "name": "Galaxy Core",
+                "reveals": "NoD_HORNFELS_E4",
                 "rename": "ANOMALYSIGNAL_TH",
                 "detectionRadius": 1.5,
                 "onlyAudibleToScope": true,
@@ -113,5 +113,25 @@
                 }
             }
         ]
+    },
+    "Volumes": {
+        "revealVolumes": [
+            {
+                "radius": 4,
+                "reveals": [
+                    "NoD_HORNFELS_E1",
+                    "NoD_VOLCANO_ANOMALY_R"
+                ],
+                "parentPath": "Sector_TH/NoD_Hornfels",
+                "isRelativeToParent": true
+            }
+        ]
+    },
+    "removeChildren": [
+        "Sector_TH/Sector_Village/Sector_Observatory/Characters_Observatory/Villager_HEA_Hornfels (1)"
+    ],
+    "ShipLog": {
+        "xmlFile": "shiplogs/TIMBER_HEARTH.xml",
+        "spriteFolder": "assets/Texture/Shiplogs"
     }
 }

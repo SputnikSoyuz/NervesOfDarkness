@@ -55,12 +55,12 @@ namespace NervesOfDarkness
 
             if (IsHeldByPlayer())
             {
-                return (playerSectorDetector.IsWithinSector(Sector.Name.SunStation) || playerSectorDetector.IsWithinSector(Sector.Name.VolcanicMoon));
+                return (playerSectorDetector.IsWithinSector(Sector.Name.VolcanicMoon));
             }
 
             if (warpCore != null)
             {
-                return (warpCoreItem.GetSector().GetName().Equals(Sector.Name.SunStation) || warpCoreItem.GetSector().GetName().Equals(Sector.Name.VolcanicMoon));
+                return (warpCoreItem.GetSector().GetName().Equals(Sector.Name.VolcanicMoon));
             }
 
             return false;
@@ -83,6 +83,7 @@ namespace NervesOfDarkness
         public IEnumerator ExposeToHeat()
         {
             yield return new WaitForSeconds(10);
+            Locator.GetShipLogManager().RevealFact("NoD_WARPCORE_E");
             singularityFX = Instantiate(SearchUtilities.Find("CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthSurface/Sector_TimeLoopExperiment/Interactables_TimeLoopExperiment/WarpCoreExperiment/SingularityEffects/Singularity_BlackHole/SingularityController_BlackHole"), warpCore.transform).GetComponent<SingularityController>();
             singularityFX.enabled = true;
             singularityFX._startActive = true;

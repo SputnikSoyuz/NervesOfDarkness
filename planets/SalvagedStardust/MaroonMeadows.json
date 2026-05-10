@@ -62,6 +62,10 @@
 				"rename": "Trees"
 			},
 			{
+				"assetBundle": "assets/AssetBundle/common_assets",
+				"path": "Assets/NervesOfDarkness/Effects/FF_Fog.prefab"
+			},
+			{
 				"path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Interactibles_RadioTower/Hornfels'GrovePivot/Prefab_HEA_Campfire",
 				"position": {
 					"x": -56.084,
@@ -520,6 +524,7 @@
 			{
 				"alignRadial": true,
 				"startWithSuit": false,
+				"isDefault": true,
 				"rename": "SpawnPlayer_Maroon",
 				"position": {
 					"x": -59.20015,
@@ -531,7 +536,7 @@
 				}
 			},
 			{
-				"rename": "_MaroonMeadows_AnomalyLab",
+				"rename": "_Maroon_AnomalyLab",
 				"position": {
 					"x": 163.6739,
 					"y": -112.8063,
@@ -541,7 +546,8 @@
 					"x": 27.4542,
 					"y": 177.4279,
 					"z": 127.3694
-				}
+				},
+				"isDefault": false
 			}
 		],
 		"shipSpawnPoints": [
@@ -552,7 +558,8 @@
 					"x": -72.08585,
 					"y": -36.6609,
 					"z": 182.4719
-				}
+				},
+				"isDefault": true
 			}
 		] 
 	},

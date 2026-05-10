@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3319579183
+CRC: 820080239
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 26c52324e49980b9459961e2e102d8bb
+    Hash: 3c35b77721d47e76bdcf83836d88e921
   TypeTreeHash:
     serializedVersion: 2
     Hash: 7efd5644a2b2e6582084339542bc3fc1
@@ -79,4 +79,5 @@ Assets:
 - Assets/NervesOfDarkness/Effects/NewSystem.prefab
 - Assets/NervesOfDarkness/HearthianStuff/Crate.prefab
 - Assets/NervesOfDarkness/Effects/Nebula.prefab
-Dependencies: []
+Dependencies:
+- C:/Users/jn7jn/source/repos/NervesOfDarkness/NervesOfDarkness/assets/AssetBundle/common_assets

@@ -1,0 +1,48 @@
+<!-- Example File -->
+<!-- All files must have "AstroObjectEntry" as their root element, the xmlns:xsi=... and xsi:noNamespaceSchemaLocation=... is optional but heavily encouraged to reduce errors -->
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>VOLCANIC_MOON</ID> <!-- The ID of the planet this xml file is for -->
+
+	<Entry>
+		<!-- An Entry For This Planet -->
+		<ID>NoD_VOLCANO_ANOMALY</ID>
+		<!-- The ID of this entry -->
+		<Name>Nomai Computer Anomaly</Name>
+		<!-- The name to show for this entry both on the card and in map mode -->
+
+		<RumorFact>
+			<ID>NoD_VOLCANO_ANOMALY_R</ID>
+			<RumorName>Other Signal Source</RumorName>
+			<SourceID>NoD_HORNFELS</SourceID>
+			<Text>A faraway signal of the "Singularity Fluctuations".</Text>
+		</RumorFact>
+
+		<ExploreFact>
+			<ID>NoD_VOLCANO_ANOMALY_E1</ID>
+			<Text>The signal led to a Nomai computer I've never seen before on Hollow's Lantern, although it feels like it shouldn't be there.</Text>
+		</ExploreFact>
+
+		<ExploreFact>
+			<ID>NoD_VOLCANO_ANOMALY_TEXT_E</ID>
+			<Text>A Nomai named Poke suggested a theory involving the exposure of black hole warp cores to heat, but was scrapped by Annona.</Text>
+		</ExploreFact>
+	</Entry>
+	<Entry>
+		<!-- An Entry For This Planet -->
+		<ID>NoD_WARPCORE</ID>
+		<!-- The ID of this entry -->
+		<Name>Warp Core Anomaly</Name>
+		<!-- The name to show for this entry both on the card and in map mode -->
+
+		<RumorFact>
+			<ID>NoD_WARPCORE_R</ID>
+			<SourceID>NoD_VOLCANO_ANOMALY</SourceID>
+			<Text>A Nomai named Poke suggested a theory involving the exposure of black hole warp cores to heat, but was scrapped by Annona.</Text>
+		</RumorFact>
+
+		<ExploreFact>
+			<ID>NoD_WARPCORE_E</ID>
+			<Text>After waiting 10 seconds while standing in Hollow's Lanten, the exposed heat expands the black hole.</Text>
+		</ExploreFact>
+	</Entry>
+</AstroObjectEntry>

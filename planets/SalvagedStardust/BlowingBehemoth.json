@@ -69,10 +69,32 @@
 			{
 				"assetBundle": "assets/AssetBundle/blowing_behemoth",
 				"path": "Assets/NervesOfDarkness/BlowingBehemoth/BB_FreezingCloud.prefab",
+				"rename": "BB_FreezingCloud_Disc",
+				"removeChildren": [
+					"BB_FreezingCloud_ANIM/Item/NoD_Recorder"
+				],
 				"position": {
 					"y": 950
 				},
 				"alignRadial": true
+			},
+			{
+				"assetBundle": "assets/AssetBundle/blowing_behemoth",
+				"path": "Assets/NervesOfDarkness/BlowingBehemoth/BB_FreezingCloud.prefab",
+				"rename": "BB_FreezingCloud_Campsite",
+				"removeChildren": [
+					"BB_FreezingCloud_ANIM/Item/NoD_MediaDisc_Item"
+				],
+				"position": {
+					"y": -950
+				},
+				"alignRadial": true
+			},
+			{
+				"assetBundle": "assets/AssetBundle/common_assets",
+				"path": "Assets/NervesOfDarkness/HearthianStuff/Prefab_NoD_Campfire.prefab",
+				"parentPath": "Sector/BB_FreezingCloud_Campsite/BB_FreezingCloud_ANIM/Item/CampfireSocket",
+				"isRelativeToParent": true
 			}
 		]
 	},
@@ -93,7 +115,14 @@
 				"deathType": "energy",
 				"rename": "NoD_MetalHydrogen_DeathVolume"
 			}
-		]
+		],
+		"visorEffects": {
+			"rainEffectVolumes": [
+				{
+					"radius": 450
+				}
+			]
+		}
 	},
 	"Water": {
 		"buoyancy": 0.2,
@@ -103,5 +132,29 @@
 	"MapMarker": {
 		"enabled": true
 	},
-	"canShowOnTitle": false
+	"canShowOnTitle": false,
+	"Spawn": {
+		"playerSpawnPoints": [
+			{
+				"rename": "_Behemoth_CloudCampfire",
+				"position": {
+					"x": -4.850189,
+					"y": -956.0559,
+					"z": 7.935181
+				},
+				"alignRadial": true,
+				"isDefault": false
+			},
+			{
+				"rename": "_Behemoth_CloudDisc",
+				"position": {
+					"x": 12.10901,
+					"y": 955.8568,
+					"z": 11.39917
+				},
+				"alignRadial": true,
+				"isDefault": false
+			}
+		]
+	}
 }

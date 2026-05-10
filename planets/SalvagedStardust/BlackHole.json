@@ -44,5 +44,11 @@
 			"texture": "assets/Texture/ringoffire.png",
 			"fluidType": "plasma"
 		}
-	]
+	],
+	"ShipLog": {
+		"mapMode": {
+			"revealedSprite": "assets/Texture/Shiplogs/BLACKHOLE_UI.png",
+			"scale": 4
+		}
+	}
 }

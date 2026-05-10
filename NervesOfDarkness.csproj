@@ -42,6 +42,9 @@
 	  <None Include="dialogue\**\*.*">
 		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
+	  <None Include="shiplogs\**\*.*">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
     <None Include="systems\**\*.*">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -60,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="assets\AssetBundle\" />
+    <Folder Include="dialogue\SalvagedStardust\Gabbro\" />
   </ItemGroup>
 	<Target Name="BuildDll" AfterTargets="Build">
 		<Copy SourceFiles="$(OutputPath)$(AssemblyName).dll" DestinationFolder="$(USERPROFILE)\source\repos\NervesOfDarknessUnity\Assets" />

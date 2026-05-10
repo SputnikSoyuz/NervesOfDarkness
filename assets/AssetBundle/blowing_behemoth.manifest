@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 332375548
+CRC: 2217466474
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 21fdcee3404d554840552784d9e1d1c6
+    Hash: 843e0c3a12f1aee2098b87f849425e9a
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 0155dbf3d478fbb79c25620669815ba0
+    Hash: eebbee933292af58dd3903b1491a70c7
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -35,6 +35,8 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 95
   Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
 - Class: 114
   Script: {fileID: 11500000, guid: fbb2498122f7e23a2e87544333cb528f, type: 3}
 - Class: 114
@@ -54,11 +56,17 @@ ClassTypes:
 - Class: 114
   Script: {fileID: -925648573, guid: a42d73c7ab0e4a545b300b76d69ed5c9, type: 3}
 - Class: 114
+  Script: {fileID: -1332094800, guid: a42d73c7ab0e4a545b300b76d69ed5c9, type: 3}
+- Class: 114
+  Script: {fileID: -1366641483, guid: a42d73c7ab0e4a545b300b76d69ed5c9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1bc27ee7ea916ddffe7cd62645a601b0, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: ef4a7208df34bcc45029964389471a68, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 8a3f0f389341c132f21af676b0f2d74c, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: f913c288c393f80a7e923fc1c775f4fb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0053d129d589d30957bcc3b1958fc878, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 2145ed3a866d4bd5a94d98ee05d0fa4f, type: 3}
 - Class: 114
@@ -66,12 +74,14 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 3cb5a34c0b2b4edb1b44fafe70d79e7b, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 505bf95c7870cd0659dac2b264f2d8df, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 4b51a09e4110b49d3654000985deafc3, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 5b69738f164a5a2451d76a672bae5943, type: 3}
-- Class: 114
-  Script: {fileID: 453818400, guid: a42d73c7ab0e4a545b300b76d69ed5c9, type: 3}
 - Class: 115
+  Script: {instanceID: 0}
+- Class: 117
   Script: {instanceID: 0}
 - Class: 135
   Script: {instanceID: 0}
@@ -81,4 +91,5 @@ SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/NervesOfDarkness/BlowingBehemoth/BB_LowerLayer.prefab
 - Assets/NervesOfDarkness/BlowingBehemoth/BB_FreezingCloud.prefab
-Dependencies: []
+Dependencies:
+- C:/Users/jn7jn/source/repos/NervesOfDarkness/NervesOfDarkness/assets/AssetBundle/common_assets

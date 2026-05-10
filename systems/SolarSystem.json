@@ -1,0 +1,26 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
+    "entryPositions": [
+        {
+            "id": "NoD_HORNFELS",
+            "position": {
+                "x": 3800,
+                "y": 150
+            }
+        },
+        {
+            "id": "NoD_VOLCANO_ANOMALY",
+            "position": {
+                "x": 4200,
+                "y": 150
+            }
+        },
+        {
+            "id": "NoD_WARPCORE",
+            "position": {
+                "x": 4600,
+                "y": 150
+            }
+        }
+    ]
+}
