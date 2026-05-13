@@ -200,5 +200,17 @@
 				}
 			]
 		}
-	]
+	],
+	"Spawn": {
+		"playerSpawnPoints": [
+			{
+				"rename": "_FrigidFog_Campsite",
+				"position": {
+					"x": -2.833013,
+					"y": 2.699951,
+					"z": 174.8454
+				}
+			}
+		]
+	}
 }

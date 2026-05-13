@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2217466474
+CRC: 508563265
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 843e0c3a12f1aee2098b87f849425e9a
+    Hash: 9aeb6d10a0c54961672acfce394771ba
   TypeTreeHash:
     serializedVersion: 2
-    Hash: eebbee933292af58dd3903b1491a70c7
+    Hash: 05322d4cab6fa587424bcff93452c3cd
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -27,9 +27,13 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 64
   Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
 - Class: 74
   Script: {instanceID: 0}
 - Class: 82
+  Script: {instanceID: 0}
+- Class: 83
   Script: {instanceID: 0}
 - Class: 91
   Script: {instanceID: 0}
@@ -54,6 +58,8 @@ ClassTypes:
 - Class: 114
   Script: {fileID: -996270953, guid: a42d73c7ab0e4a545b300b76d69ed5c9, type: 3}
 - Class: 114
+  Script: {fileID: 90038225, guid: a42d73c7ab0e4a545b300b76d69ed5c9, type: 3}
+- Class: 114
   Script: {fileID: -925648573, guid: a42d73c7ab0e4a545b300b76d69ed5c9, type: 3}
 - Class: 114
   Script: {fileID: -1332094800, guid: a42d73c7ab0e4a545b300b76d69ed5c9, type: 3}
@@ -76,6 +82,8 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 505bf95c7870cd0659dac2b264f2d8df, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 4d37ab8d4d1e425918e8172c84cb8288, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 4b51a09e4110b49d3654000985deafc3, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 5b69738f164a5a2451d76a672bae5943, type: 3}
@@ -90,6 +98,10 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/NervesOfDarkness/BlowingBehemoth/BB_LowerLayer.prefab
+- Assets/NervesOfDarkness/BlowingBehemoth/BB_Island_AnomalyLab.prefab
 - Assets/NervesOfDarkness/BlowingBehemoth/BB_FreezingCloud.prefab
+- Assets/NervesOfDarkness/BlowingBehemoth/BB_Island_Camp.prefab
+- Assets/NervesOfDarkness/BlowingBehemoth/BB_Iceberg.prefab
 Dependencies:
 - C:/Users/jn7jn/source/repos/NervesOfDarkness/NervesOfDarkness/assets/AssetBundle/common_assets
+- C:/Users/jn7jn/source/repos/NervesOfDarkness/NervesOfDarkness/assets/AssetBundle/structure

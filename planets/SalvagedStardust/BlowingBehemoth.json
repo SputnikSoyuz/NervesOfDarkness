@@ -25,6 +25,8 @@
 	"Atmosphere": {
 		"size": 1200,
 		"fogSize": 1200,
+		"fogDensity": 1,
+		"hasRain": true,
 		"clouds": {
 			"capPath": "assets/Texture/behemoth_cap.png",
 			"texturePath": "assets/Texture/behemoth_clouds.png",
@@ -42,6 +44,7 @@
 			"b": 191
 		},
 		"fogTint": {
+			"g": 153,
 			"b": 255,
 			"a": 255
 		}
@@ -95,6 +98,52 @@
 				"path": "Assets/NervesOfDarkness/HearthianStuff/Prefab_NoD_Campfire.prefab",
 				"parentPath": "Sector/BB_FreezingCloud_Campsite/BB_FreezingCloud_ANIM/Item/CampfireSocket",
 				"isRelativeToParent": true
+			},
+			{
+				"assetBundle": "assets/AssetBundle/blowing_behemoth",
+				"path": "Assets/NervesOfDarkness/BlowingBehemoth/BB_Island_AnomalyLab.prefab",
+				"position": {
+					"x": -650
+				},
+				"alignRadial": true
+			},
+			{
+				"assetBundle": "assets/AssetBundle/blowing_behemoth",
+				"path": "Assets/NervesOfDarkness/BlowingBehemoth/BB_Island_Camp.prefab",
+				"position": {
+					"z": 650
+				},
+				"alignRadial": true
+			},
+			{
+				"assetBundle": "assets/AssetBundle/blowing_behemoth",
+				"path": "Assets/NervesOfDarkness/BlowingBehemoth/BB_Iceberg.prefab",
+				"position": {
+					"x": 650
+				},
+				"alignRadial": true
+			},
+			{
+				"assetBundle": "assets/AssetBundle/blowing_behemoth",
+				"path": "Assets/NervesOfDarkness/BlowingBehemoth/BB_Iceberg.prefab",
+				"position": {
+					"z": -650
+				},
+				"alignRadial": true
+			},
+			{
+				"path": "Sector_BH/Sector_Crossroads/Interactables_Crossroads/VisibleFrom_BH/Prefab_HEA_Campfire",
+				"rename": "BB_CampfireSleepable",
+				"position": {
+					"x": -1.398499,
+					"y": 1.956146,
+					"z": 651.3029
+				},
+				"rotation": {
+					"x": 355.0289,
+					"y": 90.35798,
+					"z": 85.70592
+				}
 			}
 		]
 	},
@@ -119,11 +168,59 @@
 		"visorEffects": {
 			"rainEffectVolumes": [
 				{
-					"radius": 450
+					"radius": 1000
+				}
+			]
+		},
+		"oxygenVolumes": [
+			{
+				"parentPath": "Sector/BB_CampfireSleepable",
+				"isRelativeToParent": true,
+				"radius": 4
+			}
+		]
+	},
+	"ParticleFields": [
+		{
+			"type": "clouds",
+			"densityByHeightCurve": [
+				{
+					"density": 1,
+					"height": 900
+				},
+				{
+					"density": 0.5,
+					"height": 400
+				}
+			]
+		},
+		{
+			"type": "crystalMotes",
+			"densityByHeightCurve": [
+				{
+					"density": 2,
+					"height": 900
+				},
+				{
+					"density": 1,
+					"height": 400
+				}
+			]
+		},
+		{
+			"type": "iceMotes",
+			"densityByHeightCurve": [
+				{
+					"density": 2,
+					"height": 900
+				},
+				{
+					"density": 1,
+					"height": 400
 				}
 			]
 		}
-	},
+	],
 	"Water": {
 		"buoyancy": 0.2,
 		"density": 80,
@@ -151,6 +248,26 @@
 					"x": 12.10901,
 					"y": 955.8568,
 					"z": 11.39917
+				},
+				"alignRadial": true,
+				"isDefault": false
+			},
+			{
+				"rename": "_Behemoth_AnomalyLab",
+				"position": {
+					"x": -654.061,
+					"y": 13.73929,
+					"z": 16.74829
+				},
+				"alignRadial": true,
+				"isDefault": false
+			},
+			{
+				"rename": "_Behemoth_Campsite",
+				"position": {
+					"x": -12.22104,
+					"y": 8.127838,
+					"z": 651.5621
 				},
 				"alignRadial": true,
 				"isDefault": false

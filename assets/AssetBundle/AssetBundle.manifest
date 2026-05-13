@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 3774300880
+CRC: 1315739407
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -20,7 +20,8 @@ AssetBundleManifest:
     Info_4:
       Name: blowing_behemoth
       Dependencies:
-        Dependency_0: common_assets
+        Dependency_0: structure
+        Dependency_1: common_assets
     Info_5:
       Name: common_assets
       Dependencies: {}
