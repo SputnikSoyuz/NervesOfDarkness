@@ -5,32 +5,31 @@
 
     <Entry> <!-- An Entry For This Planet -->
         <ID>NoD_HORNFELS</ID> <!-- The ID of this entry -->
-		<Name>Hornfels's Discovery</Name> <!-- The name to show for this entry both on the card and in map mode -->
+		<Name>$NoD_HORNFELS</Name> <!-- The name to show for this entry both on the card and in map mode -->
 
         <RumorFact> <!-- A rumor fact that belongs to this entry -->
             <ID>NoD_HORNFELS_R</ID> <!-- The ID of this fact -->
-            <RumorName>Hornfels's Discovery</RumorName> <!-- The name of the rumor this fact relates to -->
-            <Text>Slate seemed a bit worried about Hornfels and wants me to check in on them.</Text> <!-- The Text to display for this fact -->
+            <Text>$NoD_HORNFELS_R</Text> <!-- The Text to display for this fact -->
         </RumorFact>
 
         <ExploreFact> <!-- An explore fact that belongs to this entry -->
             <ID>NoD_HORNFELS_E1</ID> <!-- The ID of this fact -->
-            <Text>Hornfels went back upstairs to make observations with their telescope.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            <Text>$NoD_HORNFELS_E1</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
         </ExploreFact>
 
         <ExploreFact> <!-- An explore fact that belongs to this entry -->
             <ID>NoD_HORNFELS_E2</ID> <!-- The ID of this fact -->
-            <Text>I saw a new system of planets orbiting a massive black hole when looking through the telescope.</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
+            <Text>$NoD_HORNFELS_E2</Text> <!-- The Text to display for this fact, notice how you can use color just like in dialogue -->
         </ExploreFact>
 
 		<ExploreFact>
 			<ID>NoD_HORNFELS_E3</ID>
-			<Text>Hornfels mentioned that there is a new signal coming from the telescope.</Text>
+			<Text>$NoD_HORNFELS_E3</Text>
 		</ExploreFact>
 
 		<ExploreFact>
 			<ID>NoD_HORNFELS_E4</ID>
-			<Text>I learned a new frequency called "Singularity Fluctuations".</Text>
+			<Text>$NoD_HORNFELS_E4</Text>
 		</ExploreFact>
     </Entry>
 </AstroObjectEntry>

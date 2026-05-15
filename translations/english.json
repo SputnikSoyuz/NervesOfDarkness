@@ -1,6 +1,7 @@
 {
 	"$schema": "https://raw.githubusercontent.com/outer-wilds-new-horizons/new-horizons/main/NewHorizons/Schemas/translation_schema.json",
 	"DialogueDictionary": {
+		// SOLAR SYSTEM
 		// dialogue/SolarSystem/Slate/SlateRemote.xml
 		"$NoD_Slate_Intro_Remote_1": "Hatchling! Hornfels wants to talk to you about something they found.",
 		"$NoD_Slate_Intro_Remote_2": "They sounded pretty excited, you should probably get up there quick!",
@@ -68,5 +69,30 @@
 		"$NoD_NOM_Anomaly_8": "ANNONA: I know how you operate, Poke… please don’t just throw it into the black hole.",
 		"$NoD_NOM_Anomaly_9": "POKE: Okay, I probably won’t.",
 		"$NoD_NOM_Anomaly_10": "ANNONA: Thank you. Let us continue with our work, then! We have much to do."
+
+		// NEW SYSTEM
+	},
+	"ShipLogDictionary": {
+		// SOLAR SYSTEM
+		// shiplogs/TIMBER_HEARTH.xml
+		"$NoD_HORNFELS": "Hornfels's Discovery",
+		"$NoD_HORNFELS_R": "Slate seemed a bit worried about Hornfels and wants me to check in on them.",
+		"$NoD_HORNFELS_E1": "Hornfels went back upstairs to make observations with their telescope.",
+		"$NoD_HORNFELS_E2": "I saw a new system of planets orbiting a massive black hole when looking through the telescope.",
+		"$NoD_HORNFELS_E3": "Hornfels mentioned that there is a new signal coming from the telescope.",
+		"$NoD_HORNFELS_E4": "I learned a new frequency called \"Singularity Fluctuations\".",
+
+		// shiplogs/VOLCANIC_MOON.xml
+		"$NoD_VOLCANO_ANOMALY": "Other Signal Source",
+		"$NoD_VOLCANO_ANOMALY_FOUND": "Nomai Computer Anomaly",
+		"$NoD_VOLCANO_ANOMALY_R": "A faraway signal of the \"Singularity Fluctuations\" can be heard elsewhere in the Solar System.",
+		"$NoD_VOLCANO_ANOMALY_E1": "The signal led to a Nomai computer I've never seen before on Hollow's Lantern, although it feels like it shouldn't be there.",
+		"$NoD_VOLCANO_ANOMALY_TEXT_E": "A Nomai named Poke suggested a theory involving the exposure of black hole warp cores to heat, but was scrapped by Annona.",
+
+		"$NoD_WARPCORE": "Warp Core Anomaly",
+		"$NoD_WARPCORE_R": "A Nomai named Poke suggested a theory involving the exposure of black hole warp cores to heat, but was scrapped by Annona.",
+		"$NoD_WARPCORE_E": "After waiting 10 seconds while standing in Hollow's Lanten, the exposed heat expands the black hole."
+
+		// NEW SYSTEM
 	}
 }

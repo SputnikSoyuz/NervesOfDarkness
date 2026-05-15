@@ -7,42 +7,42 @@
 		<!-- An Entry For This Planet -->
 		<ID>NoD_VOLCANO_ANOMALY</ID>
 		<!-- The ID of this entry -->
-		<Name>Nomai Computer Anomaly</Name>
+		<Name>$NoD_VOLCANO_ANOMALY_FOUND</Name>
 		<!-- The name to show for this entry both on the card and in map mode -->
 
 		<RumorFact>
 			<ID>NoD_VOLCANO_ANOMALY_R</ID>
-			<RumorName>Other Signal Source</RumorName>
+			<RumorName>$NoD_VOLCANO_ANOMALY</RumorName>
 			<SourceID>NoD_HORNFELS</SourceID>
-			<Text>A faraway signal of the "Singularity Fluctuations".</Text>
+			<Text>$NoD_VOLCANO_ANOMALY_R</Text>
 		</RumorFact>
 
 		<ExploreFact>
 			<ID>NoD_VOLCANO_ANOMALY_E1</ID>
-			<Text>The signal led to a Nomai computer I've never seen before on Hollow's Lantern, although it feels like it shouldn't be there.</Text>
+			<Text>$NoD_VOLCANO_ANOMALY_E1</Text>
 		</ExploreFact>
 
 		<ExploreFact>
 			<ID>NoD_VOLCANO_ANOMALY_TEXT_E</ID>
-			<Text>A Nomai named Poke suggested a theory involving the exposure of black hole warp cores to heat, but was scrapped by Annona.</Text>
+			<Text>$NoD_VOLCANO_ANOMALY_TEXT_E</Text>
 		</ExploreFact>
 	</Entry>
 	<Entry>
 		<!-- An Entry For This Planet -->
 		<ID>NoD_WARPCORE</ID>
 		<!-- The ID of this entry -->
-		<Name>Warp Core Anomaly</Name>
+		<Name>$NoD_WARPCORE</Name>
 		<!-- The name to show for this entry both on the card and in map mode -->
 
 		<RumorFact>
 			<ID>NoD_WARPCORE_R</ID>
 			<SourceID>NoD_VOLCANO_ANOMALY</SourceID>
-			<Text>A Nomai named Poke suggested a theory involving the exposure of black hole warp cores to heat, but was scrapped by Annona.</Text>
+			<Text>$NoD_WARPCORE_R</Text>
 		</RumorFact>
 
 		<ExploreFact>
 			<ID>NoD_WARPCORE_E</ID>
-			<Text>After waiting 10 seconds while standing in Hollow's Lanten, the exposed heat expands the black hole.</Text>
+			<Text>$NoD_WARPCORE_E</Text>
 		</ExploreFact>
 	</Entry>
 </AstroObjectEntry>
