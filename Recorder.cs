@@ -74,6 +74,7 @@ public class Recorder : MonoBehaviour
         if (system == "SputnikSoyuz.SalvagedStardust")
         {
             _interactReceiver.SetPromptText(UITextType.RecordingPrompt);
+            _interactReceiver.ResetInteraction();
         }
     }
 

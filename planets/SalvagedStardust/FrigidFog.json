@@ -33,32 +33,15 @@
 			"b": 230,
 			"a": 255
 		},
-		"fogSize": 250,
+		"fogSize": 290,
+		"fogDensity": 20,
 		"fogTint": {
-			"r": 230,
-			"g": 230,
-			"b": 230,
+			"r": 255,
+			"g": 255,
+			"b": 255,
 			"a": 255
 		}
 	},
-	"Bramble": {
-		"nodes": [
-			{
-				"scale": 3.5,
-				"name": "AAAAA",
-				"hasFogLight": false,
-				"linksTo": "AAAAAAAAAAA"
-			}
-		]
-	},
-	"removeChildren": [
-		"Sector/AAAAA/Terrain_DB_BrambleSphere_Inner_v2",
-		"Sector/AAAAA/FogWarpExitPoints",
-		"Sector/AAAAA/Effects/PointLight_DB_FogLight",
-		"Sector/AAAAA/Effects/DB_BrambleLightShafts",
-		"Sector/AAAAA/Effects/FogOverrideVolume",
-		"Sector/AAAAA/Effects/InnerWarpFogGlow"
-	],
 	"Base": {
 		"surfaceGravity": 10,
 		"surfaceSize": 175
@@ -100,18 +83,25 @@
 	"Props": {
 		"details": [
 			{
-				"path": "Sector/AAAAA"
-			},
-			{
-				"assetBundle": "assets/AssetBundle/common_assets",
-				"path": "Assets/NervesOfDarkness/Effects/FF_Fog.prefab"
-			},
-			{
 				"assetBundle": "assets/AssetBundle/common_assets",
 				"path": "Assets/NervesOfDarkness/HearthianStuff/Prefab_NoD_Campfire.prefab",
 				"alignRadial": true,
 				"position": {
 					"z": 175
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/common_assets",
+				"path": "Assets/NervesOfDarkness/Structures/TheBox2.prefab",
+				"position": {
+					"x": -156.4326,
+					"y": 88.2961,
+					"z": -21.785
+				},
+				"rotation": {
+					"x": 346.9577,
+					"y": 0.3727563,
+					"z": 58.87568
 				}
 			}
 		]
@@ -209,6 +199,14 @@
 					"x": -2.833013,
 					"y": 2.699951,
 					"z": 174.8454
+				}
+			},
+			{
+				"rename": "_FrigidFog_TheBox2",
+				"position": {
+					"x": -150.5423,
+					"y": 88.78551,
+					"z": -5.458
 				}
 			}
 		]

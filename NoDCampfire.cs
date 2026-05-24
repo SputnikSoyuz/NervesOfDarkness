@@ -342,10 +342,13 @@ public class NoDCampfire : MonoBehaviour
             _windBlew = true;
             yield return new WaitForSeconds(2);
         }
-        SetState(State.UNLIT);
-        _oneShotAudio.PlayOneShot(AudioType.ProjectorTotem_Blow);
-        yield return new WaitForSeconds(0.5f);
-        _flames.gameObject.SetActive(false);
+        if (_state == State.LIT)
+        {
+            SetState(State.UNLIT);
+            _oneShotAudio.PlayOneShot(AudioType.ProjectorTotem_Blow);
+            yield return new WaitForSeconds(0.5f);
+            _flames.gameObject.SetActive(false);
+        }
     }
 
     private void SetLitFraction(float fraction)

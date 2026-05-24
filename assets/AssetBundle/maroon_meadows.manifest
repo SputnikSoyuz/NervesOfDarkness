@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1720722530
+CRC: 2131775192
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: b9877807347b6a5637232a309774c299
+    Hash: 39238a5bcf54e3fe59fd5f00abd146f5
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 03858affdefcd92c8a82fdb47679fe1c
+    Hash: 581fce87bb64d810e3608288f755692b
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -39,6 +39,8 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 114
   Script: {fileID: 11500000, guid: f913c288c393f80a7e923fc1c775f4fb, type: 3}
+- Class: 114
+  Script: {fileID: -414467305, guid: a42d73c7ab0e4a545b300b76d69ed5c9, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 136
@@ -47,10 +49,16 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
+- Assets/NervesOfDarkness/MaroonMeadows/Grask/MM_Grask_WhiteFlowerShort.prefab
+- Assets/NervesOfDarkness/MaroonMeadows/Grask/MM_Grask_Short1.prefab
 - Assets/NervesOfDarkness/HearthianStuff/Props_HEA_CampsiteLogAssets.prefab
-- Assets/NervesOfDarkness/MM_Tree/MM_Tree_L.prefab
+- Assets/NervesOfDarkness/MaroonMeadows/Grask/MM_Grask_ShortOrchid.prefab
+- Assets/NervesOfDarkness/MaroonMeadows/Grask/MM_Grask_WhiteFlower.prefab
+- Assets/NervesOfDarkness/MaroonMeadows/Grask/MM_Grask_Short2.prefab
+- Assets/NervesOfDarkness/MaroonMeadows/Trees/MM_Tree_L.prefab
 - Assets/NervesOfDarkness/HearthianStuff/Traveller_HEA_Gabbro.prefab
-- Assets/NervesOfDarkness/MM_Tree/MM_Tree_M.prefab
-- Assets/NervesOfDarkness/MM_Tree/MM_Tree_S.prefab
+- Assets/NervesOfDarkness/MaroonMeadows/Trees/MM_Tree_M.prefab
+- Assets/NervesOfDarkness/MaroonMeadows/Trees/MM_Tree_S.prefab
+- Assets/NervesOfDarkness/MaroonMeadows/Grask/MM_Grask_FernSmall.prefab
 Dependencies:
 - C:/Users/jn7jn/source/repos/NervesOfDarkness/NervesOfDarkness/assets/AssetBundle/common_assets

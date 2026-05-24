@@ -62,6 +62,9 @@
 				"rename": "Trees"
 			},
 			{
+				"rename": "Grask"
+			},
+			{
 				"assetBundle": "assets/AssetBundle/common_assets",
 				"path": "Assets/NervesOfDarkness/Effects/FF_Fog.prefab"
 			},
@@ -137,7 +140,7 @@
 			{
 				"assetBundle": "assets/AssetBundle/maroon_meadows",
 				"rename": "StartTree1",
-				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_L.prefab",
+				"path": "Assets/NervesOfDarkness/MaroonMeadows/Trees/MM_Tree_L.prefab",
 				"position": {
 					"x": -39.76668,
 					"y": -25.2536,
@@ -152,7 +155,7 @@
 			{
 				"assetBundle": "assets/AssetBundle/maroon_meadows",
 				"rename": "StartTree2",
-				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_S.prefab",
+				"path": "Assets/NervesOfDarkness/MaroonMeadows/Trees/MM_Tree_S.prefab",
 				"position": {
 					"x": -37.35307,
 					"y": -28.84198,
@@ -167,7 +170,7 @@
 			{
 				"assetBundle": "assets/AssetBundle/maroon_meadows",
 				"rename": "StartTree3",
-				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_L.prefab",
+				"path": "Assets/NervesOfDarkness/MaroonMeadows/Trees/MM_Tree_L.prefab",
 				"position": {
 					"x": -32.80227,
 					"y": -48.72031,
@@ -182,7 +185,7 @@
 			{
 				"assetBundle": "assets/AssetBundle/maroon_meadows",
 				"rename": "StartTree4",
-				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_L.prefab",
+				"path": "Assets/NervesOfDarkness/MaroonMeadows/Trees/MM_Tree_L.prefab",
 				"position": {
 					"x": -46.52971,
 					"y": -64.43575,
@@ -197,7 +200,7 @@
 			{
 				"assetBundle": "assets/AssetBundle/maroon_meadows",
 				"rename": "StartTree6",
-				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_M.prefab",
+				"path": "Assets/NervesOfDarkness/MaroonMeadows/Trees/MM_Tree_M.prefab",
 				"position": {
 					"x": -67.98891,
 					"y": -62.39689,
@@ -212,7 +215,7 @@
 			{
 				"rename": "StartTree7",
 				"assetBundle": "assets/AssetBundle/maroon_meadows",
-				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_M.prefab",
+				"path": "Assets/NervesOfDarkness/MaroonMeadows/Trees/MM_Tree_M.prefab",
 				"position": {
 					"x": -71.91595,
 					"y": -46.49911,
@@ -227,7 +230,7 @@
 			{
 				"assetBundle": "assets/AssetBundle/maroon_meadows",
 				"rename": "StartTree8",
-				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_S.prefab",
+				"path": "Assets/NervesOfDarkness/MaroonMeadows/Trees/MM_Tree_S.prefab",
 				"position": {
 					"x": -64.6679,
 					"y": -22.27571,
@@ -242,7 +245,7 @@
 			{
 				"assetBundle": "assets/AssetBundle/maroon_meadows",
 				"rename": "StartTree9",
-				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_L.prefab",
+				"path": "Assets/NervesOfDarkness/MaroonMeadows/Trees/MM_Tree_L.prefab",
 				"position": {
 					"x": -57.24339,
 					"y": -17.79982,
@@ -256,7 +259,7 @@
 			},
 			{
 				"assetBundle": "assets/AssetBundle/maroon_meadows",
-				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_S.prefab",
+				"path": "Assets/NervesOfDarkness/MaroonMeadows/Trees/MM_Tree_S.prefab",
 				"rename": "StartTree11",
 				"position": {
 					"x": -45.27578,
@@ -271,7 +274,7 @@
 			},
 			{
 				"assetBundle": "assets/AssetBundle/maroon_meadows",
-				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_M.prefab",
+				"path": "Assets/NervesOfDarkness/MaroonMeadows/Trees/MM_Tree_M.prefab",
 				"rename": "StartTree12",
 				"position": {
 					"x": -48.69958,
@@ -286,7 +289,7 @@
 			},
 			{
 				"assetBundle": "assets/AssetBundle/maroon_meadows",
-				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_S.prefab",
+				"path": "Assets/NervesOfDarkness/MaroonMeadows/Trees/MM_Tree_S.prefab",
 				"rename": "StartTree13",
 				"position": {
 					"x": -57.10808,
@@ -301,7 +304,7 @@
 			},
 			{
 				"assetBundle": "assets/AssetBundle/maroon_meadows",
-				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_L.prefab",
+				"path": "Assets/NervesOfDarkness/MaroonMeadows/Trees/MM_Tree_L.prefab",
 				"rename": "StartTree14",
 				"position": {
 					"x": -55.9806,
@@ -316,7 +319,7 @@
 			},
 			{
 				"assetBundle": "assets/AssetBundle/maroon_meadows",
-				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_S.prefab",
+				"path": "Assets/NervesOfDarkness/MaroonMeadows/Trees/MM_Tree_S.prefab",
 				"rename": "StartTree15",
 				"position": {
 					"x": -73.39529,
@@ -331,7 +334,7 @@
 			},
 			{
 				"assetBundle": "assets/AssetBundle/maroon_meadows",
-				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_S.prefab",
+				"path": "Assets/NervesOfDarkness/MaroonMeadows/Trees/MM_Tree_S.prefab",
 				"rename": "StartTree16",
 				"position": {
 					"x": -47.15722,
@@ -346,7 +349,7 @@
 			},
 			{
 				"assetBundle": "assets/AssetBundle/maroon_meadows",
-				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_L.prefab",
+				"path": "Assets/NervesOfDarkness/MaroonMeadows/Trees/MM_Tree_L.prefab",
 				"rename": "StartTree17",
 				"position": {
 					"x": -42.63791,
@@ -361,7 +364,7 @@
 			},
 			{
 				"assetBundle": "assets/AssetBundle/maroon_meadows",
-				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_S.prefab",
+				"path": "Assets/NervesOfDarkness/MaroonMeadows/Trees/MM_Tree_S.prefab",
 				"rename": "StartTree18",
 				"position": {
 					"x": -51.72267,
@@ -406,7 +409,7 @@
 		"scatter": [
 			{
 				"assetBundle": "assets/AssetBundle/maroon_meadows",
-				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_S.prefab",
+				"path": "Assets/NervesOfDarkness/MaroonMeadows/Trees/MM_Tree_S.prefab",
 				"parentPath": "Sector/Trees",
 				"count": 300,
 				"keepLoaded": true,
@@ -416,7 +419,7 @@
 			},
 			{
 				"assetBundle": "assets/AssetBundle/maroon_meadows",
-				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_M.prefab",
+				"path": "Assets/NervesOfDarkness/MaroonMeadows/Trees/MM_Tree_M.prefab",
 				"parentPath": "Sector/Trees",
 				"count": 200,
 				"keepLoaded": true,
@@ -426,7 +429,7 @@
 			},
 			{
 				"assetBundle": "assets/AssetBundle/maroon_meadows",
-				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_L.prefab",
+				"path": "Assets/NervesOfDarkness/MaroonMeadows/Trees/MM_Tree_L.prefab",
 				"parentPath": "Sector/Trees",
 				"count": 100,
 				"keepLoaded": true,
@@ -436,7 +439,7 @@
 			},
 			{
 				"assetBundle": "assets/AssetBundle/maroon_meadows",
-				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_S.prefab",
+				"path": "Assets/NervesOfDarkness/MaroonMeadows/Trees/MM_Tree_S.prefab",
 				"parentPath": "Sector/Trees",
 				"count": 300,
 				"keepLoaded": true,
@@ -446,7 +449,7 @@
 			},
 			{
 				"assetBundle": "assets/AssetBundle/maroon_meadows",
-				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_M.prefab",
+				"path": "Assets/NervesOfDarkness/MaroonMeadows/Trees/MM_Tree_M.prefab",
 				"parentPath": "Sector/Trees",
 				"count": 200,
 				"keepLoaded": true,
@@ -456,10 +459,100 @@
 			},
 			{
 				"assetBundle": "assets/AssetBundle/maroon_meadows",
-				"path": "Assets/NervesOfDarkness/MM_Tree/MM_Tree_L.prefab",
+				"path": "Assets/NervesOfDarkness/MaroonMeadows/Trees/MM_Tree_L.prefab",
 				"parentPath": "Sector/Trees",
 				"count": 100,
 				"keepLoaded": true,
+				"minHeight": 200,
+				"maxHeight": 206,
+				"seed": 1
+			},
+			{
+				"assetBundle": "assets/AssetBundle/maroon_meadows",
+				"path": "Assets/NervesOfDarkness/MaroonMeadows/Grask/MM_Grask_FernSmall.prefab",
+				"parentPath": "Sector/Grask",
+				"count": 200,
+				"minHeight": 200,
+				"maxHeight": 206,
+				"seed": 1
+			},
+			{
+				"assetBundle": "assets/AssetBundle/maroon_meadows",
+				"path": "Assets/NervesOfDarkness/MaroonMeadows/Grask/MM_Grask_Short1.prefab",
+				"parentPath": "Sector/Grask",
+				"count": 2000,
+				"minHeight": 181,
+				"maxHeight": 185,
+				"seed": 1
+			},
+			{
+				"assetBundle": "assets/AssetBundle/maroon_meadows",
+				"path": "Assets/NervesOfDarkness/MaroonMeadows/Grask/MM_Grask_Short2.prefab",
+				"parentPath": "Sector/Grask",
+				"count": 2000,
+				"minHeight": 181,
+				"maxHeight": 185,
+				"seed": 1
+			},
+			{
+				"assetBundle": "assets/AssetBundle/maroon_meadows",
+				"path": "Assets/NervesOfDarkness/MaroonMeadows/Grask/MM_Grask_ShortOrchid.prefab",
+				"parentPath": "Sector/Grask",
+				"count": 2000,
+				"minHeight": 181,
+				"maxHeight": 185,
+				"seed": 1
+			},
+			{
+				"assetBundle": "assets/AssetBundle/maroon_meadows",
+				"path": "Assets/NervesOfDarkness/MaroonMeadows/Grask/MM_Grask_WhiteFlower.prefab",
+				"parentPath": "Sector/Grask",
+				"count": 2000,
+				"minHeight": 181,
+				"maxHeight": 185,
+				"seed": 1
+			},
+			{
+				"assetBundle": "assets/AssetBundle/maroon_meadows",
+				"path": "Assets/NervesOfDarkness/MaroonMeadows/Grask/MM_Grask_Short1.prefab",
+				"parentPath": "Sector/Grask",
+				"count": 2000,
+				"minHeight": 200,
+				"maxHeight": 206,
+				"seed": 1
+			},
+			{
+				"assetBundle": "assets/AssetBundle/maroon_meadows",
+				"path": "Assets/NervesOfDarkness/MaroonMeadows/Grask/MM_Grask_Short2.prefab",
+				"parentPath": "Sector/Grask",
+				"count": 2000,
+				"minHeight": 200,
+				"maxHeight": 206,
+				"seed": 1
+			},
+			{
+				"assetBundle": "assets/AssetBundle/maroon_meadows",
+				"path": "Assets/NervesOfDarkness/MaroonMeadows/Grask/MM_Grask_ShortOrchid.prefab",
+				"parentPath": "Sector/Grask",
+				"count": 2000,
+				"minHeight": 200,
+				"maxHeight": 206,
+				"seed": 1
+			},
+			{
+				"assetBundle": "assets/AssetBundle/maroon_meadows",
+				"path": "Assets/NervesOfDarkness/MaroonMeadows/Grask/MM_Grask_WhiteFlower.prefab",
+				"parentPath": "Sector/Grask",
+				"count": 2000,
+				"minHeight": 200,
+				"maxHeight": 206,
+				"seed": 1
+			},
+			{
+				"assetBundle": "assets/AssetBundle/maroon_meadows",
+				"path": "Assets/NervesOfDarkness/MaroonMeadows/Grask/MM_Grask_WhiteFlowerShort.prefab",
+				"parentPath": "Sector/Grask",
+				"count": 200,
 				"minHeight": 200,
 				"maxHeight": 206,
 				"seed": 1

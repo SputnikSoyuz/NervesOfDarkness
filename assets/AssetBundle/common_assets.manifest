@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 4101725176
+CRC: 3920920850
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: a22272a173f3f3a33d133ec2ca0e3e75
+    Hash: 70b1da3cd3d2c8dab0fc4655aff5b4eb
   TypeTreeHash:
     serializedVersion: 2
-    Hash: f02b12c964787eeb130042b304613f9d
+    Hash: 5333dcbbc7ce103e5d4af21cfdec8627
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -27,14 +27,26 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 64
   Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
 - Class: 82
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
   Script: {instanceID: 0}
 - Class: 108
   Script: {instanceID: 0}
 - Class: 114
+  Script: {fileID: 1666131767, guid: a42d73c7ab0e4a545b300b76d69ed5c9, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 3e2cd530bcd6ab93471c4405ca1c5b6a, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: b3891590690609c69465a648b6c178e6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fbb2498122f7e23a2e87544333cb528f, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: b16c2c028878adfb8ab327ff50dec23b, type: 3}
 - Class: 114
@@ -43,6 +55,8 @@ ClassTypes:
   Script: {fileID: -996270953, guid: a42d73c7ab0e4a545b300b76d69ed5c9, type: 3}
 - Class: 114
   Script: {fileID: -1204684422, guid: a42d73c7ab0e4a545b300b76d69ed5c9, type: 3}
+- Class: 114
+  Script: {fileID: 1529851509, guid: a42d73c7ab0e4a545b300b76d69ed5c9, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 5b895e78b496f0b8d3aa4cd1fbe3ef9e, type: 3}
 - Class: 114
@@ -100,6 +114,7 @@ Assets:
 - Assets/Mesh/COL_Lantern_Hanging_Extension_L1.asset
 - Assets/Texture2D/CUSTOM/reinforced-metal_normal-ogl.png
 - Assets/GAMERIP/Mesh/GeodesicSphere12k_sphereUV.asset
+- Assets/NervesOfDarkness/Structures/TheBox2.prefab
 - Assets/GAMERIP/Texture2D/Structure_HEA_VillagePlanks_d.png
 - Assets/Texture2D/CUSTOM/Copper-scuffed_basecolor-boosted.png
 - Assets/Texture2D/CUSTOM/scratched-metal_normal-ogl.png

@@ -65,6 +65,7 @@ namespace NervesOfDarkness
         {
             if (system == "SputnikSoyuz.SalvagedStardust")
             {
+                //Tree Stuff
                 int[] badTreeIndexes = { 0, 46, 91, 92, 95, 101, 102, 108, 119, 154, 178, 184, 185, 264, 289, 312, 321, 346, 352, 353, 372, 376, 397, 410, 472, 507, 552, 562, 567, 589, 596, 612, 624, 658, 668, 718, 722, 727, 728, 766, 767, 784, 786, 831, 843, 881, 873, 875, 895, 905, 919, 932, 965, 978, 981, 982, 996, 1001, 1016, 1037, 1039, 1059, 1073, 1074, 1084, 1090, 1109, 1119, 1147, 1181 };
                 parent = SearchUtilities.Find("MaroonMeadows_Body/Sector/Trees").transform;
                 for (int i = 0; i < trees.Length; i++)
