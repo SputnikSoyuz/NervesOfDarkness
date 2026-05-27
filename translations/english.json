@@ -28,7 +28,7 @@
 		// dialogue/SolarSystem/Hornfels/Hornfels_NEW.xml
 		"$NoD_Hornfels_Intro_Default_1": "Glad you could make it, Hatchling! I figured since you were taking your first flight today, I could show you one of my latest discoveries!",
 		"$NoD_Hornfels_Intro_Default_2": "A massive star at the core of our galaxy has gone supernova, and collapsed into one of the most massive black holes us Hearthians have ever seen.",
-		"$NoD_Hornfels_Intro_Default_3": "Go on, take a look! You might even catch it on your Signalscope!",
+		"$NoD_Hornfels_Intro_Default_3": "Go on, <color=orange>take a look</color> You might even catch it on your Signalscope!",
 
 		"$NoD_Hornfels_Intro_Telescope_1": "That black hole's quite the spectacle, isn't it? If only we could study it up close.",
 		"$NoD_Hornfels_Intro_Telescope_2": "I'm impressed that it's emitting a signal strong enough to be picked up on our signalscopes, too. It's emitting some serious radiation.",
