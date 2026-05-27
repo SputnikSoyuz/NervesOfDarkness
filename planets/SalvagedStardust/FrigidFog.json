@@ -92,6 +92,24 @@
 			},
 			{
 				"assetBundle": "assets/AssetBundle/common_assets",
+				"path": "Assets/NervesOfDarkness/Recordings/NoD_Recorder_FrigidFogCampsite.prefab",
+				"position": {
+					"x": 1.3588,
+					"y": -0.1798,
+					"z": 174.8643
+				},
+				"rotation": {
+					"x": 355.3528,
+					"y": 214.3771,
+					"z": 276.473
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/common_assets",
+				"path": "Assets/NervesOfDarkness/Effects/FF_Wind.prefab"
+			},
+			{
+				"assetBundle": "assets/AssetBundle/common_assets",
 				"path": "Assets/NervesOfDarkness/Structures/TheBox2.prefab",
 				"position": {
 					"x": -156.4326,
@@ -102,6 +120,48 @@
 					"x": 346.9577,
 					"y": 0.3727563,
 					"z": 58.87568
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/maroon_meadows",
+				"path": "Assets/NervesOfDarkness/HearthianStuff/Props_HEA_CampsiteLogAssets.prefab",
+				"position": {
+					"x": 3.7789,
+					"y": -0.7668,
+					"z": 174.8268
+				},
+				"rotation": {
+					"x": 86.90459,
+					"y": 271.592,
+					"z": 269.9999
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/maroon_meadows",
+				"path": "Assets/NervesOfDarkness/HearthianStuff/Props_HEA_CampsiteLogAssets.prefab",
+				"position": {
+					"x": -2.0192,
+					"y": -2.6897,
+					"z": 174.8223
+				},
+				"rotation": {
+					"x": 316.1675,
+					"y": 268.4078,
+					"z": 270
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/maroon_meadows",
+				"path": "Assets/NervesOfDarkness/HearthianStuff/Props_HEA_CampsiteLogAssets.prefab",
+				"position": {
+					"x": -2.0146,
+					"y": 3.9443,
+					"z": 174.8175
+				},
+				"rotation": {
+					"x": 343.8281,
+					"y": 89.6355,
+					"z": 79.9364
 				}
 			}
 		]

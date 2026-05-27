@@ -572,6 +572,15 @@
 				"sourceRadius": 0.25,
 				"identificationRadius": 10
 			}
+		],
+		"singularities": [
+			{
+				"parentPath": "Sector/AnomalyLabTest/Props/NoD_WhiteHoleDevice/WHSocket",
+				"isRelativeToParent": true,
+				"type": "whiteHole",
+				"horizonRadius": 0.25,
+				"distortRadius": 0.3
+			}
 		]
 	},
 	"MapMarker": {

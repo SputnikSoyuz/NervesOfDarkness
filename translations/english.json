@@ -3,60 +3,60 @@
 	"DialogueDictionary": {
 		// SOLAR SYSTEM
 		// dialogue/SolarSystem/Slate/SlateRemote.xml
-		"$NoD_Slate_Intro_Remote_1": "Hatchling! Hornfels wants to talk to you about something they found.",
-		"$NoD_Slate_Intro_Remote_2": "They sounded pretty excited, you should probably get up there quick!",
+		"$NoD_Slate_Intro_Remote_1": "Oh, hey there, Hatchling. I was hoping you were around- Hornfels wants to talk to you about a recent discovery.",
+		"$NoD_Slate_Intro_Remote_2": "They sounded pretty excited, so you might want to hurry.",
 
 		"$NoD_Slate_Intro_Remote_List1_Choice1": "I'm on it, Slate!",
 		"$NoD_Slate_Intro_Remote_List1_Choice1_1": "Alright, let me know if it's just all that telescope time getting to their head!",
-		"$NoD_Slate_Intro_Remote_List1_Choice2": "I'm sick of you, Slate!",
-		"$NoD_Slate_Intro_Remote_List1_Choice2_1": "Hey! What did I do to you?",
+		"$NoD_Slate_Intro_Remote_List1_Choice2": "Would it kill you to be a bit more enthusiastic?",
+		"$NoD_Slate_Intro_Remote_List1_Choice2_1": "No need to be rude. I'm plenty enthusiastic. See how enthusiastic I'm being?",
 		"$NoD_Slate_Intro_Remote_List2_Choice1": "Nevermind.",
 
 		// dialogue/SolarSystem/Slate/SlateNEW.xml
 		"$NoD_Slate_Intro_List1_Choice1": "What did you want from me again?",
 		"$NoD_Slate_Intro_List1_Choice1_1": "Hornfels wants to talk to you, something about a distant supernova or something like that? Whatever it was, they seemed pretty excited.",
-		"$NoD_Slate_Intro_List1_Choice1_2": "Best check on them sooner rather than later. All the time they spend looking through that telescope, I wouldn't be surprised if it's finally getting to their head.",
+		"$NoD_Slate_Intro_List1_Choice1_2": "Better to check on them sooner rather than later. With all the time they spend staring through that telescope, I wouldn't be surprised if it's finally getting to their head.",
 
 		"$NoD_Slate_Intro_List1_Choice2": "I met with Hornfels, they showed me a new system with an incredibly massive black hole.",
 		"$NoD_Slate_Intro_List1_Choice2_1": "Yeah, Hornfels had their eye on that star because they were eager to see it go supernova.",
-		"$NoD_Slate_Intro_List1_Choice2_2": "A black hole more massive than previously thought possible...I'm sure Hornfels is blown away.",
+		"$NoD_Slate_Intro_List1_Choice2_2": "I'm not the most interested in astrophysics, but I know Hornfels must be absolutely ecstatic about it, eh?",
 
-		"$NoD_Slate_Intro_List1_Choice3": "I made it to a new star system!",
+		"$NoD_Slate_Intro_List1_Choice3": "I made it to the system Hornfels was observing!",
 		"$NoD_Slate_Intro_List1_Choice3_1": "Stars above, you have? How on Hearth did you manage to do it?",
-		"$NoD_Slate_Intro_List1_Choice3_2": "Best of luck on your travels!",
+		"$NoD_Slate_Intro_List1_Choice3_2": "...Uh, you can tell me later. I'm sure you've got lots to do out there.",
 
 		// dialogue/SolarSystem/Hornfels/Hornfels_NEW.xml
-		"$NoD_Hornfels_Intro_Default_1": "Glad you could made it, Hatchling! I figured since you were taking your first flight today, I could show you this newly-discovered anomaly!",
-		"$NoD_Hornfels_Intro_Default_2": "A massive star at the core of our galaxy has gone supernova, and collapsed into the most powerful black hole us Hearthians have ever seen.",
-		"$NoD_Hornfels_Intro_Default_3": "Go on, take a look! You might even catch a signal on your Signalscope!",
+		"$NoD_Hornfels_Intro_Default_1": "Glad you could make it, Hatchling! I figured since you were taking your first flight today, I could show you one of my latest discoveries!",
+		"$NoD_Hornfels_Intro_Default_2": "A massive star at the core of our galaxy has gone supernova, and collapsed into one of the most massive black holes us Hearthians have ever seen.",
+		"$NoD_Hornfels_Intro_Default_3": "Go on, take a look! You might even catch it on your Signalscope!",
 
-		"$NoD_Hornfels_Intro_Telescope_1": "That black hole's quite a spectacle, isn't it? If only we could study it up close.",
-		"$NoD_Hornfels_Intro_Telescope_2": "Looks like the telescope's picking up some sort of signal too. You might be able to scan it with your signalscope.",
-		"$NoD_Hornfels_Intro_Telescope_3": "Heh, don't worry hatchling, I'll make sure to keep a close eye on the black hole. There's plenty of phenomena a whole lot closer than it for you to explore!",
+		"$NoD_Hornfels_Intro_Telescope_1": "That black hole's quite the spectacle, isn't it? If only we could study it up close.",
+		"$NoD_Hornfels_Intro_Telescope_2": "I'm impressed that it's emitting a signal strong enough to be picked up on our signalscopes, too. It's emitting some serious radiation.",
+		"$NoD_Hornfels_Intro_Telescope_3": "...Oh, yeah. I probably should've prefaced this with, 'sorry Hatchling, this thing's a long ways away'. I don't think you'll be getting there anytime soon, but it's interesting to study, isn't it?",
 
-		"$NoD_Hornfels_Intro_List1_Choice1": "The frequency from the telescope led me to Hollow's Lantern.",
-		"$NoD_Hornfels_Intro_List1_Choice1_1": "Hollow's Lantern? I didn't even think there was anything on that molten rock!",
-		"$NoD_Hornfels_Intro_List1_Choice1_2": "Nah, it doesn't matter all that much. We'll take any new information we can find, right?",
+		"$NoD_Hornfels_Intro_List1_Choice1": "The frequency on my signalscope led me to Hollow's Lantern.",
+		"$NoD_Hornfels_Intro_List1_Choice1_1": "Hollow's Lantern? I didn't even think there was anything on that desolate rock!",
+		"$NoD_Hornfels_Intro_List1_Choice1_2": "Eh, locations, locations, it doesn't matter where you found it. We'll take any new information we can find, right?",
 		"$NoD_Hornfels_Intro_List1_Choice1_3": "What did the text say?",
 
-		"$NoD_Hornfels_Intro_List2_Choice1": "It told me that Black Hole Warp Cores break out and expand when exposed to heat, causing the weilder to warp",
-		"$NoD_Hornfels_Intro_List2_Choice1_1": "Extreme heat causes the Warp Core to shatter and the Black Hole inside to swell in size?",
-		"$NoD_Hornfels_Intro_List2_Choice1_2": "Wow, that sounds very interesting! I wouldn't suggest trying it yourself though.",
-		"$NoD_Hornfels_Intro_List2_Choice1_3": "You only live once after all, best not to throw that away testing millenia-old theories!",
+		"$NoD_Hornfels_Intro_List2_Choice1": "It told me that black hole warp cores, when exposed to heat, break, with their singularities expanding to the point that someone can pass through them.",
+		"$NoD_Hornfels_Intro_List2_Choice1_1": "Extreme heat causes the warp core to shatter and the singularity inside to swell in size?",
+		"$NoD_Hornfels_Intro_List2_Choice1_2": "Sounds pretty fascinating! I wouldn't suggest trying it out for yourself, though.",
+		"$NoD_Hornfels_Intro_List2_Choice1_3": "You only live once, after all- best not to throw that away by testing millenia-old theories!",
 
 		"$NoD_Hornfels_Intro_List1_Choice2": "I was able to make it to the Black Hole's system!",
-		"$NoD_Hornfels_Intro_List1_Choice2_1": "You have? Impossible! You're joking...right?",
+		"$NoD_Hornfels_Intro_List1_Choice2_1": "You have? Are you sure you're not just inhaling too many engine fumes from your ship?",
 
-		"$NoD_Hornfels_Intro_List3_Choice1": "Nope. I used a heat-exposed Nomai Warp Core to get there.",
-		"$NoD_Hornfels_Intro_List3_Choice1_1": "Of course! Extreme heat causes the Black Hole Warp Core to expand and warps all in its path. It all makes sense!",
-		"$NoD_Hornfels_Intro_List3_Choice1_2": "You are one lucky Hearthian! I wish I could go with you.",
+		"$NoD_Hornfels_Intro_List3_Choice1": "Nope. I used a heat-exposed warp core to get there.",
+		"$NoD_Hornfels_Intro_List3_Choice1_1": "Incredible! I'm surprised that you passed through a singularity in one piece.",
+		"$NoD_Hornfels_Intro_List3_Choice1_2": "I wish I could come along and see it with my own four eyes!",
 
-		"$NoD_Hornfels_Intro_List4_Choice1": "Hmmm.... Probably not the best idea.",
-		"$NoD_Hornfels_Intro_List4_Choice1_1": "How so? Is the black hole too dangerous?",
+		"$NoD_Hornfels_Intro_List4_Choice1": "That's probably not the best idea.",
+		"$NoD_Hornfels_Intro_List4_Choice1_1": "I already understand the risk, so what's the big holdup?",
 
-		"$NoD_Hornfels_Intro_List5_Choice1": "Because the universe is d- Nevermind.",
-		"$NoD_Hornfels_Intro_List5_Choice1_1": "The universe is dangerous? Indeed it is. Maybe it's better I admire it from afar.",
-		"$NoD_Hornfels_Intro_List5_Choice1_2": "I'd like to know more about what you find! Safe travels!",
+		"$NoD_Hornfels_Intro_List5_Choice1": "Because the universe is d... uh...",
+		"$NoD_Hornfels_Intro_List5_Choice1_1": "The universe is dangerous? No kidding.",
+		"$NoD_Hornfels_Intro_List5_Choice1_2": "I guess you're right, though. I'm the only 'me' around, and I'd hate to worry the others. Please stay safe out there, Hatchling, and do tell me what you find!",
 
 		// dialogue/SolarSystem/NomaiAnomaly/NOM_AnomalyVM.xml
 		"$NoD_NOM_Anomaly_1": "POKE: Annona- there has been something eating away at my mind since we started working with these warp cores. Do you think something interesting might happen if the warp core was exposed to extreme heat, such as molten lava?",
@@ -66,8 +66,8 @@
 		"$NoD_NOM_Anomaly_5": "POKE: I suppose that is a reasonable assessment. Perhaps one day, when we have the luxury of time to research side projects again, we could look into this phenomenon further.",
 		"$NoD_NOM_Anomaly_6": "ANNONA: An excellent mentality to have, my apprentice, though I suspect some of the other Nomai might be a little more... enthusiastic, to try it out. We must dispose of this recording.",
 		"$NoD_NOM_Anomaly_7": "POKE: I see. I will find a place to dispose of this, then.",
-		"$NoD_NOM_Anomaly_8": "ANNONA: I know how you operate, Poke… please don’t just throw it into the black hole.",
-		"$NoD_NOM_Anomaly_9": "POKE: Okay, I probably won’t.",
+		"$NoD_NOM_Anomaly_8": "ANNONA: I know how you operate, Poke... please don't just throw it into the black hole.",
+		"$NoD_NOM_Anomaly_9": "POKE: Okay, I probably won't.",
 		"$NoD_NOM_Anomaly_10": "ANNONA: Thank you. Let us continue with our work, then! We have much to do."
 
 		// NEW SYSTEM
@@ -76,22 +76,22 @@
 		// SOLAR SYSTEM
 		// shiplogs/TIMBER_HEARTH.xml
 		"$NoD_HORNFELS": "Hornfels's Discovery",
-		"$NoD_HORNFELS_R": "Slate seemed a bit worried about Hornfels and wants me to check in on them.",
-		"$NoD_HORNFELS_E1": "Hornfels went back upstairs to make observations with their telescope.",
-		"$NoD_HORNFELS_E2": "I saw a new system of planets orbiting a massive black hole when looking through the telescope.",
-		"$NoD_HORNFELS_E3": "Hornfels mentioned that there is a new signal coming from the telescope.",
-		"$NoD_HORNFELS_E4": "I learned a new frequency called \"Singularity Fluctuations\".",
+		"$NoD_HORNFELS_R": "Slate informed me that Hornfels had made an exciting new discovery.",
+		"$NoD_HORNFELS_E1": "Hornfels greeted me, and just like Slate said, wanted to show me something they had found.",
+		"$NoD_HORNFELS_E2": "I looked through the telescope and saw an entirely alien solar system surrounding a black hole.",
+		"$NoD_HORNFELS_E3": "Hornfels mentioned that the black hole is emitting a strange signal.",
+		"$NoD_HORNFELS_E4": "I discovered a new frequency on my signalscope that I called \"Singularity Fluctuations\".",
 
 		// shiplogs/VOLCANIC_MOON.xml
 		"$NoD_VOLCANO_ANOMALY": "Other Signal Source",
 		"$NoD_VOLCANO_ANOMALY_FOUND": "Nomai Computer Anomaly",
-		"$NoD_VOLCANO_ANOMALY_R": "A faraway signal of the \"Singularity Fluctuations\" can be heard elsewhere in the Solar System.",
+		"$NoD_VOLCANO_ANOMALY_R": "A source of the \"Singularity Fluctuations\" can be heard from within the Solar System.",
 		"$NoD_VOLCANO_ANOMALY_E1": "The signal led to a Nomai computer I've never seen before on Hollow's Lantern, although it feels like it shouldn't be there.",
-		"$NoD_VOLCANO_ANOMALY_TEXT_E": "A Nomai named Poke suggested a theory involving the exposure of black hole warp cores to heat, but was scrapped by Annona.",
+		"$NoD_VOLCANO_ANOMALY_TEXT_E": "A Nomai named Poke suggested a theory involving the exposure of black hole warp cores to heat, but testing it was discouraged by Annona.",
 
 		"$NoD_WARPCORE": "Warp Core Anomaly",
-		"$NoD_WARPCORE_R": "A Nomai named Poke suggested a theory involving the exposure of black hole warp cores to heat, but was scrapped by Annona.",
-		"$NoD_WARPCORE_E": "After waiting 10 seconds while standing in Hollow's Lanten, the exposed heat expands the black hole."
+		"$NoD_WARPCORE_R": "A Nomai named Poke suggested a theory involving the exposure of black hole warp cores to heat, but testing it was discouraged by Annona.",
+		"$NoD_WARPCORE_E": "After standing while holding a warp core for 10 seconds on the surface of Hollow's Lantern, the ambient heat caused the singularity within to expand."
 
 		// NEW SYSTEM
 	}

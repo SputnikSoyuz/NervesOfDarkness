@@ -12,7 +12,7 @@
 			<Page>$NoD_Hornfels_Intro_Default_2</Page>
 			<Page>$NoD_Hornfels_Intro_Default_3</Page>
 		</Dialogue>
-		<SetCondition>NoD_HornfelsIntro</SetCondition>
+		<SetPersistentCondition>NoD_HornfelsIntro</SetPersistentCondition>
 		<DialogueOptionsList>
 			<DialogueOption>
 				<RequiredLogCondition>NoD_VOLCANO_ANOMALY_TEXT_E</RequiredLogCondition>

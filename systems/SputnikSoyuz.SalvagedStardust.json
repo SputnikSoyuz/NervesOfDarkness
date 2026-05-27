@@ -3,7 +3,7 @@
     "loopDuration": 22,
     "farClipPlaneOverride": 90000,
     "canEnterViaWarpDrive": true,
-    "startHere": true,
+    "startHere": false,
     "respawnHere": true,
   "allowOutsideItems": false,
     "returnToSolarSystemWhenTooFar": true,

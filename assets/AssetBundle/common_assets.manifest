@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3920920850
+CRC: 4140997468
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 70b1da3cd3d2c8dab0fc4655aff5b4eb
+    Hash: d42c573855348bacda65dff29e51f200
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 5333dcbbc7ce103e5d4af21cfdec8627
+    Hash: cd050619e5cedea8bd6174a267d413c3
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -48,7 +48,13 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: fbb2498122f7e23a2e87544333cb528f, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 90ff71c1515f4875c251734b10f07a74, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dab2fbc1d63988697a57c20e75208116, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: b16c2c028878adfb8ab327ff50dec23b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0a5bc582e4f904dcec905aaf2f0c035a, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: ae101e74c1ac7ac7f3867d7e18597ede, type: 3}
 - Class: 114
@@ -56,7 +62,13 @@ ClassTypes:
 - Class: 114
   Script: {fileID: -1204684422, guid: a42d73c7ab0e4a545b300b76d69ed5c9, type: 3}
 - Class: 114
+  Script: {fileID: -1332094800, guid: a42d73c7ab0e4a545b300b76d69ed5c9, type: 3}
+- Class: 114
   Script: {fileID: 1529851509, guid: a42d73c7ab0e4a545b300b76d69ed5c9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c1e03d384261f6f301ef6513a478c3a8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8a3f0f389341c132f21af676b0f2d74c, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 5b895e78b496f0b8d3aa4cd1fbe3ef9e, type: 3}
 - Class: 114
@@ -101,20 +113,25 @@ Assets:
 - Assets/Texture2D/CUSTOM/scratched-metal_albedo.png
 - Assets/Texture2D/CUSTOM/reinforced-metal_ao.png
 - Assets/Scenes/RingWorld/Streamingmeshes_props/Prop_IP_Lantern_Hanging_Extension_L1.asset
+- Assets/NervesOfDarkness/Effects/FF_Wind.prefab
 - Assets/NervesOfDarkness/Effects/Maroon_Fog.prefab
 - Assets/NervesOfDarkness/HearthianStuff/Prefab_NoD_Campfire.prefab
 - Assets/GAMERIP/Material/Structure_HEA_VillagePlanks_mat.mat
 - Assets/Texture2D/CUSTOM/scratched-metal_ao.png
+- Assets/NervesOfDarkness/Kit/Props/NoD_WhiteHoleDevice.prefab
+- Assets/NervesOfDarkness/Kit/Interactables/NoD_SignalEmitter.prefab
 - Assets/GAMERIP/Texture2D/Structure_HEA_VillagePlanks_n.png
 - Assets/NervesOfDarkness/Kit/Interactables/NoD_MediaDisc_Item.prefab
+- Assets/NervesOfDarkness/Kit/Interactables/NoD_OxygenTank.prefab
 - Assets/Texture2D/CUSTOM/reinforced-metal_height.png
-- Assets/NervesOfDarkness/Effects/FF_Fog.prefab
 - Assets/Material/CUSTOM/NoD_ScratchedBlackMetal.mat
 - Assets/Material/CUSTOM/NoD_Metal.mat
 - Assets/Mesh/COL_Lantern_Hanging_Extension_L1.asset
 - Assets/Texture2D/CUSTOM/reinforced-metal_normal-ogl.png
+- Assets/NervesOfDarkness/Kit/Interactables/NoD_FuelTank.prefab
 - Assets/GAMERIP/Mesh/GeodesicSphere12k_sphereUV.asset
 - Assets/NervesOfDarkness/Structures/TheBox2.prefab
+- Assets/NervesOfDarkness/Recordings/NoD_Recorder_FrigidFogCampsite.prefab
 - Assets/GAMERIP/Texture2D/Structure_HEA_VillagePlanks_d.png
 - Assets/Texture2D/CUSTOM/Copper-scuffed_basecolor-boosted.png
 - Assets/Texture2D/CUSTOM/scratched-metal_normal-ogl.png
