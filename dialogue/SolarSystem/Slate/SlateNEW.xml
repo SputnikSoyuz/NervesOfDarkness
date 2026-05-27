@@ -4,16 +4,16 @@
         <Name>Scientist5</Name>
         <DialogueOptionsList>
             <DialogueOption>
-				<RequiredCondition>NoD_SlateTalkedTo</RequiredCondition>
                 <Text>$NoD_Slate_Intro_List1_Choice1</Text>
                 <DialogueTarget>1</DialogueTarget>
             </DialogueOption>
 			<DialogueOption>
-				<RequiredCondition>NoD_HornfelsIntro</RequiredCondition>
+				<RequiredLogCondition>NoD_HORNFELS_E2</RequiredLogCondition>
 				<Text>$NoD_Slate_Intro_List1_Choice2</Text>
 				<DialogueTarget>2</DialogueTarget>
 		</DialogueOption>
 			<DialogueOption>
+				<RequiredLogCondition>NoD_WARPCORE_E</RequiredLogCondition>
 				<Text>$NoD_Slate_Intro_List1_Choice3</Text>
 				<DialogueTarget>3</DialogueTarget>
 			</DialogueOption>

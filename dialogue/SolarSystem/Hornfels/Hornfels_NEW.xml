@@ -16,13 +16,11 @@
 		<DialogueOptionsList>
 			<DialogueOption>
 				<RequiredLogCondition>NoD_VOLCANO_ANOMALY_TEXT_E</RequiredLogCondition>
-				<!--TODO: Require Nomai Anomaly Shiplog Entry-->
 				<Text>$NoD_Hornfels_Intro_List1_Choice1</Text>
 				<DialogueTarget>NoD_Hornfels_VM_TEXT</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
 				<RequiredLogCondition>NoD_WARPCORE_E</RequiredLogCondition>
-				<!--TODO: Require Nomai Anomaly Shiplog Entry-->
 				<Text>$NoD_Hornfels_Intro_List1_Choice2</Text>
 				<DialogueTarget>NoD_Hornfels_WARP</DialogueTarget>
 			</DialogueOption>
@@ -42,12 +40,12 @@
 		</Dialogue>
 		<DialogueOptionsList>
 			<DialogueOption>
-				<!--TODO: Require Nomai Anomaly Shiplog Entry-->
+				<RequiredLogCondition>NoD_VOLCANO_ANOMALY_TEXT_E</RequiredLogCondition>
 				<Text>$NoD_Hornfels_Intro_List1_Choice1</Text>
 				<DialogueTarget>NoD_Hornfels_VM_TEXT</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
-				<!--TODO: Require Nomai Anomaly Shiplog Entry-->
+				<RequiredLogCondition>NoD_WARPCORE_E</RequiredLogCondition>
 				<Text>$NoD_Hornfels_Intro_List1_Choice2</Text>
 				<DialogueTarget>NoD_Hornfels_WARP</DialogueTarget>
 			</DialogueOption>
