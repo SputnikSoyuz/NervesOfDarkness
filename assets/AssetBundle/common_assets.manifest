@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 4140997468
+CRC: 812604667
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: d42c573855348bacda65dff29e51f200
+    Hash: 1ef692168537c8aebf6728be49c44faa
   TypeTreeHash:
     serializedVersion: 2
-    Hash: cd050619e5cedea8bd6174a267d413c3
+    Hash: d9ee6f771705b6490d13b3444f57cdc0
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -80,6 +80,8 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 2145ed3a866d4bd5a94d98ee05d0fa4f, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 579de08a13c8fe537960f31dfbfe8f34, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 3764d89beefddfb963f973f9a1e29bad, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 7aba6c2ce49844631cfc871c69533e25, type: 3}
@@ -91,6 +93,8 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 62389b8e30976189aff1020795052659, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 5b69738f164a5a2451d76a672bae5943, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8be1049f863d9d3c48975ef4f4e82059, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 117
@@ -116,11 +120,9 @@ Assets:
 - Assets/NervesOfDarkness/Effects/FF_Wind.prefab
 - Assets/NervesOfDarkness/Effects/Maroon_Fog.prefab
 - Assets/NervesOfDarkness/HearthianStuff/Prefab_NoD_Campfire.prefab
-- Assets/GAMERIP/Material/Structure_HEA_VillagePlanks_mat.mat
 - Assets/Texture2D/CUSTOM/scratched-metal_ao.png
 - Assets/NervesOfDarkness/Kit/Props/NoD_WhiteHoleDevice.prefab
 - Assets/NervesOfDarkness/Kit/Interactables/NoD_SignalEmitter.prefab
-- Assets/GAMERIP/Texture2D/Structure_HEA_VillagePlanks_n.png
 - Assets/NervesOfDarkness/Kit/Interactables/NoD_MediaDisc_Item.prefab
 - Assets/NervesOfDarkness/Kit/Interactables/NoD_OxygenTank.prefab
 - Assets/Texture2D/CUSTOM/reinforced-metal_height.png
@@ -132,7 +134,6 @@ Assets:
 - Assets/GAMERIP/Mesh/GeodesicSphere12k_sphereUV.asset
 - Assets/NervesOfDarkness/Structures/TheBox2.prefab
 - Assets/NervesOfDarkness/Recordings/NoD_Recorder_FrigidFogCampsite.prefab
-- Assets/GAMERIP/Texture2D/Structure_HEA_VillagePlanks_d.png
 - Assets/Texture2D/CUSTOM/Copper-scuffed_basecolor-boosted.png
 - Assets/Texture2D/CUSTOM/scratched-metal_normal-ogl.png
 Dependencies: []

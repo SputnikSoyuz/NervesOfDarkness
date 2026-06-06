@@ -270,5 +270,19 @@
 				}
 			}
 		]
+	},
+	"ShipLog": {
+		"mapMode": {
+			"revealedSprite": "assets/Texture/Shiplogs/FRIGIDFOG_UI.png",
+			"scale": 1.2,
+			"manualPosition": {
+				"x": 1000,
+				"y": 200
+			},
+			"manualNavigationPosition": {
+				"x": 4,
+				"y": 1
+			}
+		}
 	}
 }

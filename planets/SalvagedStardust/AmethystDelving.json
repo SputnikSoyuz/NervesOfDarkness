@@ -1,0 +1,78 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Amethyst Delving",
+	"starSystem": "SputnikSoyuz.SalvagedStardust",
+	"AmbientLights": [
+		{
+			"outerRadius": 400,
+			"tint": {
+				"r": 117,
+				"g": 72,
+				"b": 104
+			},
+			"intensity": 0.7
+		}
+	],
+	"Atmosphere": {
+		"size": 400,
+		"fogSize": 400,
+		"atmosphereTint": {
+			"r": 117,
+			"g": 72,
+			"b": 104,
+			"a": 128
+		},
+		"fogTint": {
+			"r": 117,
+			"g": 72,
+			"b": 104,
+			"a": 128
+		}
+	},
+	"Base": {
+		"surfaceGravity": 12,
+		"surfaceSize": 200
+	},
+	"HeightMap": {
+		"redTile": {
+			"textureTile": "assets/Texture/purplerock.jpg",
+			"normalTile": "assets/Texture/purplerock_n.jpg",
+			"size": 10
+		},
+		"tileBlendMap": "assets/Texture/dbm_r.png",
+		"heightMap": "assets/Texture/quantum_state1_h.png",
+		"textureMap": "assets/Texture/quantum_lod_1.png",
+		"minHeight": 170,
+		"maxHeight": 200
+	},
+	"MapMarker": {
+		"enabled": true
+	},
+	"Orbit": {
+		"semiMajorAxis": 15000,
+		"eccentricity": 0.15,
+		"inclination": 45,
+		"primaryBody": "Divine Devourer",
+		"trueAnomaly": -45,
+		"axialTilt": 17,
+		"tint": {
+			"r": 105,
+			"g": 0,
+			"b": 72
+		}
+	},
+	"ShipLog": {
+		"mapMode": {
+			"scale": 1.325,
+			"manualPosition": {
+				"x": 400,
+				"y": 0
+			},
+			"manualNavigationPosition": {
+				"x": 1,
+				"y": 0
+			}
+		}
+	},
+	"canShowOnTitle": false
+}

@@ -1,7 +1,5 @@
 ﻿using UnityEngine;
-using NewHorizons.Utility;
 using System.Collections.Generic;
-using Epic.OnlineServices.Presence;
 
 namespace NervesOfDarkness;
 
@@ -30,12 +28,6 @@ public class ToggleLightsTrigger : MonoBehaviour
             }
         }
 
-        //DEBUG
-        foreach (GameObject obj in objectsToDisable)
-        {
-            NervesOfDarkness.WriteLine("Object To Disable: " + obj.name + " Parent: " + obj.transform.parent.gameObject.name, OWML.Common.MessageType.Success);
-        }
-
         foreach (var obj in objectsToEnable)
         {
             if (obj == null)
@@ -43,7 +35,6 @@ public class ToggleLightsTrigger : MonoBehaviour
                 NervesOfDarkness.WriteLine("ERROR! Object to enable is null! Stopping loop!", OWML.Common.MessageType.Error);
                 break;
             }
-            NervesOfDarkness.WriteLine("Object To Enable: " + obj.name + " Parent: " + obj.transform.parent.gameObject.name, OWML.Common.MessageType.Success);
             obj.SetActive(false);
         }
     }
@@ -55,7 +46,6 @@ public class ToggleLightsTrigger : MonoBehaviour
         {
             foreach (GameObject obj in objectsToDisable)
             {
-                NervesOfDarkness.WriteLine("Object Set to FALSE: " + obj.name, OWML.Common.MessageType.Success);
                 obj.SetActive(false);
             }
             foreach (GameObject obj in objectsToEnable)
@@ -65,7 +55,6 @@ public class ToggleLightsTrigger : MonoBehaviour
                     NervesOfDarkness.WriteLine("ERROR! Object to enable is null! Stopping loop!", OWML.Common.MessageType.Error);
                     break;
                 }
-                NervesOfDarkness.WriteLine("Object Set to TRUE: " + obj.name, OWML.Common.MessageType.Success);
                 obj.SetActive(true);
             }
         }
@@ -78,7 +67,6 @@ public class ToggleLightsTrigger : MonoBehaviour
         {
             foreach (GameObject obj in objectsToDisable)
             {
-                NervesOfDarkness.WriteLine("Object Set to TRUE: " + obj.name, OWML.Common.MessageType.Success);
                 obj.SetActive(true);
             }
             foreach (GameObject obj in objectsToEnable)
@@ -88,7 +76,6 @@ public class ToggleLightsTrigger : MonoBehaviour
                     NervesOfDarkness.WriteLine("ERROR! Object to enable is null! Stopping loop!", OWML.Common.MessageType.Error);
                     break;
                 }
-                NervesOfDarkness.WriteLine("Object Set to FALSE: " + obj.name, OWML.Common.MessageType.Success);
                 obj.SetActive(false);
             }
         }

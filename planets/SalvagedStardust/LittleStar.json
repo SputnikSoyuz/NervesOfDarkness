@@ -56,5 +56,18 @@
 		},
 		"stellarDeathType": "none",
 		"lightRadius": 200000
+	},
+	"ShipLog": {
+		"mapMode": {
+			"scale": 1.3,
+			"manualPosition": {
+				"x": 0,
+				"y": 200
+			},
+			"manualNavigationPosition": {
+				"x": 0,
+				"y": 1
+			}
+		}
 	}
 }

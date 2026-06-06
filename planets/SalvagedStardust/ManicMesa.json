@@ -59,15 +59,29 @@
 	},
 	"HeightMap": {
 		"redTile": {
-			"textureTile": "assets/Texture/sand.png",
-			"normalTile": "assets/Texture/sand_n.png",
-			"smoothnessTile": "assets/Texture/sand_h.png",
-			"size": 20
+			"textureTile": "assets/Texture/softsand.jpg",
+			"normalTile": "assets/Texture/softsand_n.jpg",
+			"size": 10
 		},
 		"textureMap": "assets/Texture/crimsonmoon_lod.png",
 		"heightMap": "assets/Texture/desert_h.png",
 		"tileBlendMap": "assets/Texture/dbm_r.png",
 		"minHeight": 110,
-		"maxHeight": 120
+		"maxHeight": 120,
+		"smoothness": 0.4
+	},
+	"ShipLog": {
+		"mapMode": {
+			"revealedSprite": "assets/Texture/Shiplogs/MESA_UI.png",
+			"scale": 1.325,
+			"manualPosition": {
+				"x": 250,
+				"y": 200
+			},
+			"manualNavigationPosition": {
+				"x": 1,
+				"y": 1
+			}
+		}
 	}
 }

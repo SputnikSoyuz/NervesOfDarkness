@@ -145,15 +145,6 @@
 					"z": 85.70592
 				}
 			}
-		],
-		"singularities": [
-			{
-				"parentPath": "Sector/BB_Island_AnomalyLab/Structure/AnomalyLabTest/Props/NoD_WhiteHoleDevice/WHSocket",
-				"isRelativeToParent": true,
-				"type": "whiteHole",
-				"horizonRadius": 0.25,
-				"distortRadius": 0.3
-			}
 		]
 	},
 	"Volumes": {
@@ -275,5 +266,19 @@
 				"isDefault": false
 			}
 		]
+	},
+	"ShipLog": {
+		"mapMode": {
+			"revealedSprite": "assets/Texture/Shiplogs/BEHEMOTH_UI.png",
+			"scale": 2,
+			"manualPosition": {
+				"x": 1000,
+				"y": 0
+			},
+			"manualNavigationPosition": {
+				"x": 3,
+				"y": 0
+			}
+		}
 	}
 }

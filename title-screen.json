@@ -11,13 +11,17 @@
             "MenuPlanet": {
                 "details": [
                     {
-                        "assetBundle": "assets/AssetBundle/nebula",
-                        "path": "Assets/NervesOfDarkness/Effects/NewSystem.prefab",
-                        "scale": 0.7
+                        "assetBundle": "assets/AssetBundle/title",
+                        "path": "Assets/NervesOfDarkness/HearthianStuff/NoD_Title.prefab"
                     }
                 ],
-                "destroyMenuPlanet": true,
-                "rotationSpeed": 0
+                "destroyMenuPlanet": false,
+                "removeChildren": [
+                    "PlanetRoot/Trees",
+                    "PlanetRoot/Traveller_HEA_Riebeck (1)",
+                    "PlanetRoot/Tree_TH_Stump",
+                    "PlanetRoot/Props"
+                ]
             }
         }
     ]

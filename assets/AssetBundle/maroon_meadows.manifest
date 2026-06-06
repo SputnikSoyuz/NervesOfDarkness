@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2131775192
+CRC: 2286771613
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 39238a5bcf54e3fe59fd5f00abd146f5
+    Hash: 7037018886d3fd6c16f3b06efe674418
   TypeTreeHash:
     serializedVersion: 2
     Hash: 02468180bb06d2d3f990e0dbf82869cb
@@ -60,5 +60,4 @@ Assets:
 - Assets/NervesOfDarkness/MaroonMeadows/Trees/MM_Tree_M.prefab
 - Assets/NervesOfDarkness/MaroonMeadows/Trees/MM_Tree_S.prefab
 - Assets/NervesOfDarkness/MaroonMeadows/Grask/MM_Grask_FernSmall.prefab
-Dependencies:
-- C:/Users/jn7jn/source/repos/NervesOfDarkness/NervesOfDarkness/assets/AssetBundle/common_assets
+Dependencies: []

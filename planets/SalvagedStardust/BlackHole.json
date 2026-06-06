@@ -48,7 +48,15 @@
 	"ShipLog": {
 		"mapMode": {
 			"revealedSprite": "assets/Texture/Shiplogs/BLACKHOLE_UI.png",
-			"scale": 4
+			"scale": 5,
+			"manualPosition": {
+				"x": 0,
+				"y": 0
+			},
+			"manualNavigationPosition": {
+				"x": 0,
+				"y": 0
+			}
 		}
 	}
 }

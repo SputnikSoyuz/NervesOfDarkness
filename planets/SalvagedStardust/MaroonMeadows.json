@@ -65,10 +65,6 @@
 				"rename": "Grask"
 			},
 			{
-				"assetBundle": "assets/AssetBundle/common_assets",
-				"path": "Assets/NervesOfDarkness/Effects/FF_Fog.prefab"
-			},
-			{
 				"path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Interactibles_RadioTower/Hornfels'GrovePivot/Prefab_HEA_Campfire",
 				"position": {
 					"x": -56.084,
@@ -560,7 +556,7 @@
 		],
 		"signals": [
 			{
-				"parentPath": "Sector/Traveller_HEA_Gabbro/Gabbro_FocalPoint",
+				"parentPath": "Sector/Traveller_HEA_Gabbro/Traveller_HEA_Gabbro/Gabbro_FocalPoint",
 				"isRelativeToParent": true,
 				"audio": "OW_TravelerTheme_flute",
 				"frequency": "Traveler",
@@ -571,15 +567,6 @@
 				"onlyAudibleToScope": false,
 				"sourceRadius": 0.25,
 				"identificationRadius": 10
-			}
-		],
-		"singularities": [
-			{
-				"parentPath": "Sector/AnomalyLabTest/Props/NoD_WhiteHoleDevice/WHSocket",
-				"isRelativeToParent": true,
-				"type": "whiteHole",
-				"horizonRadius": 0.25,
-				"distortRadius": 0.3
 			}
 		]
 	},
@@ -663,7 +650,21 @@
 				},
 				"isDefault": true
 			}
-		] 
+		]
+	},
+	"ShipLog": {
+		"mapMode": {
+			"revealedSprite": "assets/Texture/Shiplogs/MAROON_UI.png",
+			"scale": 1.8,
+			"manualPosition": {
+				"x": 700,
+				"y": 0
+			},
+			"manualNavigationPosition": {
+				"x": 2,
+				"y": 0
+			}
+		}
 	},
 	"canShowOnTitle": false
 }

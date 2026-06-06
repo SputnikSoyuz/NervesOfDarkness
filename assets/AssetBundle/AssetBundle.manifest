@@ -1,27 +1,30 @@
 ManifestFileVersion: 0
-CRC: 435993347
+CRC: 2022712248
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: maroon_meadows
-      Dependencies:
-        Dependency_0: common_assets
-    Info_1:
-      Name: structure
-      Dependencies:
-        Dependency_0: common_assets
-    Info_2:
       Name: nebula
       Dependencies:
         Dependency_0: common_assets
-    Info_3:
-      Name: water
-      Dependencies: {}
-    Info_4:
-      Name: blowing_behemoth
-      Dependencies:
-        Dependency_0: structure
-        Dependency_1: common_assets
-    Info_5:
+    Info_1:
       Name: common_assets
       Dependencies: {}
+    Info_2:
+      Name: maroon_meadows
+      Dependencies: {}
+    Info_3:
+      Name: blowing_behemoth
+      Dependencies:
+        Dependency_0: common_assets
+        Dependency_1: structure
+    Info_4:
+      Name: water
+      Dependencies: {}
+    Info_5:
+      Name: structure
+      Dependencies:
+        Dependency_0: common_assets
+    Info_6:
+      Name: title
+      Dependencies:
+        Dependency_0: maroon_meadows

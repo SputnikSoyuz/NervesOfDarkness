@@ -3,7 +3,7 @@
 	"DialogueDictionary": {
 		// SOLAR SYSTEM
 		// dialogue/SolarSystem/Slate/SlateRemote.xml
-		"$NoD_Slate_Intro_Remote_1": "Oh, hey there, Hatchling. I was hoping you were around- Hornfels wants to talk to you about a recent discovery.",
+		"$NoD_Slate_Intro_Remote_1": "Oh, hey there, Hatchling. I was hoping you were around. Hornfels wants to talk to you about a recent discovery.",
 		"$NoD_Slate_Intro_Remote_2": "They sounded pretty excited, so you might want to hurry.",
 
 		"$NoD_Slate_Intro_Remote_List1_Choice1": "I'm on it, Slate!",
@@ -42,7 +42,7 @@
 		"$NoD_Hornfels_Intro_List2_Choice1": "It told me that black hole warp cores, when exposed to heat, break, with their singularities expanding to the point that someone can pass through them.",
 		"$NoD_Hornfels_Intro_List2_Choice1_1": "Extreme heat causes the warp core to shatter and the singularity inside to swell in size?",
 		"$NoD_Hornfels_Intro_List2_Choice1_2": "Sounds pretty fascinating! I wouldn't suggest trying it out for yourself, though.",
-		"$NoD_Hornfels_Intro_List2_Choice1_3": "You only live once, after all- best not to throw that away by testing millenia-old theories!",
+		"$NoD_Hornfels_Intro_List2_Choice1_3": "You only live once, after all. Best not to throw that away by testing millenia-old theories!",
 
 		"$NoD_Hornfels_Intro_List1_Choice2": "I was able to make it to the Black Hole's system!",
 		"$NoD_Hornfels_Intro_List1_Choice2_1": "You have? Are you sure you're not just inhaling too many engine fumes from your ship?",
@@ -59,7 +59,7 @@
 		"$NoD_Hornfels_Intro_List5_Choice1_2": "I guess you're right, though. I'm the only 'me' around, and I'd hate to worry the others. Please stay safe out there, Hatchling, and do tell me what you find!",
 
 		// dialogue/SolarSystem/NomaiAnomaly/NOM_AnomalyVM.xml
-		"$NoD_NOM_Anomaly_1": "POKE: Annona- there has been something eating away at my mind since we started working with these warp cores. Do you think something interesting might happen if the warp core was exposed to extreme heat, such as molten lava?",
+		"$NoD_NOM_Anomaly_1": "POKE: Annona, there has been something eating away at my mind since we started working with these warp cores. Do you think something interesting might happen if the warp core was exposed to extreme heat, such as molten lava?",
 		"$NoD_NOM_Anomaly_2": "ANNONA: Well... that is certainly not an advisable course of action, but from what we've seen in the process of the warp cores' development, I suspect it would result in a rapid expansion of the singularity contained within.",
 		"$NoD_NOM_Anomaly_3": "POKE: Truly curious! Do you think it would retain its properties of instantaneous transportation, even at this size?",
 		"$NoD_NOM_Anomaly_4": "ANNONA: I suspect as much, yes, but as the destination is unpredictable, it is, once more, inadvisable.",
