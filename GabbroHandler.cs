@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using OWML.Common;
+using NewHorizons.Utility;
 
 namespace NervesOfDarkness;
 
@@ -9,14 +10,17 @@ public class GabbroHandler : MonoBehaviour
     private GameObject gabbro;
     [SerializeField]
     private GameObject noGabbro;
+    private GameObject gabbroShip;
 
     public void Start()
 	{
+        gabbroShip = SearchUtilities.Find("MaroonMeadows_Body/Sector/GabbroShip"); //Find and Get Gabbro's Ship
         if (PlayerData.GetPersistentCondition("NoD_LOOP_2") == true) //Only runs if the player spends 2 loops in the new system.
         {
             NervesOfDarkness.WriteLine("NoD: Loop 3+", MessageType.Success);
             gabbro.SetActive(true); //Enable Gabbro
             noGabbro.SetActive(false); //Disable Missing Gabbro GameObject
+            gabbroShip.SetActive(true); //Enable Gabbro's Ship
         }
         else
         {
@@ -33,6 +37,7 @@ public class GabbroHandler : MonoBehaviour
             }
             gabbro.SetActive(false); //Disable Gabbro
             noGabbro.SetActive(true); //Enable Missing Gabbro GameObject
+            gabbroShip.SetActive(false); //Disable Gabbro's Ship
         }
     }
 

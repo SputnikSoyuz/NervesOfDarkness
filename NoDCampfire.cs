@@ -298,6 +298,7 @@ public class NoDCampfire : MonoBehaviour
     {
         if (_state == State.LIT)
         {
+            StopAllCoroutines();
             StartCoroutine(Extinguish(false));
         }
         else
@@ -331,6 +332,7 @@ public class NoDCampfire : MonoBehaviour
 
         if (this.GetAttachedOWRigidbody().name == "FrigidFog_Body" && GetState() == State.LIT && !_windBlew)
         {
+            StopAllCoroutines();
             StartCoroutine(Extinguish(true));
         }
     }

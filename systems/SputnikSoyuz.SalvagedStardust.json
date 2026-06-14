@@ -8,14 +8,14 @@
   "allowOutsideItems": false,
     "returnToSolarSystemWhenTooFar": true,
     "freeMapAngle": true,
-  "Skybox": {
-    "frontPath": "assets/Texture/Skybox/front.png",
-    "backPath": "assets/Texture/Skybox/back.png",
-    "leftPath": "assets/Texture/Skybox/left.png",
-    "rightPath": "assets/Texture/Skybox/right.png",
-    "bottomPath": "assets/Texture/Skybox/bottom.png",
-    "topPath": "assets/Texture/Skybox/top.png"
-  },
+    "Skybox": {
+        "frontPath": "assets/Texture/Skybox/front.png",
+        "backPath": "assets/Texture/Skybox/back.png",
+        "leftPath": "assets/Texture/Skybox/left.png",
+        "rightPath": "assets/Texture/Skybox/right.png",
+        "bottomPath": "assets/Texture/Skybox/bottom.png",
+        "topPath": "assets/Texture/Skybox/top.png"
+    },
   "Vessel": {
     "hasZeroGravityVolume": true,
     "hasPhysics": true,

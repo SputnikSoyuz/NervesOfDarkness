@@ -135,6 +135,20 @@
 			},
 			{
 				"assetBundle": "assets/AssetBundle/maroon_meadows",
+				"path": "Assets/NervesOfDarkness/HearthianStuff/GabbroShip.prefab",
+				"position": {
+					"x": -65.4245,
+					"y": -58.0886,
+					"z": 181.4136
+				},
+				"rotation": {
+					"x": 286.2758,
+					"y": 336.4077,
+					"z": 183.6587
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/maroon_meadows",
 				"rename": "StartTree1",
 				"path": "Assets/NervesOfDarkness/MaroonMeadows/Trees/MM_Tree_L.prefab",
 				"position": {
@@ -389,7 +403,7 @@
 			},
 			{
 				"assetBundle": "assets/AssetBundle/structure",
-				"path": "Assets/NervesOfDarkness/Structures/AnomalyLabTest.prefab",
+				"path": "Assets/NervesOfDarkness/Structures/AnomalyLab.prefab",
 				"position": {
 					"x": 166.6273,
 					"y": -103.2901,
@@ -399,6 +413,20 @@
 					"x": 12.3456,
 					"y": 328.0891,
 					"z": 237.4417
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/structure",
+				"path": "Assets/NervesOfDarkness/Structures/CartographyLab.prefab",
+				"position": {
+					"x": 194.9521,
+					"y": 49.7669,
+					"z": -59.4849
+				},
+				"rotation": {
+					"x": 351.2847,
+					"y": 197.6484,
+					"z": 76.3568
 				}
 			}
 		],
@@ -477,8 +505,8 @@
 				"path": "Assets/NervesOfDarkness/MaroonMeadows/Grask/MM_Grask_Short1.prefab",
 				"parentPath": "Sector/Grask",
 				"count": 2000,
-				"minHeight": 181,
-				"maxHeight": 185,
+				"minHeight": 180,
+				"maxHeight": 182,
 				"seed": 1
 			},
 			{
@@ -486,8 +514,8 @@
 				"path": "Assets/NervesOfDarkness/MaroonMeadows/Grask/MM_Grask_Short2.prefab",
 				"parentPath": "Sector/Grask",
 				"count": 2000,
-				"minHeight": 181,
-				"maxHeight": 185,
+				"minHeight": 180,
+				"maxHeight": 182,
 				"seed": 1
 			},
 			{
@@ -495,8 +523,8 @@
 				"path": "Assets/NervesOfDarkness/MaroonMeadows/Grask/MM_Grask_ShortOrchid.prefab",
 				"parentPath": "Sector/Grask",
 				"count": 2000,
-				"minHeight": 181,
-				"maxHeight": 185,
+				"minHeight": 180,
+				"maxHeight": 182,
 				"seed": 1
 			},
 			{
@@ -504,8 +532,8 @@
 				"path": "Assets/NervesOfDarkness/MaroonMeadows/Grask/MM_Grask_WhiteFlower.prefab",
 				"parentPath": "Sector/Grask",
 				"count": 2000,
-				"minHeight": 181,
-				"maxHeight": 185,
+				"minHeight": 180,
+				"maxHeight": 182,
 				"seed": 1
 			},
 			{
@@ -513,8 +541,8 @@
 				"path": "Assets/NervesOfDarkness/MaroonMeadows/Grask/MM_Grask_Short1.prefab",
 				"parentPath": "Sector/Grask",
 				"count": 2000,
-				"minHeight": 200,
-				"maxHeight": 206,
+				"minHeight": 203,
+				"maxHeight": 205,
 				"seed": 1
 			},
 			{
@@ -522,8 +550,8 @@
 				"path": "Assets/NervesOfDarkness/MaroonMeadows/Grask/MM_Grask_Short2.prefab",
 				"parentPath": "Sector/Grask",
 				"count": 2000,
-				"minHeight": 200,
-				"maxHeight": 206,
+				"minHeight": 203,
+				"maxHeight": 205,
 				"seed": 1
 			},
 			{
@@ -531,8 +559,8 @@
 				"path": "Assets/NervesOfDarkness/MaroonMeadows/Grask/MM_Grask_ShortOrchid.prefab",
 				"parentPath": "Sector/Grask",
 				"count": 2000,
-				"minHeight": 200,
-				"maxHeight": 206,
+				"minHeight": 203,
+				"maxHeight": 205,
 				"seed": 1
 			},
 			{
@@ -540,8 +568,8 @@
 				"path": "Assets/NervesOfDarkness/MaroonMeadows/Grask/MM_Grask_WhiteFlower.prefab",
 				"parentPath": "Sector/Grask",
 				"count": 2000,
-				"minHeight": 200,
-				"maxHeight": 206,
+				"minHeight": 203,
+				"maxHeight": 205,
 				"seed": 1
 			},
 			{
@@ -549,9 +577,21 @@
 				"path": "Assets/NervesOfDarkness/MaroonMeadows/Grask/MM_Grask_WhiteFlowerShort.prefab",
 				"parentPath": "Sector/Grask",
 				"count": 200,
-				"minHeight": 200,
-				"maxHeight": 206,
+				"minHeight": 203,
+				"maxHeight": 205,
 				"seed": 1
+			}
+		],
+		"dialogue": [
+			{
+				"xmlFile": "dialogue/SalvagedStardust/Gabbro/GabbroNPC.xml",
+				"parentPath": "Sector/Traveller_HEA_Gabbro/Traveller_HEA_Gabbro/ConversationZone_Gabbro",
+				"isRelativeToParent": true,
+				"attentionPoint": {
+					"parentPath": "Sector/Traveller_HEA_Gabbro/Traveller_HEA_Gabbro/Gabbro_FocalPoint",
+					"isRelativeToParent": true
+				},
+				"radius": 1
 			}
 		],
 		"signals": [
@@ -614,7 +654,7 @@
 				"alignRadial": true,
 				"startWithSuit": false,
 				"isDefault": true,
-				"rename": "SpawnPlayer_Maroon",
+				"rename": "_Maroon_SpawnPlayer",
 				"position": {
 					"x": -59.20015,
 					"y": -40.61369,
@@ -637,12 +677,26 @@
 					"z": 127.3694
 				},
 				"isDefault": false
+			},
+			{
+				"rename": "_Maroon_CartographyLab",
+				"position": {
+					"x": 192.0011,
+					"y": 64.73302,
+					"z": -53.43031
+				},
+				"rotation": {
+					"x": 295.6648,
+					"y": 266.4792,
+					"z": 10.59767
+				},
+				"isDefault": false
 			}
 		],
 		"shipSpawnPoints": [
 			{
 				"alignRadial": true,
-				"rename": "SpawnShip_Maroon",
+				"rename": "_Maroon_SpawnShip",
 				"position": {
 					"x": -72.08585,
 					"y": -36.6609,

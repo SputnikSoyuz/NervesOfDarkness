@@ -68,9 +68,46 @@
 		"$NoD_NOM_Anomaly_7": "POKE: I see. I will find a place to dispose of this, then.",
 		"$NoD_NOM_Anomaly_8": "ANNONA: I know how you operate, Poke... please don't just throw it into the black hole.",
 		"$NoD_NOM_Anomaly_9": "POKE: Okay, I probably won't.",
-		"$NoD_NOM_Anomaly_10": "ANNONA: Thank you. Let us continue with our work, then! We have much to do."
+		"$NoD_NOM_Anomaly_10": "ANNONA: Thank you. Let us continue with our work, then! We have much to do.",
 
 		// NEW SYSTEM
+
+		// dialogue/SalvagedStardust/Gabbro/GabbroNPC.xml
+		"$NoD_Gabbro_Name": "Gabbro",
+
+		"$NoD_GabbroNPC_Intro_1A_1": "Why hello there, time buddy! What brings you way out here?",
+		"$NoD_GabbroNPC_Intro_1B_1": "Nice to see you again, time buddy! Find anything interesting?",
+
+		"$NoD_GabbroNPC_List1_Choice1": "How did you get all the way out here?",
+		"$NoD_GabbroNPC_List1_Choice1_1": "Hornfels was worried you didn't show up, noticed you warped out of the system, and sent me after you.",
+		"$NoD_GabbroNPC_List1_Choice1_2": "As for me, I would have never done this if it wasn't for you. It's not fun being alone in a time loop.",
+
+		"$NoD_GabbroNPC_List1_Choice2": "How are you liking this planet?",
+		"$NoD_GabbroNPC_List1_Choice2_1": "This planet is quite the upgrade from Giant's Deep. Very zen here.",
+		"$NoD_GabbroNPC_List1_Choice2_2": "Some descriptions of the planet IDK, get creative.",
+
+		"$NoD_GabbroNPC_List1_Choice3": "Do you know about any of the other planets?",
+		"$NoD_GabbroNPC_List1_Choice3_1": "Only through stargazing. There's a purple rocky one, a sandy desert one, a gas giant with a snowy moon.",
+		"$NoD_GabbroNPC_List1_Choice3_2": "Include some shit about what they see on the surface or something + more descriptions. But I love it where I am now, so I'm going to keep admiring them from afar.",
+
+		"$NoD_GabbroNPC_List1_Choice4": "Help Gabbro! I am stuck!",
+		"$NoD_GabbroNPC_List1_Choice4_1": "If you're stuck, go explore somewhere else and double-check your shiplogs.",
+		"$NoD_GabbroNPC_List1_Choice4_2": "Sometimes it helps to hit the pause button and think. Time also doesn't pass when looking at shiplogs. Other useful shit here IDK.",
+
+		"$NoD_GabbroNPC_List1_Choice5": "Something about the Black Hole",
+		"$NoD_GabbroNPC_List1_Choice5_1": "Make a comment about dying to it every loop on this line.",
+		"$NoD_GabbroNPC_List1_Choice5_2": "A structure inside of it? I meditated and saw what it looks like. I could not comprehend it though.",
+
+		"$NoD_GabbroNPC_List1_Choice6": "I made it to the singularity unharmed!",
+		"$NoD_GabbroNPC_List1_Choice6_1": "You, WHAT? How did you do that?",
+		"$NoD_GabbroNPC_List1_Choice6_2": "What did you find down there? What's it like? Etc. Will add these lines later.",
+
+		"$NoD_GabbroNPC_List1_Choice7": "The mysterious species within the singularity are actually harmless.",
+		"$NoD_GabbroNPC_List1_Choice7_1": "Ooooh, they're harmless? What are they like? Can you talk to them?",
+		"$NoD_GabbroNPC_List1_Choice7_2": "Honestly I don't blame them. If someone flashed a light in my face, I wouldn't be very happy about it either. Maybe not enough to kill someone though.",
+
+		"$NoD_GabbroNPC_List1_Choice8": "Nothing, just saying hi!",
+		"$NoD_GabbroNPC_List1_Choice8_1": "Later, time buddy!"
 	},
 	"ShipLogDictionary": {
 		// SOLAR SYSTEM

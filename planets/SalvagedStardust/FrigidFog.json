@@ -43,7 +43,7 @@
 		}
 	},
 	"Base": {
-		"surfaceGravity": 10,
+		"surfaceGravity": 8,
 		"surfaceSize": 175
 	},
 	"HeightMap": {
@@ -163,6 +163,105 @@
 					"y": 89.6355,
 					"z": 79.9364
 				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/structure",
+				"path": "Assets/NervesOfDarkness/Structures/AnomalyLab.prefab",
+				"position": {
+					"x": 112.0281,
+					"y": -89.0724,
+					"z": 101.8887
+				},
+				"rotation": {
+					"x": 302.524,
+					"y": 63.41249,
+					"z": 160.7912
+				}
+			}
+		],
+		"tornados": [
+			{
+				"alignRadial": true,
+				"type": "hurricane",
+				"wanderRate": 0,
+				"audioDistance": 100,
+				"damagePerSecond": 10000000,
+				"hazardType": "ghostMatter",
+				"fluidType": "cloud",
+				"position": {
+					"y": 170
+				},
+				"height": 81,
+				"tint": {
+					"r": 230,
+					"g": 230,
+					"b": 230,
+					"a": 255
+				}
+			},
+			{
+				"rename": "FF_Tornado_Sample",
+				"alignRadial": true,
+				"type": "upwards",
+				"fluidType": "cloud",
+				"damagePerSecond": 3,
+				"hazardType": "ghostMatter",
+				"wanderRate": 0,
+				"height": 77,
+				"position": {
+					"x": 173
+				},
+				"tint": {
+					"r": 230,
+					"g": 230,
+					"b": 230,
+					"a": 255
+				}
+			},
+			{
+				"alignRadial": true,
+				"type": "upwards",
+				"fluidType": "cloud",
+				"wanderRate": 0,
+				"height": 77,
+				"damagePerSecond": 3,
+				"hazardType": "ghostMatter",
+				"position": {
+					"x": -173
+				},
+				"tint": {
+					"r": 230,
+					"g": 230,
+					"b": 230,
+					"a": 255
+				}
+			},
+			{
+				"alignRadial": true,
+				"type": "upwards",
+				"fluidType": "cloud",
+				"wanderRate": 0,
+				"height": 77,
+				"damagePerSecond": 3,
+				"hazardType": "ghostMatter",
+				"position": {
+					"z": -173
+				},
+				"tint": {
+					"r": 230,
+					"g": 230,
+					"b": 230,
+					"a": 255
+				}
+			}
+		],
+		"scatter": [
+			{
+				"path": "Sector/FF_Tornado_Sample",
+				"minHeight": 173,
+				"maxHeight": 174,
+				"count": 30,
+				"seed": 1
 			}
 		]
 	},
@@ -267,6 +366,19 @@
 					"x": -150.5423,
 					"y": 88.78551,
 					"z": -5.458
+				}
+			},
+			{
+				"rename": "_FrigidFog_AnomalyLab",
+				"position": {
+					"x": 107.0473,
+					"y": -83.38602,
+					"z": 110.3529
+				},
+				"rotation": {
+					"x": 329.2309,
+					"y": 333.1452,
+					"z": 236.0282
 				}
 			}
 		]

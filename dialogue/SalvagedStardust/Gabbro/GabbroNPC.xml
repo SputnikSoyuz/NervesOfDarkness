@@ -1,0 +1,172 @@
+﻿<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+	<NameField>$NoD_Gabbro_Name</NameField>
+	<!-- The name of this character -->
+	<DialogueNode>
+		<!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+		<Name>NoD_GabbroNPC_Intro_1A</Name>
+		<!-- The name of this node, used to go to this node from another node -->
+		<EntryCondition>DEFAULT</EntryCondition>
+		<!-- The condition that must be met for this node to be reached; A file should always have a node with "DEFAULT" -->
+		<Dialogue>
+			<Page>$NoD_GabbroNPC_Intro_1A_1</Page>
+		</Dialogue>
+		<SetPersistentCondition>NoD_MetGabbro</SetPersistentCondition>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>$NoD_GabbroNPC_List1_Choice1</Text>
+				<DialogueTarget>NoD_GabbroNPC_1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>NoD_WARPCORE_E</RequiredLogCondition>
+				<Text>$NoD_GabbroNPC_List1_Choice2</Text>
+				<DialogueTarget>NoD_GabbroNPC_2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>NoD_WARPCORE_E</RequiredLogCondition>
+				<Text>$NoD_GabbroNPC_List1_Choice3</Text>
+				<DialogueTarget>NoD_GabbroNPC_3</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>NoD_WARPCORE_E</RequiredLogCondition>
+				<Text>$NoD_GabbroNPC_List1_Choice4</Text>
+				<DialogueTarget>NoD_GabbroNPC_4</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>NoD_WARPCORE_E</RequiredLogCondition>
+				<Text>$NoD_GabbroNPC_List1_Choice5</Text>
+				<DialogueTarget>NoD_GabbroNPC_5</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>NoD_WARPCORE_E</RequiredLogCondition>
+				<Text>$NoD_GabbroNPC_List1_Choice6</Text>
+				<DialogueTarget>NoD_GabbroNPC_6</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>NoD_WARPCORE_E</RequiredLogCondition>
+				<Text>$NoD_GabbroNPC_List1_Choice7</Text>
+				<DialogueTarget>NoD_GabbroNPC_7</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+		<RevealFacts>
+			<FactID>NoD_GABBRO_MET</FactID>
+		</RevealFacts>
+	</DialogueNode>
+
+	<DialogueNode>
+		<!-- A dialogue node is a set of pages displayed to the player optionally followed by options -->
+		<Name>NoD_GabbroNPC_Intro_1B</Name>
+		<!-- The name of this node, used to go to this node from another node -->
+		<EntryCondition>NoD_MetGabbro</EntryCondition>
+		<!-- The condition that must be met for this node to be reached; A file should always have a node with "DEFAULT" -->
+		<Dialogue>
+			<Page>$NoD_GabbroNPC_Intro_1B_1</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>$NoD_GabbroNPC_List1_Choice1</Text>
+				<DialogueTarget>NoD_GabbroNPC_1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>$NoD_GabbroNPC_List1_Choice2</Text>
+				<DialogueTarget>NoD_GabbroNPC_2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>$NoD_GabbroNPC_List1_Choice3</Text>
+				<DialogueTarget>NoD_GabbroNPC_3</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>$NoD_GabbroNPC_List1_Choice4</Text>
+				<DialogueTarget>NoD_GabbroNPC_4</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>$NoD_GabbroNPC_List1_Choice5</Text>
+				<DialogueTarget>NoD_GabbroNPC_5</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>NoD_WARPCORE_E</RequiredLogCondition>
+				<Text>$NoD_GabbroNPC_List1_Choice6</Text>
+				<DialogueTarget>NoD_GabbroNPC_6</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>NoD_WARPCORE_E</RequiredLogCondition>
+				<Text>$NoD_GabbroNPC_List1_Choice7</Text>
+				<DialogueTarget>NoD_GabbroNPC_7</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>$NoD_GabbroNPC_List1_Choice8</Text>
+				<DialogueTarget>NoD_GabbroNPC_8</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>NoD_GabbroNPC_1</Name>
+		<Dialogue>
+			<Page>$NoD_GabbroNPC_List1_Choice1_1</Page>
+			<Page>$NoD_GabbroNPC_List1_Choice1_2</Page>
+		</Dialogue>
+		<DialogueTarget>NoD_GabbroNPC_Intro_1B</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>NoD_GabbroNPC_2</Name>
+		<Dialogue>
+			<Page>$NoD_GabbroNPC_List1_Choice2_1</Page>
+			<Page>$NoD_GabbroNPC_List1_Choice2_2</Page>
+		</Dialogue>
+		<DialogueTarget>NoD_GabbroNPC_Intro_1B</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>NoD_GabbroNPC_3</Name>
+		<Dialogue>
+			<Page>$NoD_GabbroNPC_List1_Choice3_1</Page>
+			<Page>$NoD_GabbroNPC_List1_Choice3_2</Page>
+		</Dialogue>
+		<DialogueTarget>NoD_GabbroNPC_Intro_1B</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>NoD_GabbroNPC_4</Name>
+		<Dialogue>
+			<Page>$NoD_GabbroNPC_List1_Choice4_1</Page>
+			<Page>$NoD_GabbroNPC_List1_Choice4_2</Page>
+		</Dialogue>
+		<DialogueTarget>NoD_GabbroNPC_Intro_1B</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>NoD_GabbroNPC_5</Name>
+		<Dialogue>
+			<Page>$NoD_GabbroNPC_List1_Choice5_1</Page>
+			<Page>$NoD_GabbroNPC_List1_Choice5_2</Page>
+		</Dialogue>
+		<DialogueTarget>NoD_GabbroNPC_Intro_1B</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>NoD_GabbroNPC_6</Name>
+		<Dialogue>
+			<Page>$NoD_GabbroNPC_List1_Choice6_1</Page>
+			<Page>$NoD_GabbroNPC_List1_Choice6_2</Page>
+		</Dialogue>
+		<DialogueTarget>NoD_GabbroNPC_Intro_1B</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>NoD_GabbroNPC_7</Name>
+		<Dialogue>
+			<Page>$NoD_GabbroNPC_List1_Choice7_1</Page>
+			<Page>$NoD_GabbroNPC_List1_Choice7_2</Page>
+		</Dialogue>
+		<DialogueTarget>NoD_GabbroNPC_Intro_1B</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>NoD_GabbroNPC_8</Name>
+		<Dialogue>
+			<Page>$NoD_GabbroNPC_List1_Choice8_1</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>

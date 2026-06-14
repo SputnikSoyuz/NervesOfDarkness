@@ -16,5 +16,10 @@
 	},
 	"Orbit": {
 		"isStatic": true
+	},
+	"ShipLog": {
+		"mapMode": {
+			"remove": true
+		}
 	}
 }

@@ -17,7 +17,7 @@
   </ItemGroup>
 	<ItemGroup>
 		<Reference Include="NewHorizons">
-			<HintPath>$(OuterWildsModsDirectory)\xen.NewHorizons\NewHorizons.dll</HintPath>
+			<HintPath>$(USERPROFILE)\source\repos\NervesOfDarkness\NervesOfDarkness\NewHorizons.dll</HintPath>
 			<Private>False</Private>
 		</Reference>
 	</ItemGroup>
@@ -63,7 +63,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="assets\AssetBundle\" />
-    <Folder Include="dialogue\SalvagedStardust\Gabbro\" />
   </ItemGroup>
 	<Target Name="BuildDll" AfterTargets="Build">
 		<Copy SourceFiles="$(OutputPath)$(AssemblyName).dll" DestinationFolder="$(USERPROFILE)\source\repos\NervesOfDarknessUnity\Assets" />

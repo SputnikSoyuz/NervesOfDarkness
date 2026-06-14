@@ -59,6 +59,7 @@
 	},
 	"ShipLog": {
 		"mapMode": {
+			"revealedSprite": "assets/Texture/Shiplogs/STAR_UI.png",
 			"scale": 1.3,
 			"manualPosition": {
 				"x": 0,

@@ -43,6 +43,7 @@ public class DisplayDevice : MonoBehaviour
     private float targetScale = 0;
     private float targetDisplacement = 0;
     private float targetFluidDisplacement = 0;
+    private float currentDisplacement = 0;
 
     public void Awake()
     {
@@ -129,10 +130,20 @@ public class DisplayDevice : MonoBehaviour
         }
     }
 
-    public void HandleFluid(float max)
+    public void HandleFluid(float min, float max)
     {
-        targetFluidDisplacement += (Time.deltaTime * 0.5f) * (isGrowing ? 1 : -1);
-        targetFluidDisplacement = Mathf.Clamp(targetFluidDisplacement, liquidShader.GetFloat("_Displacement"), max);
+        if (min > max)
+        {
+            targetFluidDisplacement -= (Time.deltaTime * 2) * (isGrowing ? 1 : -1);
+        } else
+        {
+            targetFluidDisplacement += (Time.deltaTime * 2) * (isGrowing ? 1 : -1);
+        }
+        targetFluidDisplacement = Mathf.Clamp(targetFluidDisplacement, min, max);
+        NervesOfDarkness.WriteLine($"---Fluid Stuff---" +
+                               $"\nMin: " + liquidShader.GetFloat("_Displacement") +
+                               $"\nMax: " + max +
+                               $"\nTarget: " + targetFluidDisplacement, OWML.Common.MessageType.Success);
         liquidShader.SetFloat("_Displacement", targetFluidDisplacement);
     }
 
@@ -268,56 +279,78 @@ OWInput.IsNewlyPressed(InputLibrary.enter) || OWInput.IsNewlyPressed(InputLibrar
             {
                 if (phase != 4)
                 {
+                    currentDisplacement = GetFluidDisplacement(phase);
                     phase = 4;
                     isGrowing = true;
                     HandleLiquids();
                 }
-                HandleFluid(1.5f);
+                HandleFluid(currentDisplacement, 1.5f);
             }
             else if (Mathf.Abs(currentWavelength - desiredWavelength) <= 20)
             {
                 if (phase != 3)
                 {
+                    currentDisplacement = GetFluidDisplacement(phase);
                     phase = 3;
                     isGrowing = false;
                     HandleLiquids();
                 }
-                HandleFluid(1f);
+                HandleFluid(currentDisplacement, 1f);
             }
             else if (Mathf.Abs(currentWavelength - desiredWavelength) <= 30)
             {
                 if (phase != 2)
                 {
+                    currentDisplacement = GetFluidDisplacement(phase);
                     phase = 2;
                     isGrowing = false;
                     HandleLiquids();
                 }
-                HandleFluid(0.75f);
+                HandleFluid(currentDisplacement, 0.75f);
             }
             else if (Mathf.Abs(currentWavelength - desiredWavelength) <= 40)
             {
                 if (phase != 1)
                 {
+                    currentDisplacement = GetFluidDisplacement(phase);
                     phase = 1;
                     isGrowing = false;
                     HandleLiquids();
                     liquidShader.SetFloat("_Displacement", 0.5f);
                 }
-                HandleFluid(0.5f);
+                HandleFluid(currentDisplacement, 0.5f);
             } 
             else
             {
                 if (phase != 0)
                 {
+                    currentDisplacement = GetFluidDisplacement(phase);
                     phase = 0;
                     isGrowing = false;
                     HandleLiquids();
                     liquidShader.SetFloat("_Displacement", 0.0f);
                 }
-                HandleFluid(0.0f);
+                HandleFluid(currentDisplacement, 0.0f);
             }
 
             ProjectionToggle();
+        }
+    }
+
+    public float GetFluidDisplacement(int phase)
+    {
+        switch (phase)
+        {
+            case 0:
+                return 0.0f;
+            case 1:
+                return 0.5f;
+            case 2:
+                return 0.75f;
+            case 3:
+                return 1f;
+            default: //any other case
+                return 1.5f;
         }
     }
 

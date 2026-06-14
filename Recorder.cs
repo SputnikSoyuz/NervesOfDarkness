@@ -1,5 +1,7 @@
-﻿using NewHorizons.Utility.Files;
+﻿using NewHorizons.Handlers;
+using NewHorizons.Utility.Files;
 using UnityEngine;
+using static UnityEngine.GraphicsBuffer;
 
 namespace NervesOfDarkness;
 
@@ -35,10 +37,19 @@ public class Recorder : MonoBehaviour
     [SerializeField]
     private bool _turnOnFlashlight = true;
 
+    [SerializeField]
+    private bool disableSoundAtTime;
+
+    [SerializeField]
+    private float timeToDisable;
+
     private bool _wasFlashlightOn;
 
     public bool isListening;
 
+    private NotificationTarget _target = NotificationTarget.All;
+
+    private NotificationData _notification;
     public void OnValidate()
     {
         if (_turnOnFlashlight && !_turnOffFlashlight)
@@ -62,6 +73,7 @@ public class Recorder : MonoBehaviour
         AudioUtilities.SetAudioClip(_audioSource, "assets/Audio/Recordings/"+_fileName, NervesOfDarkness.Instance); // sets audio clip
         _audioSource.Play();
         _audioSource.Stop();
+        _notification = new NotificationData(_target, TranslationHandler.GetTranslation("AUDIO INAUDIBLE DUE TO ENVIRONMENT", TranslationHandler.TextType.UI), 5);
     }
 
     public void OnDestroy()
@@ -126,6 +138,14 @@ public class Recorder : MonoBehaviour
         }
         if (!isListening)
         {
+            if (TimeLoop.GetSecondsElapsed() < timeToDisable || !disableSoundAtTime)
+            {
+                _audioSource.SetLocalVolume(1f);
+            } else
+            {
+                _audioSource.SetLocalVolume(0f);
+                NotificationManager.SharedInstance.PostNotification(_notification, false);
+            }
             _audioSource.Play();
             _animator.Play("NoD_Recorder_Animated");
             isListening = true;
@@ -134,6 +154,10 @@ public class Recorder : MonoBehaviour
 
     private void StopListening()
     {
+        if (NotificationManager.SharedInstance.IsPinnedNotification(_notification))
+        {
+            NotificationManager.SharedInstance.UnpinNotification(_notification);
+        }
         OWInput.ChangeInputMode(InputMode.Character);
         if (!base.enabled)
         {

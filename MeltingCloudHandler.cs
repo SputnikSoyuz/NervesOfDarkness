@@ -132,7 +132,7 @@ public class MeltingCloudHandler : MonoBehaviour
             }
         }
 
-        if (_itemTransform.localPosition.y < -125.189f)
+        if (_itemTransform != null && _itemTransform.localPosition.y < -125.189f)
         {
             Destroy(_itemTransform.gameObject);
         }

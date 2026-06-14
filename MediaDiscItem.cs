@@ -5,20 +5,15 @@ namespace NervesOfDarkness;
 
 public class MediaDiscItem : OWItem
 {
-    [SerializeField]
-    private TransformAnimator _animator;
+    private Animator _animator;
 
     [SerializeField]
     private OWAudioSource _audio;
+    [SerializeField]
+    private SphereCollider _collider;
 
     [SerializeField]
     private string _fileName;
-
-    private const float _animDuration = 0.9f;
-
-    private const float _animDegrees = -105f;
-
-    private const float _animOffsetZ = 0.8f;
 
     public override void Awake()
     {
@@ -33,16 +28,15 @@ public class MediaDiscItem : OWItem
 
     public override void PlaySocketAnimation()
     {
-        _animator.transform.localPosition = Vector3.forward * 0.8f;
-        _animator.TranslateToOriginalLocalPosition(0.9f);
-        _animator.transform.localEulerAngles = Vector3.forward * -105f;
-        _animator.RotateToOriginalLocalRotation(0.9f);
+        _collider.enabled = false;
+        _animator = this.transform.parent.GetComponent<Animator>();
+        _animator.Play("NoD_DriveSocketIn", 0);
     }
 
     public override void PlayUnsocketAnimation()
     {
-        _animator.TranslateToLocalPosition(Vector3.forward * 0.8f, 0.9f);
-        _animator.RotateToLocalEulerAngles(Vector3.forward * -105f, 0.9f);
+        _collider.enabled = true;
+        _animator.Play("NoD_DriveSocketOut", 0);
     }
 
     public void PlayAudio()
@@ -57,7 +51,7 @@ public class MediaDiscItem : OWItem
 
     public override void OnCompleteUnsocket()
     {
-        _animator.ResetToOriginalPositionRotation();
+        //_animator.ResetToOriginalPositionRotation();
     }
 
     public override string GetDisplayName()
