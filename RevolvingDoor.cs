@@ -64,6 +64,8 @@ namespace NervesOfDarkness
         {
             
             _thrusterModel = Locator.GetPlayerBody().GetComponent<JetpackThrusterModel>();
+            NervesOfDarkness.WriteLine("Square Magnitude: " + (noiseMaker.GetNoiseOrigin() + base.transform.position).sqrMagnitude +
+                                       "\nThruster Accel Magnitude: " + _thrusterModel.GetLocalAcceleration().magnitude, OWML.Common.MessageType.Success);
             StopAllCoroutines();
             if ((noiseMaker.GetNoiseOrigin() - base.transform.position).sqrMagnitude < _maxDistance * _maxDistance)
             {
@@ -74,6 +76,7 @@ namespace NervesOfDarkness
                 StartCoroutine(FadeToZero());
                 _degreesPerSecond = 0;
             }
+            NervesOfDarkness.WriteLine("Degrees Per Second: " +  _degreesPerSecond, OWML.Common.MessageType.Success);
         }
         public IEnumerator FadeToZero()
         {

@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1650749045
+CRC: 2233314050
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 63bf4722b4382ea446523658119ac2ca
+    Hash: feac1abbe2b0ba97cce73edfea2ad0b1
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 100b47f10fc1e95473d0522ab046d410
+    Hash: 5c0914ab1766e9f8a488347b77905902
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -33,8 +33,6 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 82
   Script: {instanceID: 0}
-- Class: 83
-  Script: {instanceID: 0}
 - Class: 91
   Script: {instanceID: 0}
 - Class: 95
@@ -58,27 +56,15 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 0a5bc582e4f904dcec905aaf2f0c035a, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 3bfd83f28489a24bc69cb526ff54d468, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: ae101e74c1ac7ac7f3867d7e18597ede, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: a223d69493f03f4a8e6bda998c52d250, type: 3}
-- Class: 114
-  Script: {fileID: 220717408, guid: a42d73c7ab0e4a545b300b76d69ed5c9, type: 3}
-- Class: 114
   Script: {fileID: -996270953, guid: a42d73c7ab0e4a545b300b76d69ed5c9, type: 3}
-- Class: 114
-  Script: {fileID: 90038225, guid: a42d73c7ab0e4a545b300b76d69ed5c9, type: 3}
 - Class: 114
   Script: {fileID: -1204684422, guid: a42d73c7ab0e4a545b300b76d69ed5c9, type: 3}
 - Class: 114
   Script: {fileID: -1332094800, guid: a42d73c7ab0e4a545b300b76d69ed5c9, type: 3}
 - Class: 114
-  Script: {fileID: 695458931, guid: a42d73c7ab0e4a545b300b76d69ed5c9, type: 3}
-- Class: 114
   Script: {fileID: 1529851509, guid: a42d73c7ab0e4a545b300b76d69ed5c9, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: ef4a7208df34bcc45029964389471a68, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: c1e03d384261f6f301ef6513a478c3a8, type: 3}
 - Class: 114
@@ -95,8 +81,6 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 2145ed3a866d4bd5a94d98ee05d0fa4f, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 579de08a13c8fe537960f31dfbfe8f34, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 1f3014da1c89ce2573a27c371d8ccd9f, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 3764d89beefddfb963f973f9a1e29bad, type: 3}
 - Class: 114
@@ -125,165 +109,31 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/shitandshit/Mesh/ProjectorControls_col.asset
-- Assets/Texture2D/LOD_Structure_IP_DullGlass_t.png
-- Assets/Scenes/RingWorld/Streamingmeshes_structures/ScannerPetal_02_05.asset
 - Assets/Material/CUSTOM/NoD_Copper.mat
-- Assets/GAMERIP/Material/Effects_HGT_TimeLoopExperiment_WhiteHole_mat.mat
 - Assets/Texture2D/CUSTOM/reinforced-metal_albedo.png
-- Assets/Texture2D/CUSTOM/cloudy-veined-quartz_normal-ogl.png
-- Assets/NervesOfDarkness/Effects/RisingLiquid.prefab
-- Assets/Texture2D/CUSTOM/scratched-up-steel_albedo.png
-- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_CopperOld_n.png
-- Assets/GAMERIP/Materials/environment/timberHearth/props/Tree_TH_Stump_d.png
-- Assets/Shader/Legacy Shaders_VertexLit.asset
-- Assets/Texture2D/CUSTOM/black-leather_ao.png
-- Assets/Resources/editor/textures/BoxShape.png
-- Assets/Nomai Ruins/Resources/Shaders/Standard.asset
-- Assets/Material/CUSTOM/NoD_ScratchedBlackSteel.mat
-- Assets/Scenes/DreamWorld/StreamingBatchedRenderers/Renderer_ArchitectureKit_27.asset
-- Assets/AnimationClip/CUSTOM/Socket.controller
-- Assets/Texture2D/CUSTOM/black-leather_normal-ogl.png
-- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_SandStone_s.png
-- Assets/GAMERIP/Shader/Outer Wilds_Particles_Cutoff.asset
-- Assets/Scenes/RingWorld/Streamingmeshes_structures/ScannerPetal_02_01.asset
-- Assets/Scenes/RingWorld/Streamingmeshes_structures/ScannerPetal_01_03.asset
-- Assets/GAMERIP/Texture2D/Effects_SandParticles_n.png
-- Assets/GAMERIP/Texture2D/NoiseRGB_d.png
-- Assets/Shader/Unlit_Cutout.asset
-- Assets/Materials/environment/invisiblePlanet/architecture/Structure_IP_Iron_s.png
-- Assets/Audio/projectiontone.ogg
-- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Silver_d.png
-- Assets/Material/CUSTOM/NoD_LinedMetal.mat
-- Assets/PlayerReference/Meshes/Traveller_Mesh_v01_PlayerSuit_RightArm.asset
-- Assets/Scenes/RingWorld/Streamingmeshes_structures/ScannerPetal_03_05.asset
-- Assets/Material/CUSTOM/LiquidGravityProjectionShader.mat
-- Assets/Material/CUSTOM/NoD_SpotlightRaysWhiteBlue.mat
-- Assets/GAMERIP/MonoBehaviour/TessellationMeshGroup_32.asset
 - Assets/Texture2D/CUSTOM/Copper-scuffed_normal.png
-- Assets/GAMERIP/Shader/Standard_0.asset
-- Assets/Texture2D/CUSTOM/carbon-fiber_smooth_albedo.png
-- Assets/Material/CUSTOM/NoD_Leather.mat
-- Assets/NervesOfDarkness/Kit/Interactables/RevolvingDoor.prefab
-- Assets/Scenes/RingWorld/Streamingmeshes_structures/ScannerPetal_02_03.asset
-- Assets/Texture2D/CUSTOM/cloudy-veined-quartz_albedo.png
-- Assets/Texture2D/CUSTOM/NoD_DarkRamp.png
-- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Spiral_Red_d.png
-- Assets/Mesh/stand_top.asset
-- Assets/Texture2D/CUSTOM/carbon-fiber_smooth_height.png
-- Assets/Scenes/RingWorld/Streamingmeshes_structures/ScannerPetal_03_01.asset
-- Assets/Nomai Ruins/Resources/Shaders/Standard (Detail Blend).asset
-- Assets/Texture2D/CUSTOM/carbon-fiber_smooth_ao.png
 - Assets/Texture2D/CUSTOM/Copper-scuffed_basecolor.png
-- Assets/Mesh/ScannerBase_Col.asset
-- Assets/GAMERIP/Material/Tree_TH_Stump_mat.mat
-- Assets/GAMERIP/Material/Structure_HEA_VillageMetal_mat.mat
-- Assets/AnimationClip/CUSTOM/NoD_DriveSocketOut_STATIC.anim
-- Assets/AnimationClip/CUSTOM/NoD_DriveSocketIn.anim
-- Assets/NervesOfDarkness/Kit/Interactables/NoD_DisplayDevice.prefab
-- Assets/Texture2D/LOD_Structure_IP_DullGlass_d.png
-- Assets/Texture2D/CUSTOM/lined-metal-sheeting_ao.png
-- Assets/Nomai Ruins/Resources/Meshes/ring_small.asset
 - Assets/Texture2D/CUSTOM/scratched-metal_height.png
 - Assets/Texture2D/CUSTOM/scratched-metal_albedo.png
-- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_SandStone_mat Mir.mat
-- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_SandStone_n.png
-- Assets/AnimationClip/CUSTOM/Speaker.controller
-- Assets/Material/CUSTOM/FullTransparency.mat
-- Assets/GAMERIP/Materials/environment/timberHearth/props/Tree_TH_Stump_ao.png
-- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Wall_Collider.asset
-- Assets/Mesh/ScannerArms_Col.asset
-- Assets/Texture2D/CUSTOM/carbon-fiber_height.png
-- Assets/Scenes/RingWorld/Streamingmeshes_props/ProjectionTable.asset
-- Assets/Texture2D/CUSTOM/carbon-fiber_normal-ogl.png
-- Assets/Texture2D/CUSTOM/scratched-up-steel_normal-ogl.png
-- Assets/PlayerReference/Meshes/Traveller_Mesh_v01_Props_HEA_Jetpack.asset
 - Assets/Texture2D/CUSTOM/reinforced-metal_ao.png
-- Assets/Scenes/RingWorld/Streamingmeshes_structures/ScannerPetal_01_05.asset
-- Assets/Nomai Ruins/Resources/Meshes/Tree_BH_Bristle_Hold.asset
-- Assets/GAMERIP/Material/Effects_QM_SandFall_mat.mat
-- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_CopperOld_mat.mat
-- Assets/Texture2D/CUSTOM/lined-metal-sheeting_normal-ogl.png
 - Assets/Scenes/RingWorld/Streamingmeshes_props/Prop_IP_Lantern_Hanging_Extension_L1.asset
-- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_CopperOld_d.png
-- Assets/Texture2D/CUSTOM/lined-metal-sheeting_height.png
-- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Wall_Geo.asset
 - Assets/NervesOfDarkness/Effects/FF_Wind.prefab
-- Assets/Texture2D/LOD_Structure_IP_DullGlass_n.png
-- Assets/NervesOfDarkness/Kit/Interactables/NoD_MediaPlayer.prefab
 - Assets/NervesOfDarkness/Effects/Maroon_Fog.prefab
-- Assets/GAMERIP/Texture2D/Structure_HEA_VillageMetal_d.png
 - Assets/NervesOfDarkness/HearthianStuff/Prefab_NoD_Campfire.prefab
-- Assets/GAMERIP/Material/Structure_HEA_VillagePlanks_mat.mat
 - Assets/Texture2D/CUSTOM/scratched-metal_ao.png
-- Assets/Texture2D/CUSTOM/scratched-up-steel_ao.png
-- Assets/Texture2D/CUSTOM/carbon-fiber_albedo.png
 - Assets/NervesOfDarkness/Kit/Props/NoD_WhiteHoleDevice.prefab
-- Assets/AnimationClip/CUSTOM/SpeakerOff.anim
-- Assets/GAMERIP/Shader/Outer Wilds_Effects_Singularity.asset
 - Assets/NervesOfDarkness/Kit/Interactables/NoD_SignalEmitter.prefab
-- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_CopperOld_s.png
-- Assets/PlayerReference/Meshes/Traveller_Mesh_v01_PlayerSuit_LeftArm.asset
-- Assets/Texture2D/Effects_IP_SimulationGroundNoise.png
-- Assets/GAMERIP/Texture2D/Structure_HEA_VillageMetal_n.png
-- Assets/Shaders/mountainclouds.shader
-- Assets/GAMERIP/Shader/Outer Wilds_Effects_Supernova.asset
-- Assets/Nomai Ruins/Prefabs/Giant Tree Ring.prefab
-- Assets/Texture2D/CUSTOM/black-leather_albedo.png
-- Assets/GAMERIP/Texture2D/Structure_HEA_VillagePlanks_n.png
-- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_SandStone_d.png
-- Assets/Scenes/DreamWorld/Streamingmeshes_props/ProjectorControls_geo.asset
-- Assets/Texture2D/CUSTOM/carbon-fiber_ao.png
-- Assets/PlayerReference/Meshes/Traveller_Mesh_v01_PlayerSuit_Helmet.asset
 - Assets/NervesOfDarkness/Kit/Interactables/NoD_MediaDisc_Item.prefab
 - Assets/NervesOfDarkness/Kit/Interactables/NoD_OxygenTank.prefab
-- Assets/Texture2D/CUSTOM/carbon-fiber_smooth_normal-ogl.png
 - Assets/Texture2D/CUSTOM/reinforced-metal_height.png
-- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Spiral_Red_mat.mat
-- Assets/Texture2D/CUSTOM/scratched-up-steel_height.png
 - Assets/Material/CUSTOM/NoD_ScratchedBlackMetal.mat
 - Assets/Material/CUSTOM/NoD_Metal.mat
-- Assets/Texture2D/CUSTOM/cloudy-veined-quartz_ao.png
-- Assets/Material/CUSTOM/LiquidGravityShader.mat
-- Assets/Shader/Standard_0.asset
-- Assets/Mesh/Rotate_Med_Col.asset
-- Assets/GAMERIP/Mesh/invertedSphere.asset
-- Assets/AnimationClip/CUSTOM/NoD_DriveSocketIn_STATIC.anim
-- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Floor_Intact_Geo.asset
-- Assets/Texture2D/CUSTOM/lined-metal-sheeting_albedo.png
-- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Spiral_White_n.png
 - Assets/Mesh/COL_Lantern_Hanging_Extension_L1.asset
 - Assets/Texture2D/CUSTOM/reinforced-metal_normal-ogl.png
 - Assets/NervesOfDarkness/Kit/Interactables/NoD_FuelTank.prefab
 - Assets/GAMERIP/Mesh/GeodesicSphere12k_sphereUV.asset
 - Assets/NervesOfDarkness/Structures/TheBox2.prefab
-- Assets/GAMERIP/Materials/environment/timberHearth/props/Tree_TH_Stump_s.png
 - Assets/NervesOfDarkness/Recordings/NoD_Recorder_FrigidFogCampsite.prefab
-- Assets/Nomai Ruins/Resources/Meshes/Structure_NOM_Floor_Intact_Collider.asset
-- Assets/Texture2D/CUSTOM/black-leather_height.png
-- Assets/Mesh/Projector_Lens.asset
-- Assets/NervesOfDarkness/Kit/Lights/NoD_LightCeilingWhiteBlue.prefab
-- Assets/Shader/Outer Wilds_Effects_Volumetric Light.asset
-- Assets/GAMERIP/Texture2D/Effects_SandParticles_d.png
-- Assets/PlayerReference/Meshes/Traveller_Mesh_v01_PlayerSuit_Body.asset
-- Assets/Material/CUSTOM/NoD_WhiteBlueLight.mat
-- Assets/AnimationClip/CUSTOM/NoD_DriveSocketOut.anim
-- Assets/AnimationClip/CUSTOM/SpeakerOn.anim
-- Assets/GAMERIP/Texture2D/Structure_HEA_VillagePlanks_d.png
-- Assets/Scenes/RingWorld/Streamingmeshes_structures/ScannerArms_Geo.asset
-- Assets/Shader/Standard (Translucent).asset
-- Assets/shitandshit/Scenes/RingWorld/Streamingmeshes_effects/Effects_IP_ProjectorLight.asset
-- Assets/Scenes/RingWorld/Streamingmeshes_structures/ScannerPetal_01_01.asset
-- Assets/GAMERIP/Materials/environment/timberHearth/props/Tree_TH_Stump_n.png
-- Assets/NervesOfDarkness/Kit/Walls/NoD_Wall.prefab
-- Assets/Material/CUSTOM/NoD_CarbonFibre.mat
-- Assets/Material/CUSTOM/NoD_CarbonFibre_Smooth.mat
-- Assets/Owlk Ruins/materials/Structure_IP_DullGlass_Dark_mat.mat
 - Assets/Texture2D/CUSTOM/Copper-scuffed_basecolor-boosted.png
-- Assets/Scenes/RingWorld/Streamingmeshes_structures/ScannerPetal_03_03.asset
-- Assets/Resources/editor/models/gizmoHemisphere.asset
-- Assets/Material/CUSTOM/NoD_BlackQuartz.mat
 - Assets/Texture2D/CUSTOM/scratched-metal_normal-ogl.png
-- Assets/GAMERIP/Materials/environment/timberHearth/props/Tree_TH_Stump_h.png
-- Assets/Scenes/RingWorld/Streamingmeshes_structures/ScannerBase_Geo.asset
 Dependencies: []
