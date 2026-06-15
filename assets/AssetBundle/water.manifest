@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 4052406044
+CRC: 2129368211
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 465305fb8788a903241379482bedc7c5
+    Hash: 01fb2b90bb8cec650eab129ff482179a
   TypeTreeHash:
     serializedVersion: 2
     Hash: 02e78fd6b00297fb8582ea54660aa983
@@ -40,4 +40,5 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/NervesOfDarkness/Effects/Waterfall.prefab
-Dependencies: []
+Dependencies:
+- C:/Users/jn7jn/source/repos/NervesOfDarkness/NervesOfDarkness/assets/AssetBundle/common_assets

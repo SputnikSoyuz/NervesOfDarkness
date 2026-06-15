@@ -22,52 +22,52 @@ public class ToggleLightsTrigger : MonoBehaviour
 
     public void SetupObjectArray(bool isEnabling, Transform parentObject)
     {
-        if (parentObject == null)
+        if (parentObject != null)
         {
-            NervesOfDarkness.WriteLine("Parent Object is NULL!", OWML.Common.MessageType.Error);
-        }
-        NervesOfDarkness.WriteLine("Parent Object: " + parentObject + "\nChild Count: " + parentObject.childCount, OWML.Common.MessageType.Error);
-        List<GameObject> tempChildren = new List<GameObject>();
-        for (int i = 0; i < parentObject.childCount; i++)
-        {
-            tempChildren.Add(parentObject.GetChild(i).gameObject);
-        }
-
-        foreach (GameObject child in tempChildren)
-        {
-            if (isEnabling)
+            List<GameObject> tempChildren = new List<GameObject>();
+            for (int i = 0; i < parentObject.childCount; i++)
             {
-                if (child.name == "Spot Light" || child.name == "Point Light")
-                {
-                    objectsToEnable.Add(child);
-                }
-                foreach (var obj in objectsToEnable)
-                {
-                    if (obj == null)
-                    {
-                        NervesOfDarkness.WriteLine("ToggleLightsTrigger.cs ERROR! Object to enable is null! Stopping loop!", OWML.Common.MessageType.Error);
-                        break;
-                    }
-                    obj.SetActive(false);
-                }
-            } else
-            {
-                if (child.name == "AmbientLight" || child.name == "FogSphere" || child.name == "Effects" || child.name == "VisorRainEffectVolume")
-                {
-                    objectsToDisable.Add(child);
-                }
-                foreach (var obj in objectsToEnable)
-                {
-                    if (obj == null)
-                    {
-                        NervesOfDarkness.WriteLine("ToggleLightsTrigger.cs ERROR! Object to disable is null! Stopping loop!", OWML.Common.MessageType.Error);
-                        break;
-                    }
-                    obj.SetActive(true);
-                }
+                tempChildren.Add(parentObject.GetChild(i).gameObject);
             }
-            
+
+            foreach (GameObject child in tempChildren)
+            {
+                if (isEnabling)
+                {
+                    if (child.name == "Spot Light" || child.name == "Point Light")
+                    {
+                        objectsToEnable.Add(child);
+                    }
+                    foreach (var obj in objectsToEnable)
+                    {
+                        if (obj == null)
+                        {
+                            NervesOfDarkness.WriteLine("ToggleLightsTrigger.cs ERROR! Object to enable is null! Stopping loop!", OWML.Common.MessageType.Error);
+                            break;
+                        }
+                        obj.SetActive(false);
+                    }
+                }
+                else
+                {
+                    if (child.name == "AmbientLight" || child.name == "FogSphere" || child.name == "Effects" || child.name == "VisorRainEffectVolume")
+                    {
+                        objectsToDisable.Add(child);
+                    }
+                    foreach (var obj in objectsToEnable)
+                    {
+                        if (obj == null)
+                        {
+                            NervesOfDarkness.WriteLine("ToggleLightsTrigger.cs ERROR! Object to disable is null! Stopping loop!", OWML.Common.MessageType.Error);
+                            break;
+                        }
+                        obj.SetActive(true);
+                    }
+                }
+
+            }
         }
+        
     }
 
     public void ToggleLights(bool isOn)

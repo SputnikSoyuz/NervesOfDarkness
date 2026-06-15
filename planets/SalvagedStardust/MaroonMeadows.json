@@ -148,6 +148,19 @@
 				}
 			},
 			{
+				"path": "Ship_Body/WarpDrive/Drive",
+				"position": {
+					"x": -65.4245,
+					"y": -58.0886,
+					"z": 181.4136
+				},
+				"rotation": {
+					"x": 286.2758,
+					"y": 336.4077,
+					"z": 183.6587
+				}
+			},
+			{
 				"assetBundle": "assets/AssetBundle/maroon_meadows",
 				"rename": "StartTree1",
 				"path": "Assets/NervesOfDarkness/MaroonMeadows/Trees/MM_Tree_L.prefab",
@@ -419,14 +432,14 @@
 				"assetBundle": "assets/AssetBundle/structure",
 				"path": "Assets/NervesOfDarkness/Structures/CartographyLab.prefab",
 				"position": {
-					"x": 194.9521,
-					"y": 49.7669,
-					"z": -59.4849
+					"x": -156.315,
+					"y": 91.98566,
+					"z": 65.51177
 				},
 				"rotation": {
-					"x": 351.2847,
-					"y": 197.6484,
-					"z": 76.3568
+					"x": 61.15028,
+					"y": 320.4581,
+					"z": 16.40606
 				}
 			}
 		],
@@ -681,14 +694,14 @@
 			{
 				"rename": "_Maroon_CartographyLab",
 				"position": {
-					"x": 192.0011,
-					"y": 64.73302,
-					"z": -53.43031
+					"x": -159.0152,
+					"y": 91.0857,
+					"z": 62.2082
 				},
 				"rotation": {
-					"x": 295.6648,
-					"y": 266.4792,
-					"z": 10.59767
+					"x": 56.7954,
+					"y": 324.4318,
+					"z": 26.2683
 				},
 				"isDefault": false
 			}

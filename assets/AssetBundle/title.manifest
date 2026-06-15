@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1020970241
+CRC: 4064924811
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 9f6b9e97b605ddbb3664f005b521a3b9
+    Hash: 5e6f38b3650050f065a877c90e234155
   TypeTreeHash:
     serializedVersion: 2
     Hash: 920ac3a677f0651489a391c901100d7d
@@ -59,4 +59,5 @@ SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/NervesOfDarkness/HearthianStuff/NoD_Title.prefab
 Dependencies:
+- C:/Users/jn7jn/source/repos/NervesOfDarkness/NervesOfDarkness/assets/AssetBundle/common_assets
 - C:/Users/jn7jn/source/repos/NervesOfDarkness/NervesOfDarkness/assets/AssetBundle/maroon_meadows

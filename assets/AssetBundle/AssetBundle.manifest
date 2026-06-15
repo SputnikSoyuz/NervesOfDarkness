@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 683472464
+CRC: 52872465
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -11,7 +11,8 @@ AssetBundleManifest:
       Dependencies: {}
     Info_2:
       Name: maroon_meadows
-      Dependencies: {}
+      Dependencies:
+        Dependency_0: common_assets
     Info_3:
       Name: blowing_behemoth
       Dependencies:
@@ -19,7 +20,8 @@ AssetBundleManifest:
         Dependency_1: structure
     Info_4:
       Name: water
-      Dependencies: {}
+      Dependencies:
+        Dependency_0: common_assets
     Info_5:
       Name: structure
       Dependencies:
@@ -27,4 +29,5 @@ AssetBundleManifest:
     Info_6:
       Name: title
       Dependencies:
-        Dependency_0: maroon_meadows
+        Dependency_0: common_assets
+        Dependency_1: maroon_meadows
