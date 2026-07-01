@@ -1,16 +1,15 @@
 ﻿using UnityEngine;
-using NewHorizons.Utility;
 
 namespace NervesOfDarkness;
 
 public class SpeedCheckTrigger : MonoBehaviour
 {
     [SerializeField]
-    private GameObject _volumeToDisable;
+    public GameObject _volumeToDisable;
     [SerializeField]
-    private float minSpeed;
+    public float minSpeed;
     [SerializeField]
-    private float maxSpeed;
+    public float maxSpeed;
 
     private OWRigidbody _planetRigidbody;
 
@@ -19,23 +18,27 @@ public class SpeedCheckTrigger : MonoBehaviour
     public void Start()
     {
         isInTrigger = false;
-        _planetRigidbody = SearchUtilities.Find("BlowingBehemoth_Body").GetComponent<OWRigidbody>();
+        _planetRigidbody = this.GetAttachedOWRigidbody();
+        NervesOfDarkness.WriteLine("Speed Check Rigidbody: " + _planetRigidbody.name);
     }
 
     public void Update()
     {
-        if (isInTrigger && CheckSpeedLimit(minSpeed, maxSpeed, Locator.GetPlayerBody(), _planetRigidbody))
+        if (_volumeToDisable != null)
         {
-            if (_volumeToDisable.activeSelf)
+            if (isInTrigger && CheckSpeedLimit(minSpeed, maxSpeed, Locator.GetPlayerBody(), _planetRigidbody))
             {
-                _volumeToDisable.SetActive(false);
+                if (_volumeToDisable.activeSelf)
+                {
+                    _volumeToDisable.SetActive(false);
+                }
             }
-        } 
-        else
-        {
-            if (!_volumeToDisable.activeSelf)
+            else
             {
-                _volumeToDisable.SetActive(true);
+                if (!_volumeToDisable.activeSelf)
+                {
+                    _volumeToDisable.SetActive(true);
+                }
             }
         }
     }
@@ -61,9 +64,7 @@ public class SpeedCheckTrigger : MonoBehaviour
     public bool CheckSpeedLimit(float min, float max, OWRigidbody _activeBody, OWRigidbody _currentReferenceFrame)
     {
         Vector3 relativeVelocity = -_activeBody.GetRelativeVelocity(_currentReferenceFrame);
-
         Vector3 direction = (_currentReferenceFrame.GetPosition() - _activeBody.GetPosition()).normalized;
-
         float target = Mathf.Abs(Vector3.Dot(relativeVelocity, direction));
 
         if (target < max && target > min)

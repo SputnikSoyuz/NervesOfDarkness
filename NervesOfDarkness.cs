@@ -50,14 +50,15 @@ namespace NervesOfDarkness
         {
             if (body == "Divine Devourer")
             {
-                var divineDevourer = NewHorizons.GetPlanet("Divine Devourer").transform;
-                var ringRenderer = divineDevourer.Find("Sector/Ring").GetComponent<MeshRenderer>();
-                ringRenderer.sharedMaterial.name = "DivineDevourerRing";
-                ringRenderer.sharedMaterial.renderQueue = 3000;
+                Transform divineDevourer = NewHorizons.GetPlanet("Divine Devourer").transform;
                 var blackHoleRenderer = divineDevourer.Find("Sector/BlackHole/BlackHoleRenderer").GetComponent<MeshRenderer>();
                 blackHoleRenderer.sharedMaterial.name = "DivineDevourerBlackHole";
                 blackHoleRenderer.sharedMaterial.shader = Shader.Find("Outer Wilds/Effects/Singularity");
                 blackHoleRenderer.sharedMaterial.renderQueue = 3001;
+
+                //Add Scaling Script
+                divineDevourer.gameObject.AddComponent<BlackHoleScale>();
+                Transform parentObject = divineDevourer.Find("Sector/BlackHole");
             }
         }
 

@@ -3,16 +3,14 @@
 	"name": "Divine Devourer",
 	"starSystem": "SputnikSoyuz.SalvagedStardust",
 	"Base": {
-		"surfaceSize": 1600,
+		"surfaceSize": 2080,
 		"surfaceGravity": 40,
 		"gravityFallOff": "inverseSquared",
-		"hasFluidDetector": false
+		"hasFluidDetector": false,
+		"centerOfSolarSystem": true
 	},
 	"Orbit": {
-		"primaryBody": "Devourer Daylight Barycenter",
-		"semiMajorAxis": 5000,
-		"trueAnomaly": 0,
-		"isMoon": true,
+		"isStatic": true,
 		"showOrbitLine": false
 	},
 	"MapMarker": {
@@ -21,8 +19,8 @@
 	"Props": {
 		"singularities": [
 			{
-				"horizonRadius": 2500,
-				"distortRadius": 5000,
+				"horizonRadius": 1040,
+				"distortRadius": 2080,
 				"renderQueueOverride": 3001,
 				"type": "blackHole"
 			}
@@ -31,15 +29,17 @@
 			{
 				"assetBundle": "assets/AssetBundle/nebula",
 				"path": "Assets/NervesOfDarkness/Effects/Nebula.prefab",
-				"keepLoaded": true
+				"keepLoaded": true,
+				"parentPath": "Sector/Ring",
+				"isRelativeToParent": true
 			}
 		]
 	},
 	"Rings": [
 		{
-			"innerRadius": 50,
-			"outerRadius": 11000,
-			"inclination": 45,
+			"innerRadius": 0,
+			"outerRadius": 14300,
+			"inclination": -45,
 			"rotationSpeed": 2,
 			"texture": "assets/Texture/ringoffire.png",
 			"fluidType": "plasma"

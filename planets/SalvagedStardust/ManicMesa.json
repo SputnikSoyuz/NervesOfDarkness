@@ -17,8 +17,8 @@
 	],
 	"Orbit": {
 		"primaryBody": "Doomed Daylight",
-		"semiMajorAxis": 8000,
-		"eccentricity": 0.8,
+		"semiMajorAxis": 6000,
+		"eccentricity": 0.6,
 		"trueAnomaly": 180,
 		"inclination": -45
 	},

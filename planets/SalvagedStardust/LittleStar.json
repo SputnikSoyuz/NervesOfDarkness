@@ -8,11 +8,10 @@
 		"gravityFallOff": "inverseSquared"
 	},
 	"Orbit": {
-		"primaryBody": "Devourer Daylight Barycenter",
+		"primaryBody": "Divine Devourer",
 		"semiMajorAxis": 8000,
 		"trueAnomaly": 180,
 		"inclination": 45,
-		"eccentricity": 0.4,
 		"isTidallyLocked": true
 	},
 	"Atmosphere": {
