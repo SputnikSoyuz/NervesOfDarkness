@@ -53,8 +53,8 @@ namespace NervesOfDarkness
                 Transform divineDevourer = NewHorizons.GetPlanet("Divine Devourer").transform;
                 var blackHoleRenderer = divineDevourer.Find("Sector/BlackHole/BlackHoleRenderer").GetComponent<MeshRenderer>();
                 blackHoleRenderer.sharedMaterial.name = "DivineDevourerBlackHole";
-                blackHoleRenderer.sharedMaterial.shader = Shader.Find("Outer Wilds/Effects/Singularity");
-                blackHoleRenderer.sharedMaterial.renderQueue = 3001;
+                //blackHoleRenderer.sharedMaterial.shader = Shader.Find("Outer Wilds/Effects/Singularity");
+                //blackHoleRenderer.sharedMaterial.renderQueue = 3001;
 
                 //Add Scaling Script
                 divineDevourer.gameObject.AddComponent<BlackHoleScale>();

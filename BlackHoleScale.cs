@@ -29,13 +29,12 @@ public class BlackHoleScale : MonoBehaviour
         float currentScale = Mathf.Lerp(1, 34.6153846154f, t);
         Vector3 currentScaleVector = new Vector3(currentScale, currentScale, currentScale);
 
-        NervesOfDarkness.WriteLine("Current Scale: " + currentScale +
-                                    "\nT Value: " + t, OWML.Common.MessageType.Success);
+        //NervesOfDarkness.WriteLine("Current Scale: " + currentScale + "\nT Value: " + t, OWML.Common.MessageType.Success);
 
         if (blackHoleTransform != null)
         {
             blackHoleTransform.localScale = currentScaleVector * 2080;
-            NervesOfDarkness.WriteLine("Black Hole Scale: " + blackHoleTransform.localScale, OWML.Common.MessageType.Success);
+            //NervesOfDarkness.WriteLine("Black Hole Scale: " + blackHoleTransform.localScale, OWML.Common.MessageType.Success);
         }
         
         for (int i = 0; i <= 1; i++)
@@ -49,7 +48,7 @@ public class BlackHoleScale : MonoBehaviour
                 {
                     blackHoleVolumes[i].radius = currentScale * 1090;
                 }
-                NervesOfDarkness.WriteLine("Volume " + blackHoleVolumes[i].name + ": " + blackHoleVolumes[i].radius, OWML.Common.MessageType.Success);
+                //NervesOfDarkness.WriteLine("Volume " + blackHoleVolumes[i].name + ": " + blackHoleVolumes[i].radius, OWML.Common.MessageType.Success);
             }
         }
 
@@ -57,21 +56,10 @@ public class BlackHoleScale : MonoBehaviour
         {
             blackHoleMaterial.SetFloat("_Radius", currentScale * 1040);
             warpDecrease = 2080 - i;
-            NervesOfDarkness.WriteLine("Increment: " + i +
-                                        "\nWarpDecrease: " + warpDecrease, OWML.Common.MessageType.Success);
-            if (warpDecrease <= 1144)
-            {
-                blackHoleMaterial.SetFloat("_MaxDistortRadius", currentScale * 1144);
-            } else
-            {
-                blackHoleMaterial.SetFloat("_MaxDistortRadius", currentScale * warpDecrease);
-                if (TimeLoop.GetSecondsElapsed() % 2 == 0)
-                {
-                    i += 39;
-                }
-            }
-            NervesOfDarkness.WriteLine("Radius: " + blackHoleMaterial.GetFloat("_Radius") + 
-                                        "\nMax Distort Radius: " + blackHoleMaterial.GetFloat("_MaxDistortRadius"), OWML.Common.MessageType.Success);
+            //NervesOfDarkness.WriteLine("Increment: " + i + "\nWarpDecrease: " + warpDecrease, OWML.Common.MessageType.Success);
+
+            blackHoleMaterial.SetFloat("_MaxDistortRadius", currentScale * 1140);
+            //NervesOfDarkness.WriteLine("Radius: " + blackHoleMaterial.GetFloat("_Radius") + "\nMax Distort Radius: " + blackHoleMaterial.GetFloat("_MaxDistortRadius"), OWML.Common.MessageType.Success);
         }
     }
 }
