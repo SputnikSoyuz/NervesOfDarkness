@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3508306319
+CRC: 4161675480
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: f95b353c33538484924c672c60b80a41
+    Hash: 4adec4455136ff5ed16caf811e019c27
   TypeTreeHash:
     serializedVersion: 2
     Hash: 4c25ca2c63b66c5ae513851cdd165ffb
@@ -211,7 +211,6 @@ Assets:
 - Assets/Texture2D/CUSTOM/cloudy-veined-quartz_ao.png
 - Assets/Material/CUSTOM/LiquidGravityShader.mat
 - Assets/Mesh/Rotate_Med_Col.asset
-- Assets/GAMERIP/Mesh/invertedSphere.asset
 - Assets/AnimationClip/CUSTOM/NoD_DriveSocketIn_STATIC.anim
 - Assets/Texture2D/CUSTOM/lined-metal-sheeting_albedo.png
 - Assets/Mesh/COL_Lantern_Hanging_Extension_L1.asset
