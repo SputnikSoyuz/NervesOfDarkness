@@ -202,7 +202,7 @@
 			{
 				"rename": "FF_Tornado_Sample",
 				"alignRadial": true,
-				"type": "upwards",
+				"type": "downwards",
 				"fluidType": "cloud",
 				"damagePerSecond": 3,
 				"hazardType": "ghostMatter",
@@ -220,7 +220,7 @@
 			},
 			{
 				"alignRadial": true,
-				"type": "upwards",
+				"type": "downwards",
 				"fluidType": "cloud",
 				"wanderRate": 0,
 				"height": 77,
@@ -238,7 +238,7 @@
 			},
 			{
 				"alignRadial": true,
-				"type": "upwards",
+				"type": "downwards",
 				"fluidType": "cloud",
 				"wanderRate": 0,
 				"height": 77,

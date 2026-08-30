@@ -58,7 +58,8 @@ public class BlackHoleScale : MonoBehaviour
             warpDecrease = 2080 - i;
             //NervesOfDarkness.WriteLine("Increment: " + i + "\nWarpDecrease: " + warpDecrease, OWML.Common.MessageType.Success);
 
-            blackHoleMaterial.SetFloat("_MaxDistortRadius", currentScale * 1140);
+            blackHoleMaterial.SetFloat("_MaxDistortRadius", currentScale * 1040 * 1.05f);
+            blackHoleMaterial.SetFloat("_DistortFadeDist", currentScale * 1040 * 1.05f);
             //NervesOfDarkness.WriteLine("Radius: " + blackHoleMaterial.GetFloat("_Radius") + "\nMax Distort Radius: " + blackHoleMaterial.GetFloat("_MaxDistortRadius"), OWML.Common.MessageType.Success);
         }
     }

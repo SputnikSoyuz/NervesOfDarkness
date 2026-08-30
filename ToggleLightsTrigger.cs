@@ -7,12 +7,13 @@ public class ToggleLightsTrigger : MonoBehaviour
 {
     [SerializeField]
     private Transform lights;
-    [SerializeField]
-    private bool turnsOn;
     private Transform sector;
     private List<GameObject> objectsToEnable = new List<GameObject>();
     private List<GameObject> objectsToDisable = new List<GameObject>();
-    
+
+    private bool areLightsOn = false;
+    private bool isInTrigger = false;
+
     public void Start()
     {
         sector = this.GetAttachedOWRigidbody().transform.Find("Sector");
@@ -80,6 +81,8 @@ public class ToggleLightsTrigger : MonoBehaviour
         {
             obj.SetActive(!isOn);
         }
+
+        areLightsOn = isOn;
     }
 
     public virtual void OnTriggerEnter(Collider hitCollider)
@@ -87,7 +90,17 @@ public class ToggleLightsTrigger : MonoBehaviour
         //checks if player collides with the trigger volume
         if (hitCollider.CompareTag("PlayerDetector") && enabled)
         {
-            ToggleLights(turnsOn);
+            isInTrigger = true;
+        }
+    }
+
+    public virtual void OnTriggerExit(Collider hitCollider)
+    {
+        //checks if player collides with the trigger volume
+        if (hitCollider.CompareTag("PlayerDetector") && enabled)
+        {
+            isInTrigger = false;
+            ToggleLights(!areLightsOn);
         }
     }
 }

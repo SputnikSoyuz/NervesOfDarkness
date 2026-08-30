@@ -248,9 +248,9 @@
 			{
 				"rename": "_Behemoth_AnomalyLab",
 				"position": {
-					"x": -654.061,
-					"y": 13.73929,
-					"z": 16.74829
+					"x": -652.8369,
+					"y": -8.148682,
+					"z": -29.37027
 				},
 				"alignRadial": true,
 				"isDefault": false
@@ -258,9 +258,9 @@
 			{
 				"rename": "_Behemoth_Campsite",
 				"position": {
-					"x": -12.22104,
-					"y": 8.127838,
-					"z": 651.5621
+					"x": -0.1446381,
+					"y": -3.128326,
+					"z": 651.546
 				},
 				"alignRadial": true,
 				"isDefault": false
