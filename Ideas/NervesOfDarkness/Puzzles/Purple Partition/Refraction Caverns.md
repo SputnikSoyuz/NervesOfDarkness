@@ -1,0 +1,13 @@
+Rumour Title: Refraction Caverns
+Same for Revealed Title
+
+| Rumour Reveal Location                   | Rumour Description                                                                                                                                                             |
+| ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Refraction Caverns                       | I found a series of bright caverns deep within the mantle of Purple Partition.                                                                                                 |
+| Refraction Caverns Split                 | When Purple Partition tears in half, the entire area collapses and fills with lava, rendering it inaccessible.                                                                 |
+| Lower Refraction Caverns                 | The lower caverns are decorated in heated crystals with one particular crystal refracting light, which blocks the way forward. A stalagmite also hangs above the ray of light. |
+| Dying to Refracted Light Point           | Attempting to walk through the refracted light will burn you to death.                                                                                                         |
+| Jackhammer on Lower Cavern               | Using the jackhammer in the lower cavern causes all the crystals to break and flood the place with lava.                                                                       |
+| **Jackhammer on<br>Upper Cavern Stalagmite** | **Using my scout, I was able to find the stalagmite's location in the upper cave and knock it down with a jackhammer.**                                                            |
+
+In one of the many caverns of Purple Partition, a crystal refracts light on a point that makes it impossible to pass without dying of heat stroke. In the cavern where it can be found, this crystal is hidden among several other crystals, most of which block lava geysers from flooding the room. The player has to be careful about which crystal they break, and it must be done before the partitioning occurs, which will cause the crystals to break and the lava to flood the cavern. Using the jackhammer to break it will also release all the lava in the area, so the player will have to find another way to stop the light from refracting. A stalagmite hangs above on the ceiling, and can be struck down via Jackhammer from the room above, but there is no marking telling the player where to dig, meaning the player will have to use their scout to mark its place. The path ahead will lead to the Plasma Blast Furnace.

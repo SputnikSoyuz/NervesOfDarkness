@@ -1,0 +1,247 @@
+{
+  "main": {
+    "id": "73f37c08da4a5f0b",
+    "type": "split",
+    "children": [
+      {
+        "id": "388c1a461a9c1073",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fb4ef60e0ccac316",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NervesOfDarkness/Puzzles/Purple Partition/Enclosed Caverns.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Enclosed Caverns"
+            }
+          },
+          {
+            "id": "9850510cad389124",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NervesOfDarkness/Puzzles/Time Loop Timeline.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Time Loop Timeline"
+            }
+          },
+          {
+            "id": "27225ab461e4e661",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NervesOfDarkness/Puzzles/Language.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Language"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bdc522caed3c446c",
+    "type": "split",
+    "children": [
+      {
+        "id": "7732f7579c5b6565",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d48053fcbcccde8d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "da8983fb47f9d84e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "9fe46fda64af87e4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3de3362d78adac2e",
+    "type": "split",
+    "children": [
+      {
+        "id": "307879b8cd3570db",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a002f379ba566a03",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "NervesOfDarkness/Puzzles/Language.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Language"
+            }
+          },
+          {
+            "id": "15327b234f0f2463",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "NervesOfDarkness/Puzzles/Language.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Language"
+            }
+          },
+          {
+            "id": "ccb77812aef38da9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "30a0b1e5ae34f591",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "6b1c4d9596c24228",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "NervesOfDarkness/Puzzles/Language.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Language"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "9850510cad389124",
+  "lastOpenFiles": [
+    "NervesOfDarkness/Shiplogs.canvas",
+    "NervesOfDarkness/Original README.md",
+    "NervesOfDarkness/Nerves of Darkness.md",
+    "NervesOfDarkness/Puzzles/Frigid Fog/Glacial Caverns.md",
+    "NervesOfDarkness/Puzzles/Maroon Meadows/Maroon Meadows Anomaly Lab.md",
+    "NervesOfDarkness/Puzzles/Maroon Meadows/Cartography Studio.md",
+    "NervesOfDarkness/Puzzles/Maroon Meadows/Botany Lab.md",
+    "NervesOfDarkness/Puzzles/Language.md",
+    "NervesOfDarkness/Puzzles/Maroon Meadows/Abyssal Archives.md",
+    "NervesOfDarkness/Puzzles/Maroon Meadows/Pumpworks.md",
+    "NervesOfDarkness/Puzzles/Frigid Fog/Abandoned Camp.md",
+    "NervesOfDarkness/Puzzles/Blowing Behemoth/Frozen Cloud Campsite.md",
+    "NervesOfDarkness/Puzzles/Blowing Behemoth/Frozen Disc Cloud.md",
+    "NervesOfDarkness/Puzzles/Time Loop Timeline.md",
+    "NervesOfDarkness/Puzzles/Divine Devourer/Event Horizon.md",
+    "NervesOfDarkness/Puzzles/Purple Partition/Echo Caverns.md",
+    "NervesOfDarkness/Puzzles/Manic Mesa/Particle Accelerator.md",
+    "NervesOfDarkness/Puzzles/Manic Mesa/Mineral Maze.md",
+    "NervesOfDarkness/Puzzles/Manic Mesa/Manic Mesa Anomaly Lab.md",
+    "NervesOfDarkness/Puzzles/Manic Mesa/Abandoned Mineshaft.md",
+    "NervesOfDarkness/Puzzles/Manic Mesa/Configuration Room.md",
+    "NervesOfDarkness/Puzzles/Manic Mesa/Music Hall.md",
+    "NervesOfDarkness/Puzzles/Purple Partition/Warped Observatory.md",
+    "NervesOfDarkness/Puzzles/Purple Partition/Torrid Caverns.md",
+    "NervesOfDarkness/Puzzles/Manic Mesa/Charcoal Chasm.md",
+    "NervesOfDarkness/Team Framework.md",
+    "NervesOfDarkness.zip",
+    "NervesOfDarkness/Puzzles.zip",
+    "NervesOfDarkness/Locations.zip"
+  ]
+}

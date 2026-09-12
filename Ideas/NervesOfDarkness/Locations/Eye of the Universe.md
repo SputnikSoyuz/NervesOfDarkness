@@ -1,0 +1,1 @@
+ At the end, players have the option to have the new species physically warp all their friends to the Eye with them, while the aliens play their orchestral tune at the end of the universe.

@@ -1,0 +1,11 @@
+Rumour Title: Blowing Behemoth's Core
+Revealed Title: Conductive Energy Plant
+
+| Rumour Reveal Location                                  | Rumour Description                                                                                                                                                                       |
+| ------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Blowing Behemoth Anomaly Lab]]                        | A display device inside Blowing Behemoth's Anomaly Lab suggests something important lies in the core of Blowing Behemoth.                                                                |
+| After finding the 1 m/s rule in the Zeppelin's Cockpit. | In the cockpit of the [[Daunting Zeppelin]], I found a frequency that represents the speed the Zeppelin used to successfully pass the Reflective Cloud.                                  |
+| Tuning a Device in the Frigid Fog Tuning Studio         | A display device in the Frigid Fog [[Tuning Studio]] showed the core of Blowing Behemoth, and is associated with the sequence of sound used to enable it.                                |
+| Finding the Conductive Energy Plant                     | I found the entrance to the Conductive Energy Plant.                                                                                                                                     |
+| Viewing the Display Device                              | A display device in the Conductive Energy Plant shows that the event horizon is safe to cross if you approach it at the same speed as entering the lower atmosphere in Blowing Behemoth. |
+The Conductive Energy Plant is a research lab and power plant that harvests energy from the metallic hydrogen of Blowing Behemoth. It unveils the secret to passing through the Reflective Cloud will work for passing the Event Horizon.

@@ -1,0 +1,15 @@
+Rumour Title: Orchestral Anomaly
+Revealed Title: Music Hall
+
+| Rumour Reveal Location                     | Rumour Description                                                                                                                                                                                                             |
+| ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Finding Caves and Hearing Music            | I hear music coming from a cave inside Manic Mesa.                                                                                                                                                                             |
+| Find Music Hall                            | The music seems to be coming from inside a building. The building has a locked door and some sort of music-based code interface                                                                                                |
+| Crack the Code of the Music Hall           | **I played the song found on the recording on the interface and it opened the door.**                                                                                                                                          |
+| Enter Music Hall                           | **Inside the building was a music hall with a piano at the stage and a white hole hanging above as lighting. The piano appears to be connected to something, and the white hole is where the mysterious song is coming from.** |
+| Using the Display Device in the Music Hall | **The Display Device inside the Music Hall shows that playing a song into the piano will unlock the door of the [[Particle Accelerator]].**                                                                                    |
+| Find Frequency in White Hole               | **The white hole lamp taught me a new frequency.**                                                                                                                                                                             |
+| Find Other Frequency Location              | **Inside the [[Configuration Room]], I found a recorder playing a new melody using the Symphonic Sounds frequency.**                                                                                                                |
+| Play the Song on the Stage Piano           | **Playing the new melody turns on the power of the Display Device.**                                                                                                                                                           |
+
+The Music Hall is one of the five needed puzzles to enter and activate the Particle Accelerator. The player will need to play music on a piano-like code interface to enter the Music Hall, and will need to do the same to open the doors to the Particle Accelerator.

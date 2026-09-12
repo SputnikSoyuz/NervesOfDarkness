@@ -1,0 +1,5 @@
+**Outer Wilds: Nerves of Darkness** is a scrapped idea for an Outer Wilds mod by the same person behind **Outer Wilds: The Stranger They Are**. After TSTA was released, I decided to make a mock-up of the system using nothing but New Horizons, in hopes of inspiring someone to make this project a reality. However, ideas for this mod have been spewing endlessly from my mind, and I thought that if someone else took charge of the mod, its true vision would not be realised.
+
+Nerves of Darkness takes place in a system of planets (in this case "blanets") orbiting a supermassive black hole, which is also sucking the life out of a nearby star. The star exploded a bit before the time loop starts, as giant stars are the first to go out.
+
+As for how I wanted the mod to start, I envisioned something involving the Ash Twin Project black hole, but I haven't figured out anything that makes sense regarding how we can warp there.

@@ -1,0 +1,6 @@
+**The Singularity** is the final area of Nerves of Darkness within the depths of Divine Devourer
+. The time loop does not exist within the bounds of Divine Devourer because the gravity is so intense, time doesn't run at all near the Singularity (similar to how the Eye functions), also disconnecting the player from the Ash Twin Project entirely until leaving. The Singularity is also home to the [[New Species]], the builders of a hidden and seemingly impossible society with architecture surrounding and harvesting energy from the point of singularity.
+
+When the player reaches the Singularity, it will be almost entirely dark, requiring the player to use the flashlight to see. The floors will be made of sleek, reflective, tiled, black marble, where the walls will be a sleek, black metal. Any glass found will be shaded like an illegally tinted window of a car. 
+
+While you may feel the need to use your flashlight, using it is not a good idea, because it will prompt members of the new species to kill you. The player will eventually have to figure out that they are actually passive and only kill when you point light at them. Instead, the player will need to use their knowledge from before and use sounds to guide them through the abyss, which will lead the player to discover that the new species can communicate to you through the Signal Scope.

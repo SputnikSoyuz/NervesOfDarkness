@@ -1,0 +1,15 @@
+Rumour Title: Particle Accelerator
+Same for Revealed Title
+
+| Rumour Reveal Location                                                         | Rumour Description                                                                                                                              |
+| ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| Manic Mesa Anomaly Lab Display                                                 | A display device inside Manic Mesa's Anomaly Lab shows a structure near its core around a white hole.                                           |
+| Find the Particle Accelerator                                                  | I found the structure orbiting the white hole.                                                                                                  |
+| Attempt to jump to the Particle Accelerator                                    | I can't reach it due to the White Hole's repel effect.                                                                                          |
+| Solving the Configuration Room                                                 | Configuring the interface in the Configuration Room a certain way allows the Particle Accelerator to absorb the white hole's energy completely. |
+| Using the Piano in the Music Hall                                              | Playing a song into the [[Music Hall]] piano will unlock the door of the Particle Accelerator.                                                  |
+| Enter the Particle Accelerator                                                 | I made it inside the Particle Accelerator, but the electricity inside is still lacking power.                                                   |
+| Be inside the Particle Accelerator when Manic Mesa falls into Doomed Daylight. | After Manic Mesa plunged into its star, the power turned on and I somehow survived.                                                             |
+| After Discovering the Rule of Tidal Growth in Manic Mesa's Core                | A display device in the Particle Accelerator shows that the event horizon is safe to cross when Divine Devourer consumes the entire system.     |
+
+The Particle Accelerator is the central puzzle of Manic Mesa and holds one of the three rules of entering the [[Event Horizon]]. To enter it, the player needs to solve five puzzles that eventually lead there, such as flowing power, go through a maze, opening the door with a piano, and absorbing the white hole. The power inside the Particle Accelerator won't turn on unless Manic Mesa plunges into Doomed Daylight, which provides sufficient power and radiation for it to operate.
